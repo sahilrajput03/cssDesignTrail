@@ -1,0 +1,106 @@
+/* src:kevin:powell:: https://youtu.be/vncch9-1kPE */
+/* Use `ctrl+space tab` to expand each abbrev. below... */
+/* * Or you use your customized ctrl+e to expand emmet directly. */
+/* 
+    p → %
+    e → em
+    x → ex
+  FYI: m1px this also auto completes to: `margin: 1px;`.
+    
+ */
+ /* **************************8 */
+* {
+  m1
+  margin: 1px;
+
+  m3p
+  margin: 3%;
+
+  m2e
+  margin: 2em;
+
+  m3r
+  margin: 3rem;
+
+  m4e5e
+  margin: 4em 5em;
+
+  m1:auto
+  margin: 1px auto;
+
+  p0
+  padding: 0;
+
+  p2p
+  padding: 2%;
+
+  p2:3
+  padding: 2px 3px;
+
+  p2e:2e
+  padding: 2em 2em;
+
+  ma:5r
+  max-width: 5rem;
+
+  ta:l
+  text-align: left;
+
+  ta:c
+  text-align: center;
+
+  bc-red
+  background-color: red;
+
+  bg:red
+  background: red;
+  /* background is shorthand property, refer @ https://www.w3schools.com/css/css_background.asp */
+
+    fs:i
+  font-style: italic;
+
+  c:green
+  color: green;
+
+  c:red
+  color: red;
+
+  fz:1r
+  font-size: 1rem;
+
+  df
+  display: flex;
+
+  fxd
+  flex-direction: row;
+
+  fxd:rr
+  flex-direction: row-reverse;
+  
+  fxd:c
+  flex-direction: column;
+
+  p2r+w100p+ma75r+m0:auto
+  padding: 2rem;
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  
+  fz.925r+p2e+m1e+bgc+c+df+fxd
+  font-size: 0.925rem;
+  padding: 2em;
+  margin: 1em;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+  fz.925r+p2e+m1e+bgc:red+c:black+df+fxd
+  font-size: 0.925rem;
+  padding: 2em;
+  margin: 1em;
+  background-color: red;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
