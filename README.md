@@ -2,7 +2,13 @@
 
 Use `live-server folder_name` to serve a folder or simply run `live-server` from inside the folder.
 
-Want a color theme: https://coolors.co/generate ~ 🛌︎ sleeper.
+- Want a color theme: https://coolors.co/generate ~ 🛌︎ sleeper.
+
+### what is `:root` and why do we use it?
+
+`:root` css selector has the highest specificity, and we use it define global things, it could be vars or css properties.
+
+## Other things
 
 - Browser fallback(i.e, to make Internet explore work with css variables too. ) - Watch it out here
   [how to fix](https://www.youtube.com/watch?v=kCmL-O2T7DY&ab_channel=KevinPowell). Also, you may use SASS to fix browser fallback pretty nicely as kevin suggets
