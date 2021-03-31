@@ -1,0 +1,21 @@
+:root {
+  /* default colors */
+  --clr: deeppink;
+}
+
+body {
+  background-color: var(--clr);
+}
+
+/* Below are my theme data sets. */
+body[data-theme="light"] {
+  --clr: deeppink;
+}
+
+body[data-theme="dark"] {
+  --clr: lightpink;
+}
+
+body[data-theme="white"] {
+  --clr: white;
+}

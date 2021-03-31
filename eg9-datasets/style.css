@@ -1,0 +1,21 @@
+:root {
+  --clr: orange;
+  /* Setting defaults properties here... */
+  /* BEWARE if you specify background in :root, you won't be able to change the data set idk why!! */
+  /*(this is super bad cos that doesn't work as expected....) background: var(--clr); */
+}
+
+/* Below are my theme data sets. */
+[data-theme="light"] {
+  --clr: lightpink;
+}
+
+[data-theme="dark"] {
+  --clr: deeppink;
+}
+
+body {
+  background: var(--clr);
+}
+/* The only difference between this and eg-8 is that, I don't have `body` specified in the data-set areas, and all js logic is exactly same!! */
+/* What a rubbish, redundant leanring, but now you know you don't need to write body as thats default there, yikes!! */
