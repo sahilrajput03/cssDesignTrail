@@ -28,4 +28,4 @@ or with inline style
 
 ## Easy understand
 
-![](gif-easy.webm)
+[Watch on YouTube "How to use google fonts" ~ me](https://www.youtube.com/watch?v=dabN4yZs9ac)
