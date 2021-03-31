@@ -1,0 +1,48 @@
+************
+=> BEGINNING OF FLEX
+#Defining display: flex  is must for everything you want to do with flex.
+.class1{
+	display: flex;
+}
+LEARN:  ^^ Default flex-direction is 'row' .
+
+.class1{
+	display: flex;
+	flex-direction: row-reverse;
+	OtherOptions:
+	flex-direction: column-reverse;
+	flex-direction: column;
+}
+*************
+=> ALIGN-ITEMS, ALIGN-SELF
+*Basically makes things malleagble perpendicularly
+to the flex-direction, yikes!!
+
+align-items: stretch;(its DEFAULT)
+^^ this will make stretch items perpendicularly
+
+align-items: center;
+^^ this will too make it compresses to center i guess.
+
+align-items: flex-start;
+^^ this will make items align to start perpendicularly
+to the flex-direction.
+
+align-items: flex-end;
+^^ ^^ this will make items align to end perpendicularly
+to the flex-direction.
+_________
+align-self is for individual child, yikes...
+^^ all properties are same 
+as of align-items.
+
+***************
+=> JUSTIFY-CONTENT
+/* Basically justify-content has to do in same axis as
+flex-direction, yikes!!*/
+/* justify-content: flex-start is DEFAULT for
+justify-content. */
+/* justify-content: flex-end */
+/* justify-content: center*/
+/* justify-content: space-between*/
+/* justify-content: space-around , in this case space will be in the end of each sides too, yikes...*/
