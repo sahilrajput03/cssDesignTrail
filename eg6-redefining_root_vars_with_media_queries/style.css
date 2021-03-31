@@ -1,0 +1,25 @@
+:root {
+  --color-1: red;
+  --color-2: green;
+  --color-3: blue;
+}
+
+@media (min-width: 500px) {
+  :root {
+    --color-1: deeppink;
+    --color-2: lightgreen;
+    --color-3: purple;
+  }
+}
+
+h1 {
+  color: var(--color-1);
+}
+
+h2 {
+  color: var(--color-2);
+}
+
+h3 {
+  color: var(--color-3);
+}
