@@ -11,3 +11,6 @@ Want a color theme: https://coolors.co/generate ~ 🛌︎ sleeper.
 - Manipulating css variables with js [here](https://www.youtube.com/watch?v=cZ0yt67A7OM&ab_channel=KevinPowell).
 
 - Browse css variables playlist from kevin [here](https://www.youtube.com/playlist?list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi).
+
+- Checkout my codesandbox example for cssvars using react(it has the plain html represetation too(i.e., without styled components too)),
+  [get it here](https://codesandbox.io/s/css-variables-vs-themeprovider-with-my-custom-bare-popeye-class-addition-j16bc?file=/src/css-vars/vars.css).
