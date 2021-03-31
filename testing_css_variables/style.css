@@ -1,0 +1,49 @@
+:root {
+  --clr-primary: #ee6352;
+  --clr-body: #333;
+  --clr-bg: #ddd;
+}
+
+.lower {
+  --clr-primary: deeppink;
+  /* I am replacing the variable --clr-primary with new color in all `lower` class contained elements. */
+}
+
+::-moz-focus-inner {
+  outline: none;
+  border: 0;
+}
+:focus {
+  outline: none;
+}
+
+/* button {
+  outline: none;
+} */
+
+:focus {
+  /* This focus works for all focussable items. */
+  /* background-color: green; */
+  /* ^^ debugging.. */
+  /* outline: 10px solid red; */
+  /* outline-offset: 5px; */
+}
+
+/* button:hover {
+  opacity: 0.2;
+} */
+button {
+  outline: none;
+  padding: 0.54em;
+  border-radius: 1.5em;
+  background-color: var(--clr-primary);
+  /* box-shadow syntax, 4th param(10px) is spread. */
+}
+
+button:hover {
+  /* box-shadow: 0 0 0 10px var(--clr-primary); */
+  /* This is single shadow ^^^ */
+  /* **** */
+  box-shadow: 0 0 0 5px white, 0 0 0 10px var(--clr-primary);
+  /* This is double shadow thing. */
+}
