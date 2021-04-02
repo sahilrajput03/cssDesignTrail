@@ -60,7 +60,7 @@ and what now, say: classes or id or selector(say (div p p)) or `!important`, thi
 
 [source](https://youtu.be/WlGQdgy-M6w).
 
-Way 1:
+#### Way 1
 
 ```css
 *,
@@ -70,7 +70,7 @@ Way 1:
 }
 ```
 
-Way 2:
+#### Way 2
 
 - The benefit of using inherit way is that all lower elements of a element that you define with `box-sizing: content-box;` explicitly to be able to use that, then all the children
   elements in that would use that too, as with universal selector we are saying to all elements to just inherit from its parent in the hierarchy. Hacky, isn't it..? If you feel its
