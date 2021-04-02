@@ -30,13 +30,10 @@ Try downloading image from below urls: (note: each time url is accessed img chan
 https://unsplash.it/100
 https://unsplash.it/200
 https://unsplash.it/300
-https://unsplash.it/400
-https://unsplash.it/500
-https://unsplash.it/600
-https://unsplash.it/700
-https://unsplash.it/800
+...
 https://unsplash.it/900
-https://unsplash.it/and so on...
+https://unsplash.it/1000
+https://unsplash.it/... and so on...
 ```
 
 ### Specificity
@@ -49,18 +46,10 @@ and what now, say: classes or id or selector(say (div p p)) or `!important`, thi
 ```bash
 #000 black
 #111
-#222
-#333
-#444
-#555
-#666
-#777
-#888
+...
 #999
 #aaa
-#bbb
-#ccc
-#ddd
+...
 #eee
 #fff white
 * All in-between shades are grey shades.
