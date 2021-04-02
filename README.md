@@ -28,6 +28,9 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 Try downloading image from below urls: (note: each time url is accessed img changes, so better download it and have it locally.)
 
+Below will give you a square image, but if you want a custom rectangular shape of photo, you can do that via https://unsplash.it/300/400, and it will give you a photo of size
+width:height as 300:400.
+
 ```bash
 https://unsplash.it/100
 https://unsplash.it/200
@@ -36,7 +39,15 @@ https://unsplash.it/300
 https://unsplash.it/900
 https://unsplash.it/1000
 https://unsplash.it/... and so on...
+
+###
+#Get a custom sized photo instead of square one via below:
+https://unsplash.it/300/400
 ```
+
+### What is that called when you get to scroll horizontal scroll.?
+
+Side scrolling.
 
 ### Specificity
 
@@ -108,3 +119,7 @@ Note: Default value of `box-sizing is content-box`, so you must hate it. :D
 ## Free ?
 
 Watch video [here](https://youtu.be/KYFwcIRx16g).
+
+## what is rem/em ?
+
+1 em/rem = 16px

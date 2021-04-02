@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.parent {
+  background-color: navy;
+  padding: 50px;
+  width: 90%;
+  /* below is for testing only! */
+  overflow: hidden;
+  margin: 0 auto;
+  /** Default value of margin is 0 for all sides for div, and that just means stack element to top left place. */
+  /** Reference default values: https://www.w3schools.com/cssref/css_default_values.asp */
+}
+.child {
+  /* width: 50%; */
+  width: 300px;
+  background-color: lightblue;
+  height: 250px;
+}

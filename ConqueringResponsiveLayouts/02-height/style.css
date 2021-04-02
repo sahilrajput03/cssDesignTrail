@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/** Always remember that any page is responsive by default, and if it is not, its because you might have give it some fixed width or fixed height to it that cause the viewport to side scroll. */
