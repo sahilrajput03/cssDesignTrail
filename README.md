@@ -56,7 +56,7 @@ and what now, say: classes or id or selector(say (div p p)) or `!important`, thi
 
 ```
 
-### Depressed of calculating actual width of using actual-width= (width+2*padding+2*margin), so use border-box from now!!
+### Depressed of calculating actual width of a HTML element via formula `actual-width= (width+2*padding+2*margin)`, so use border-box from now!!
 
 [source](https://youtu.be/WlGQdgy-M6w).
 
