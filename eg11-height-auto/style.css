@@ -1,0 +1,17 @@
+body {
+  font-size: 2rem;
+  border: 3px solid red;
+  height: 200px;
+}
+
+.example {
+  background: #234;
+  color: white;
+  /* Default value of height is auto though. Default value of width is auto too. */
+  /* Either of below two options are good to look whenever you are setting any height for anything. */
+  height: auto;
+  min-height: 100px;
+  /* if content seems to overflow, height is increased automatically when we use `min-height`. */
+  min-height: 50vh;
+  /*   ...    ^^ this is also really interesting to work with. */
+}

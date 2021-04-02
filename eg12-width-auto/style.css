@@ -1,0 +1,16 @@
+p {
+  background: limegreen;
+  padding: 1em;
+  font-size: 2rem;
+  /* Default is width auto though. */
+  width: auto;
+  /* ...>> Below statement causes side scroll horizontally in the window, though, above width:auto is magical in its behaviour, yikes! */
+  /* width: 100%; */
+  margin-left: 200px;
+}
+/* Important note: In css if you have a case like below */
+testElement {
+  width: auto;
+  width: 100%;
+}
+/* then, the last one will be in action only. */

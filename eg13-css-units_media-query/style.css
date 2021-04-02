@@ -1,0 +1,56 @@
+* {
+  padding: 2em 1em;
+  /* line height refers to the vertical spacing b/w lines. */
+  line-height: 1.6em;
+  /* using universal selector also, applies to heading tags, so set for heading differently as below. */
+  /* ****** */
+  /* text-align: justify; */
+  /* Though you like justify text as it looks elegant and it looks to have nice clean edges,
+  but the rule of typography is to use justify text only if you could have hyphen(-) for breaking 
+  text otherwise the irregular spacing between words will make text look little absurd though. */
+  /* * THOUGH, the justified heading are pretty shitty :( , bruu...! */
+  /* ******** */
+  /* text-align: center; */
+  /* text-align center makes the overall look fo the text very good, but it actually makes reading text 
+  really difficult coz of the curvy shape of both edges. */
+}
+
+@media (max-width: 500px) {
+  /* ^^ say for 0px to 500px screens. */
+  * {
+    background: green;
+  }
+}
+
+/* Note, background color b/w 500px and 800px screens
+ will be default i.e., white. */
+
+@media (min-width: 800px) {
+  /* ^^ say for 800px to infinity screens. */
+  * {
+    background: red;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+  /* With this you may use centered text with shorter headings or smaller texts, yo! */
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1em;
+  padding: 1em 0em;
+  /* you may set font-weight here directly if you want more contrast. */
+}
+
+.bg-dark h2,
+.bg-dark h3 {
+  background: #000;
+  color: #fff;
+}
