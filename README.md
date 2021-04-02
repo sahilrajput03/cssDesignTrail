@@ -2,11 +2,13 @@
 
 This is my personal repo for myself, its kinda cheat sheet.
 
+**TIP**: Use
+
 ## FAQ's
 
 ### What all do i know in plain css ??
 
-Use `live-server folder_name` to serve a folder or simply run `live-server` from inside the folder.
+Use command `live-server` to serve the whole project and navigate to different directories to view them.
 
 - Want a color theme: https://coolors.co/generate ~ 🛌︎ sleeper.
 
@@ -72,9 +74,9 @@ and what now, say: classes or id or selector(say (div p p)) or `!important`, thi
 
 #### Way 2
 
-- The benefit of using inherit way is that all lower elements of a element that you define with `box-sizing: content-box;` explicitly to be able to use that, then all the children
-  elements in that would use that too, as with universal selector we are saying to all elements to just inherit from its parent in the hierarchy. Hacky, isn't it..? If you feel its
-  Hacky, simply use the **Way 1** though.
+- The benefit of using below code way `i.e., inherit way` is that all lower elements of a element that you define with `box-sizing: content-box;` explicitly to be able to use that,
+  then all the children elements in that would use that too, as with universal selector we are saying to all elements to just inherit from its parent in the hierarchy. Hacky, isn't
+  it..? If you feel its Hacky, simply use the **Way 1** though.
 
 ```css
 *,
