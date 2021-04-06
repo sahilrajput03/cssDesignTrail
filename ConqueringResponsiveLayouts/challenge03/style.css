@@ -1,0 +1,47 @@
+:root {
+  --bg-clr: #23424a;
+  --bg-clr2: skyblue;
+  --ff: Geneva, Verdana, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff);
+}
+
+.container {
+  /* margin: 0 2em; */
+  padding: 30px 20px;
+  color: white;
+  /* margin: 3em auto; */
+  background-color: var(--bg-clr);
+}
+
+.container--padding {
+  max-width: 700px;
+}
+
+.btn {
+  display: inline-block;
+  /* ^^ this is really cool. */
+  border-radius: 3em;
+  text-decoration: none;
+  padding: 0.75em 2em;
+  text-transform: uppercase;
+  color: var(--bg-clr);
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 60px auto;
+  background-color: var(--bg-clr2);
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
