@@ -35,3 +35,40 @@ Used it for a tag with class `btn` and i have display property like:
 display: inline-block;
 /* ^^ this is really cool. */
 ```
+
+## In flex
+
+Give children columns a width of 100% so they'll occupy equal widths, as with flexbox by default the columns tend to occupy least possible width can cause issue with column that
+has very less content.
+
+## Css vars
+
+```css
+:root {
+  --bg-clr: #23424a;
+  --bg-clr2: skyblue;
+  --ff: Geneva, Verdana, sans-serif;
+}
+
+.container {
+  font-family: var(--ff);
+  color: var(--bg-clr);
+  background-color: var(--bg-clr2);
+}
+```
+
+## check for any property is you can use it any browser or not
+
+Browse: https://caniuse.com
+
+**Tip**: Search for `gap` for flexbox, and see if safari supports it ? Ans. NO!
+
+## Combinator selector
+
+```css
+.col + .col {
+  background-color: skyblue;
+  /* above will select all columns except one. */
+  margin-left: 100px;
+}
+```
