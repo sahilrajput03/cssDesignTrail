@@ -1,8 +1,10 @@
-## Visit below link and login there.
+# Readme
 
-https://courses.kevinpowell.co/conquering-responsive-layouts
+## Visit below link and login there
 
-## Alwasy use rem instead of em
+<https://courses.kevinpowell.co/conquering-responsive-layouts>
+
+## Always use rem instead of em
 
 Coz, em's compound on each other. But that doesn't mean you should not use em at all, but use em for margins and paddings things as margin and padding will auto scale based on the
 font-size of that element.
@@ -72,3 +74,53 @@ Browse: https://caniuse.com
   margin-left: 100px;
 }
 ```
+
+## Awesome delay thing in css, love 🏩
+
+Browser my w3school [saved instance here](https://www.w3schools.com/code/tryit.asp?filename=GPBKMEJQZWQZ) and you might wanna see the
+[original here](https://www.w3schools.com/cssref/css3_pr_transition-delay.asp).
+
+Basically you may analyse like this quick recap:
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  /* below properties in focus */
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+
+div:hover {
+  /* below properties in focus */
+  background: green;
+  /* So on hover, the div's color will be change in a very slow motion manner(time taken would be 2s, and the delay would be 0s, yo!) */
+}
+```
+
+## most used flex-box things ?
+
+- `justify-content: space-between`, when using this make sure you DON'T GIVE children items a width of 100% each, coz space in between is only managed if there is any space at all,
+  so don't give width: 100%.
+- `align-items` on container itself, and `self-align` on individual children.
+- Reduce the image size via percentage by using percentage in `width` of the img, and img will scale its height accordingly as well. Yikes! For e.g., below is a common snippet to
+  use image in a flex.
+
+```css
+.hero_img {
+  width: 32%;
+  align-self: flex-start;
+}
+```
+
+Another hack by kevin powell: If you don't want your image to get stretched by the default property on children by a parent flex, you can wrap the img in a div, and then the div
+will be stretched but the img will be just the regular behaviour of img(i.e., not stretching, which is implemented by the flex container).
+
+- Never give `display: flex` directly to any container in css, but do that by specifying another class i.e., `row` or `column` accordingly. So, this way all your containers will be
+  shareable among the whole html code, yikes!
+
+## img tags are not sizing accordingly to viewport, fix it via
+
+Browse directory: `09-01`

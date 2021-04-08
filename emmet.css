@@ -49,6 +49,9 @@
   ta:c
   text-align: center;
 
+  bd:2:solid:blue
+  border: 2px solid blue;
+
   bc-red
   background-color: red;
 
@@ -56,7 +59,10 @@
   background: red;
   /* background is shorthand property, refer @ https://www.w3schools.com/css/css_background.asp */
 
-    fs:i
+ 	bg:#23424A
+  background-color: #23424A;
+
+   fs:i
   font-style: italic;
 
   c:green
