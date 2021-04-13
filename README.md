@@ -123,3 +123,146 @@ Watch video [here](https://youtu.be/KYFwcIRx16g).
 ## what is rem/em ?
 
 1 em/rem = 16px
+
+## Selectors
+
+```css
+/* src: https://www.w3schools.com/css/css_selectors.asp */
+/* in this example only <p> elements with class="center" will be red and center-aligned: */
+p.center {
+  text-align: center;
+  color: red;
+}
+
+/* ******** */
+.split > * + * {
+  /* This above selector is adjacent item selector, that means that only second element will be selected. */
+  margin-left: 2em;
+  /* If i had "> * + * + *" as selector, then the third element will be selected, yo!! */
+}
+/* implemented in 01-design-with-notes */
+/* ******** */
+
+/* For debugging... */
+debug {
+  border: 5px solid deeppink;
+}
+```
+
+## Woop.css
+
+```css
+/* continue from here: https://youtu.be/bn-DQCifeQQ?t=1772 */
+/* units: 5vh = 5 viewport height, 5vw = 5 viewport width. */
+/** SHORTHANDS */
+/* the keyword e1, e2 means example1, example2, etc. */
+.e1-shorthand {
+  width: min(90%, 70.5rem);
+}
+.e1 {
+  width: 90%;
+  max-width: 70.5rem;
+}
+/*  */
+.e2 {
+  margin-bottom: 1rem;
+  /* rem basically means equal to the font size, yikes!! */
+}
+/*  */
+
+/* Notes .. */
+/* Notes .. */
+/* Notes .. */
+/* Notes .. */
+/* TODO */
+/* look at min-max video of kevin powell now...! */
+/* watch the rem video of kevin powell.. */
+
+img {
+  /* This sets the width of image to be automatic aligned to 100% of the width of screen, yo!! */
+  max-width: 100%;
+}
+
+/* ******** */
+/* shorthand */
+img {
+  width: 70%;
+  max-width: 600px;
+}
+img {
+  width: min(500px, 70%);
+  /* min function basically computed 70% of the available area and check what is minimum i.e., 500px or our calculated 70%. */
+  /* This is shorthand of above, yikes!! */
+}
+/* ****** */
+img {
+  width: max(500px, 70%);
+}
+img {
+  width: 70%;
+  min-width: 500px;
+  /* This is shorthand way, yo!! */
+}
+
+/* ************ */
+
+img {
+  width: min(500px + 10%, 600px);
+  /* Note you must have space around `+` otherwise math won't work! */
+}
+/* ************ */
+img {
+  width: clamp(200px, 50%, 20rem);
+}
+
+img {
+  width: 50%;
+  /*(test by shrinking the viewport) if 50% of width is less than 200px, then set `width: 200px;` otherwise `width: 50%;` */
+  min-width: 200px;
+  /*(test by growing the viewport) if 50% of width is greater than 25rem, then set `width: 25rem;` otherwise use `width: 50%;`*/
+  max-width: 25rem;
+  /* You may also test this via `max-width: 700px;` */
+}
+```
+
+## em vs. rem
+
+```css
+/* 1em = 16px unless the element's parent has a value for that property set. */
+/* The interesting thing about em is that it compounds over children(nesting makes the size multiply by the parent and so on.. */
+/* Another interesting thing about em is that if setting property for padding/magin/etc. their value gets evaluated using the font-size value of that element if set(otherwise using the value set in parent). */
+
+/* * em is really really good, as it allows us to size margins/paddings automatically proportional to our font-sizes. */
+/* more.. */
+/* padding: 1em 3em; */
+/* more.. */
+
+/*  */
+
+/* 2em=32px */
+
+/* *********************8 */
+/* rem stands for root em, yo! */
+
+/*  */
+
+p {
+  margin: 2rem;
+  /* here, 2rem evaluates by looking what value for font-size we have set for html i.e., html{font-size: ** } */
+  /* And that makes rem to be absolute(only relative to html tag), and thats why its good!! */
+  /* Though, em is always gets multiplied from the parent's evaluated value(and parent too gets evaluate its value from its parent, and so on..). */
+}
+
+/* valid shorthands i.e., without preceiding 0 before the dot. */
+p {
+  margin: 0.2rem;
+}
+
+p {
+  margin: 0.2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  /* ^^ This is useful say for a `BUY NOW` button in html. */
+}
+/* src: amazing video about em and rem from kevin powell: https://www.youtube.com/watch?v=_-aDOAMmDHI */
+```

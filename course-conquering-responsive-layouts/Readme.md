@@ -9,7 +9,7 @@
 Coz, em's compound on each other. But that doesn't mean you should not use em at all, but use em for margins and paddings things as margin and padding will auto scale based on the
 font-size of that element.
 
-## :root is just html element
+## :root vs html tag ? They are just same things
 
 ```css
 :root {
@@ -124,3 +124,111 @@ will be stretched but the img will be just the regular behaviour of img(i.e., no
 ## img tags are not sizing accordingly to viewport, fix it via
 
 Browse directory: `09-01`
+
+## flexbox playground is really awesome
+
+I learned about inline flex from the below playground, yikes!
+
+- Access it on: <https://catchmyfame.github.io/flexboxplayground/>
+
+Source on github: https://github.com/catchmyfame/flexboxplayground
+
+- Another playground @ http://flexbox.help/ , this one generates code for graphical things you do, yikes!!
+
+- flexbox turns direct children into columns or rows depending you have set flex-direction: row or column respectively.
+
+## flexbox's baseline thing(not learned in flexbox zomibes, but added to it 'notes' though)
+
+```css
+align-items: baseline;
+```
+
+^^ this is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing. Source for baseline:
+https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
+
+- Why you should bother using `order: -1` or some +ve value to order to the children of flex, coz you might want to adjust the layout on smaller screen or different screen size
+  using media queries. A good practice is to use different positive value of order on each item as required.
+
+- **Shorthand**:
+
+`flex: 1 1 300px`
+
+This is applicable to a child in flex, yo!! that means,`flex-grow, flex-shrink, flex-basis` in that order. Acronym: grow-shrink-basis, gsb. Another e.g.,
+
+`{flex: 10 auto;}`
+
+## html tags
+
+main, section (in main possibly), aside, nav, etc.
+
+## If you want to get rid of bullet points in ul
+
+Just define
+
+```css
+ul-class {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+```
+
+## PRO TIP
+
+Use `margin: 0 auto;` to center the content, yikes!
+
+Also, if you set `margin-left: auto`, then the content will be aligned towards right as margin will be applied to left only. This actually made us some of the li items in the ul
+list to get aligned to the right, yikes!
+
+And using some class with more specific meaning makes the class names more logical i.e.,
+
+```css
+.nav__item--push-right {
+  margin-left: auto;
+}
+```
+
+## Aligning part of navbar to right
+
+Make two ul list, and give the nav tag
+
+```html
+<style>
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    /* Now, two ul lists will be aligned to left and right, yikes! */
+  }
+</style>
+
+<nav class="nav">
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+</nav>
+```
+
+## Flow of css code execution matters, and works like js code, i.e., the last statement is the effective one
+
+```html
+<style>
+  .class1 {
+    color: red;
+  }
+  .class2 {
+    color: green;
+    /* Since this comes last in css execution order, so this would be in power, i.e., text color would be in green. */
+  }
+</style>
+
+<!-- In both below paragraphs, text-color will be green. -->
+<p class="class1 class2">This is paragraph.</p>
+<p class="class2 class1">This is paragraph2.</p>
+```
+
+Check code @ <https://codepen.io/sahilrajput03/pen/gOgevaR> .

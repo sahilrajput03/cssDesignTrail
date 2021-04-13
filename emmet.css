@@ -10,6 +10,9 @@
  */
  /* **************************8 */
 * {
+  ac:c
+  align-content: center;
+  
   m1
   margin: 1px;
 
@@ -24,6 +27,19 @@
 
   m4e5e
   margin: 4em 5em;
+
+  ml1
+  margin-left: 1px;
+
+  ml1:1
+  margin-left: 1px 1px;
+
+  
+  ml:1:1
+  margin-left: 1px 1px;
+  
+  m:1:auto
+  margin: 1px auto;
 
   m1:auto
   margin: 1px auto;
@@ -62,7 +78,7 @@
  	bg:#23424A
   background-color: #23424A;
 
-   fs:i
+  fs:i
   font-style: italic;
 
   c:green

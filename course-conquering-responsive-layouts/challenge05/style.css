@@ -25,6 +25,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -50,7 +54,7 @@ h1 {
   /* display: flex => flex container */
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -72,6 +76,8 @@ h1 {
   color: #fff;
   background-color: var(--clr-secondary);
   padding: var(--pad-secondary);
+  /* background: red; */
+  margin: 2rem 0;
 }
 
 .hero {
