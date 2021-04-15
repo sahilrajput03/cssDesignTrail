@@ -500,7 +500,7 @@ Check it [here (time-stamped)](https://youtu.be/McC4QkCvbaY?t=92).
 
   .shankar {
     color: red;
-    /* This ^^ doesn't work even though it comes after in code coz the `.boom .shankar` selector has higher specificity, yo!! */
+    /* This ^^ doesn't work even though it comes later in code coz the `.boom .shankar` selector has higher specificity, yo!! */
   }
 </style>
 <div class="boom">
