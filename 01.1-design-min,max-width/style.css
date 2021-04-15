@@ -1,0 +1,31 @@
+img {
+  max-width: 600px;
+  min-width: 200px;
+  /* max-width says `width` can not be more than 600px. */
+  /* **** */
+  /* TESTING: Use only one of below items at once... */
+  width: 100%;
+  /* width: 10000px; */
+}
+
+.grow-messg,
+.shrink-messg {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@media (min-width: 600px) {
+  .grow-messg {
+    color: orange;
+  }
+}
+
+@media (max-width: 200px) {
+  .shrink-messg {
+    color: blue;
+  }
+}

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  height: 98vh;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+p::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: orange;
+}
+
+/* p::after {
+  content: "i am green";
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: green;
+} */
+
+p::after {
+  content: "hello buddy ~ pseudo element";
+  display: block;
+  width: 500px;
+  background-color: yellow;
+}
+
+p::after {
+  content: "I over-wrote the content of previous `p::after` style block ~ pseudo element";
+}

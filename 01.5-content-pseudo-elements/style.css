@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+blockquote::before {
+	content: open-quote;
+	font-size: 2rem;
+}
+
+blockquote::after {
+	content: close-quote;
+	font-size: 2rem;
+}
+
+/* ********** */
+
+/* 🔽︎ here this is a selector, and it means `a` tags which has property `data-tool-tip` on it. */
+a[data-tool-tip] {
+	position: relative;
+	/* giving position relative to this coz i want to position `absolutely` my pseudo element i have below. */
+}
+
+a[data-tool-tip]::after {
+	content: attr(data-tool-tip);
+	display: block;
+	position: absolute;
+	background: darkgray;
+	padding: 1em;
+	color: white;
+	border-radius: 5px;
+	font-size: 0.8em;
+	/* bottom: 100%; */
+	bottom: 0;
+	left: 0;
+	/* wanna make it not wrap at all 🔽︎. */
+	white-space: nowrap;
+	/* make it scale 0, so its hidden🔽︎ */
+	transform: scale(0);
+	/* In below statement `transform` and `bottom` are used coz we want to apply transition to those two properties, yikes! */
+	transition: transform ease-out 150ms, bottom ease-out 150ms;
+}
+
+a[data-tool-tip]:hover::after {
+	transform: scale(1);
+	bottom: 100%;
+}
+
+/* ************ */
+
+li::before {
+	content: url(//i.picsum.photos/id/268/400/100.jpg?hmac=4lhNWGZD5KqKLvuhZiW-hcq7Uqr5oIZ8OQvk_nM8tMw);
+	/* 🔽︎ Doing this coz display is inline by default. */
+	display: block;
+}
+
+/* ************ */
+/* Using this way you can attach the icon to a large no. of anchor tags directly, yo!! */
+a {
+	color: orange;
+}
+/* Note: here `href^='http'` selects only those tags which has http or https in their href property, awesome isn't it? */
+a[href^='http']::after {
+	content: '\f35d';
+	font-family: 'Font Awesome 5 Free';
+	/* 🔽︎ this is important to get the icon working. */
+	color: orange;
+	font-weight: 900;
+	/* Note interesting that how ^= works to check if the value in href starts with http or https or not, yikes!! and apply icon to those who has either of those two pattern, but not to other paths which has some internal links to the same origin. */
+}

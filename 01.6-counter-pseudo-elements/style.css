@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	padding: 5em;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ************ */
+
+.item-container {
+	counter-reset: my-counter;
+}
+
+.item {
+	position: relative;
+	margin: 2em;
+}
+
+.item::before {
+	counter-increment: my-counter;
+	content: counter(my-counter) '.) ';
+	position: absolute;
+	left: -2.8em;
+	top: -0.6em;
+	padding: 2px;
+	background-color: orange;
+	height: 2.4em;
+	width: 2.4em;
+	border-radius: 50%;
+	border: 3px solid #000;
+
+	/* aligning text in middle of its occupied space. */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* just anyway to make dimensions easy.. */
+	box-sizing: border-box;
+}
+/* doing same for ol-li */
+
+ol {
+	counter-reset: my-counter2;
+}
+li {
+	list-style: none;
+	position: relative;
+	margin: 2em;
+}
+
+li::before {
+	counter-increment: my-counter2;
+	content: counter(my-counter2) '.) ';
+	/* You can use `my-counter` just to keep increasing the global counter, yikes! But use js to do such things IMO. */
+	position: absolute;
+	left: -2.8em;
+	top: -0.6em;
+	padding: 2px;
+	background-color: orange;
+	height: 2.4em;
+	width: 2.4em;
+	border-radius: 50%;
+	border: 3px solid #000;
+	/* aligning text in middle of its occupied space. */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* just anyway to make dimensions easy.. */
+	box-sizing: border-box;
+}

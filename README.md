@@ -10,7 +10,7 @@ This is my personal repo for myself, its kinda cheat sheet.
 
 Use command `live-server` to serve the whole project and navigate to different directories to view them.
 
-- Want a color theme: https://coolors.co/generate ~ 🛌︎ sleeper.
+- Want a color theme: <https://coolors.co/generate> ~ 🛌︎ sleeper.
 
 ### What is `:root` and why do we use it?
 
@@ -20,15 +20,15 @@ Use command `live-server` to serve the whole project and navigate to different d
 
 `*` is a universal selector that selects every css element, yo!
 
-### Want to make font sizes custom for different sizes of devices, just use css vars for that.
+### Want to make font sizes custom for different sizes of devices, just use css vars for that
 
 Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 ### Want to get a demo image fast..?
 
-Try downloading image from below urls: (note: each time url is accessed img changes, so better download it and have it locally.)
+**TIP**: Try using the final image link redirected from below urls: (note: each time url is accessed img url changes to new image url, yo!!)
 
-Below will give you a square image, but if you want a custom rectangular shape of photo, you can do that via https://unsplash.it/300/400, and it will give you a photo of size
+Below will give you a square image, but if you want a custom rectangular shape of photo, you can do that via <https://unsplash.it/300/400>, and it will give you a photo of size
 width:height as 300:400.
 
 ```bash
@@ -44,6 +44,15 @@ https://unsplash.it/... and so on...
 #Get a custom sized photo instead of square one via below:
 https://unsplash.it/300/400
 ```
+
+**Also**
+
+Use placeholder images from here:
+
+src: <https://placekitten.com/>
+
+E.g., `https://placekitten.com/200/300` will give you image of cat with width of 200 and height 300. But the hack is you may use `https://placekitten.com/200/301` to get different
+image of a cat and so on.., to get a list of images.! Yo!!
 
 ### What is that called when you get to scroll horizontal scroll.?
 
@@ -69,7 +78,7 @@ and what now, say: classes or id or selector(say (div p p)) or `!important`, thi
 
 ```
 
-### Depressed of calculating actual width of a HTML element via formula `actual-width= (width+2*padding+2*margin)` and `actual-height= (height+2*padding+2*margin)` , so use border-box from now!!
+### Depressed of calculating actual width of a HTML element via formula `actual-width= (width+2*padding+2*margin)` and `actual-height= (height+2*padding+2*margin)` , so use border-box from now
 
 [source](https://youtu.be/WlGQdgy-M6w).
 
@@ -125,6 +134,25 @@ Watch video [here](https://youtu.be/KYFwcIRx16g).
 1 em/rem = 16px
 
 ## Selectors
+
+### Compound selector (said by kevin)
+
+```css
+.header h1 {
+  color: limegreen;
+}
+```
+
+### Grouping selector
+
+```css
+div,
+span {
+  color: limegreen;
+}
+```
+
+### General selectors
 
 ```css
 /* src: https://www.w3schools.com/css/css_selectors.asp */
@@ -265,4 +293,217 @@ p {
   /* ^^ This is useful say for a `BUY NOW` button in html. */
 }
 /* src: amazing video about em and rem from kevin powell: https://www.youtube.com/watch?v=_-aDOAMmDHI */
+```
+
+## Is this thing supported in a particular browser
+
+Simply check the browser support by navigating to - <https://caniuse.com/>
+
+## min, max, clamp function in short
+
+sr: <https://www.youtube.com/watch?v=U9VF-4euyRo>
+
+**min function**
+
+Note: Below snippet is way how a min function can be used to calculates width on event of viewport changing.
+
+```css
+p {
+  width: min(600px, 100%);
+  /* ABOVE IS EQUAL TO BELOW TWO LINES.. */
+  width: 100%;
+  max-width: 600px;
+}
+```
+
+**max function**
+
+Note: Below snippet is way how a max function can be used to calculates width on event of viewport changing.
+
+```css
+p {
+  width: max(200px, 100%);
+  /* ABOVE IS EQUAL TO BELOW TWO LINES.. */
+  width: 100%;
+  max-width: 200px;
+}
+```
+
+**clamp function**
+
+Note: Below snippet is way how a clamp function can be used to calculates width on event of viewport changing.
+
+```css
+p {
+  width: clamp(200px, 100%, 600px);
+  /* ABOVE IS EQUAL TO BELOW THREE LINES.. */
+  min-width: 200px;
+  width: 100%;
+  max-width: 600px;
+}
+```
+
+## pseudo elements vs. pseduco class
+
+```bash
+a: hover
+// here hover is pseudo class.
+
+p::before
+// here before is pseudo element.
+```
+
+`p::before` means that we care creating a pseudo element inside p tag but before any of its content, and the same applies to `p::after` way.
+
+By default pseudo elements are inline elements i.e., they don't take entire line but share line with other elements. You can make them block elements by `display: block`.
+
+The benefit of using pseudo elements is that we don't need extra markup (i.e., to write html) to get some content on page, we can just do this via pseudo elements only, yikes, so
+now you don't need to add empty divs to style them in css, yikes!
+
+**NOTE**
+
+pseudo elements on img tag just doesn't work, so don't try doing that(source: kevin powell)-> check why [here (time stamped)](https://youtu.be/zGiirUiWslI?t=319)?
+
+Text in pseudo elments can't be selected by cursor, as mentioned in this [stackoverlow answer](https://stackoverflow.com/a/27392279/10012446).
+
+- Add image using pseudo element like that
+
+```css
+p::after {
+  content: url(//unsplash.it/200/200);
+}
+```
+
+- Add open quotes and close quotes to blockquote text like that -
+
+```css
+blockquote::before {
+  content: open-quote;
+  font-size: 2rem;
+}
+
+blockquote::after {
+  content: close-quote;
+  font-size: 2rem;
+}
+```
+
+## attribute selector
+
+```html
+<style>
+  p[popeye] {
+    background-color: olive;
+    /* So this will set color for p tags having property `popeye`, yikes! */
+  }
+</style>
+<p popeye="yipee!">beautiful paragraph.</p>
+```
+
+More on attribute selector from **w3school** and **css-tricks**
+
+Better learn it from css-tricks article as it has very concise exaplanation for all the available options for the **attribute selectors**.
+
+Really impressive article, as it has demonstrated some combining the different selectors too.
+Article on attribute selector from **css-tricks** [here](https://css-tricks.com/almanac/selectors/a/attribute/) on attribute selector.
+
+**W3school links:**
+
+- <https://www.w3schools.com/cssref/sel_attribute.asp>
+- <https://www.w3schools.com/cssref/sel_attribute_value.asp>
+- <https://www.w3schools.com/cssref/sel_attribute_value_contains.asp>
+- <https://www.w3schools.com/cssref/sel_attribute_value_lang.asp>
+- <https://www.w3schools.com/cssref/sel_attr_begin.asp>
+- <https://www.w3schools.com/cssref/sel_attr_end.asp>
+- <https://www.w3schools.com/cssref/sel_attr_contain.asp>
+
+## what is .75 rem/em
+
+Its just 75% size of the font-size, yikes!
+
+## pseudo class for first-letter designing
+
+Find the example [my codepen here](https://codepen.io/sahilrajput03/pen/NWdMpBp).
+Inspired from kevin's [article](https://www.kevinpowell.co/article/first-letter/).
+
+This thing is popularly known as 'drop case' and you may read more about it [here](https://css-tricks.com/snippets/css/drop-caps/) and there they explain some cross-browser way too but from [can-i-use](https://caniuse.com/?search=first-letter) all current browser support this thing at the time.
+
+## Want to make text not wrap at all
+
+Use
+
+```css
+p {
+  white-space: nowrap;
+}
+```
+
+## Transition - love
+
+```html
+<style>
+  span {
+    padding: 30px;
+    background-color: red;
+    transition: background-color ease-out 1000ms, color ease-out 1000ms;
+  }
+
+  span:hover {
+    background-color: green;
+    color: white;
+  }
+</style>
+
+<span>I am a span text.</span>
+```
+
+In above I have defined two transitions i.e., for background-color and color. (\*color applies to text color in css, yo!)
+
+## shorthand - `inset`
+
+NOTE - shorthand - inset: inset is shorthand for top, left, bottom, right properties.
+
+```css
+p {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Above and below is equivalent. */
+  inset: 0 50% 50% 10%;
+}
+```
+
+## read article on transform property and what are the options available. probably on css-tricks...
+
+eg.1 transform
+
+```css
+p {
+  /* transform: scale(1, 1); */
+  /* This is default ^^^. Yikes! */
+  /* First param is x axis width and second param is y-axis width. */
+}
+```
+
+## what happens when you have a error in your css (typo)
+
+Check it [here (time-stamped)](https://youtu.be/McC4QkCvbaY?t=92).
+
+## specificity luck
+
+```html
+<style>
+  .boom .shankar {
+    color: aqua;
+  }
+
+  .shankar {
+    color: red;
+    /* This ^^ doesn't work even though it comes after in code coz the `.boom .shankar` selector has higher specificity, yo!! */
+  }
+</style>
+<div class="boom">
+  <div class="shankar">I am namah.</div>
+</div>
 ```

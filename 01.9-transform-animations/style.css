@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	--size: 150px;
+}
+
+div {
+	height: var(--size);
+	width: var(--size);
+}
+/* * */
+.div1 {
+	background: red;
+	/* transform: scale(1, 1); */
+	/* This is default ^^^. Yikes! */
+	/* scale(1,1) here, first param is x axis width and second param is y-axis width. */
+	/* Note don't use scale 0,0 else the element will be invisible. */
+}
+
+.container1:hover .div1 {
+	transform: scale(0, 0);
+	transition: transform ease-out 250ms;
+}
+
+.div2 {
+	background: green;
+	transform: scale(0, 0);
+}
+
+.container2:hover .div2 {
+	transform: scale(1, 1);
+	transition: transform ease-out 250ms;
+}
+
+.div3 {
+	transform: scale(1, 1);
+	background: blue;
+}
+
+.container3:hover .div3 {
+	transform: scale(1, 0);
+	transition: transform ease-out 250ms;
+}
+
+.div4 {
+	background: magenta;
+}
+
+.container4:hover .div4 {
+	transform: scale(0, 1);
+	transition: transform ease-out 250ms;
+}
+
+.div5 {
+	background: red;
+	transform: scale(1, 1);
+}
+
+.div5:hover {
+	transform: scale(0, 0);
+}

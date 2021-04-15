@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: darkorange;
+}
+
+img {
+	max-width: 100%;
+	opacity: 0.7;
+}
+
+/* *********** */
+.intro {
+	position: relative;
+	display: inline-block;
+	/* default z-index is 0 here, so we need to put -ve zindex in .intro::before */
+}
+
+.intro::before {
+	position: absolute;
+	content: '';
+	height: 100%;
+	display: block;
+	background: lightblue;
+	width: 100%;
+	z-index: -1;
+}
+.intro::after {
+	position: absolute;
+	content: '';
+	height: 100%;
+	display: block;
+	background: red;
+	width: 100%;
+	/* We are making a n absolute element center, yikes! */
+	left: 50%;
+	transform: translate(-50%);
+}

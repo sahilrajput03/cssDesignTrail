@@ -2,6 +2,8 @@
 
 ## Visit below link and login there
 
+CONTINUE FROM HERE: <https://courses.kevinpowell.co/courses/conquering-responsive-layouts/269778-day-15-intro-to-media-queries/779604-adding-one-to-our-layout>
+
 <https://courses.kevinpowell.co/conquering-responsive-layouts>
 
 ## Always use rem instead of em

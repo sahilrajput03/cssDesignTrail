@@ -1,0 +1,35 @@
+/* The order of below is very important, otherwise they won't override each other in creating pattern for each color, yo!! */
+/* Tip: You can move `pair b` above `pair a` and it'll still work exactly. The key is to not change their internal orders. */
+/* ************** */
+
+/* 🔽︎🔽︎🔽︎🔽︎ pair: a 🔽︎🔽︎🔽︎🔽︎ */
+/* 400px or smaller */
+@media (max-width: 400px) {
+  body {
+    background: green;
+  }
+}
+
+/* 200px or smaller */
+@media (max-width: 200px) {
+  body {
+    background: purple;
+  }
+}
+/* 🔼︎🔼︎🔼︎🔼︎ pair: a 🔼︎🔼︎🔼︎🔼︎ */
+
+/* 🔽︎🔽︎🔽︎🔽︎ pair: b 🔽︎🔽︎🔽︎🔽︎ */
+/* 400px or bigger */
+@media (min-width: 400px) {
+  body {
+    background: orange;
+  }
+}
+
+/* 600px or bigger */
+@media (min-width: 600px) {
+  body {
+    background: red;
+  }
+}
+/* 🔼︎🔼︎🔼︎🔼︎ pair: b 🔼︎🔼︎🔼︎🔼︎ */

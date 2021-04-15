@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: darkorange;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+/* *********** */
+.card {
+	position: relative;
+	background: grey;
+}
+
+.card__img {
+	transition: opacity ease-out 250ms;
+}
+
+.card:hover .card__img {
+	/* ^^ this is correct. */
+	opacity: 0.4;
+}
+
+/* * NOTE */
+/* .card__img:hover { */
+/* ^^^ this is wrong... */
+/* opacity: 0.4; */
+/* } */
+
+.card__text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transition: opacity ease-out 250ms;
+}
+
+.card:hover .card__text {
+	/* ^^wow this is awesome selector, expanation: When .card is hovered only then select .card__text. */
+	opacity: 1;
+}
+
+/* * */
+
+.card {
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	/* background: pink; */
+	/* ^^ that is cool too.., but border would look much amazing.! */
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+
+	margin: 30px;
+	inset: 0 0 0 0;
+	/* NOTE - shorthand - inset: inset is shorthand for top, left, bottom, right  */
+	/* Without setting top/bottom/left/right (i.e., inset) element has height and width as 0px each. */
+	transform: scale(0, 1);
+	transition: transform ease-out 250ms;
+}
+.card:hover::before {
+	transform: scale(1.05, 1);
+}
+/* * */
+
+.card::after {
+	content: '';
+	position: absolute;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	margin: 30px;
+	inset: 0 0 0 0;
+	transform: scale(1, 0);
+	transition: transform ease-out 250ms;
+}
+.card:hover::after {
+	transform: scale(1, 1.05);
+}

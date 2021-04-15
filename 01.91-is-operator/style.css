@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	--size: 150px;
+}
+
+img {
+	width: 100%;
+}
+
+/* * */
+.papaya h1,
+.papaya a {
+	color: orange;
+}
+
+/* Above is cool, but below thins is superb. */
+
+.tomato :is(h1, a) {
+	color: red;
+	/* See other benefits of is selector in local readme.md */
+}
+
+/* **** */
+/* Another useful thing with :is operator */
+/* Tip: Try making `.me:hover` to just `.me` and that behave as expected as well. */
+
+:is(.luci, .pusi, .koala) .me:hover {
+	color: magenta;
+}
+/* and that is equivalent to below code */
+
+/* .luci .me:hover {
+	color: chocolate;
+}
+.pusi .me:hover {
+	color: chocolate;
+}
+.koala .me:hover {
+	color: chocolate;
+} */
+
+/* **** */
+/* learn about specificity of compound selector */
+.boom .shankar {
+	color: aqua;
+}
+
+.shankar {
+	color: red;
+	/* This doesn't work even though it comes after in code coz upper selector has higher specificity, yo!! */
+}

@@ -1,0 +1,41 @@
+img {
+  /* SET1 */
+  width: 100%;
+  max-width: 600px;
+  min-width: 200px;
+
+  /* SET2 */
+  width: clamp(200px, 100%, 600px);
+
+  /* SET3 */
+  /* width: min(600px, 100%); */
+
+  /* SET4 */
+  /* width: max(200px, 100%); */
+
+  /******/
+  /* TESTING: Try using a larger width with max-height set.*/
+  /* width: 10000px; */
+}
+
+.grow-messg,
+.shrink-messg {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@media (min-width: 600px) {
+  .grow-messg {
+    color: orange;
+  }
+}
+
+@media (max-width: 200px) {
+  .shrink-messg {
+    color: blue;
+  }
+}
