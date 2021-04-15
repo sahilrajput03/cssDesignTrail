@@ -470,7 +470,7 @@ p {
   left: 0;
   right: 0;
   /* Above and below is equivalent. */
-  inset: 0 50% 50% 10%;
+  inset: 0 0 0 0;
 }
 ```
 
