@@ -1,4 +1,4 @@
-## How you can simplify your CSS with :is()
+# How you can simplify your CSS with :is() ~ video by kevin powell
 
 src: https://youtu.be/McC4QkCvbaY
 

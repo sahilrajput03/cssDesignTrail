@@ -2,7 +2,10 @@
 
 This is my personal repo for myself, its kinda cheat sheet.
 
-**TIP**: Use
+**TIP**:
+
+- Use `live-server` command on terminal to serve this whole directory. But with live-server you don't get hot-reload for css(though live-server does a whole page reload instead which makes scroll position lost on each change in css), so use `parcel index.html` in a particular directory to enable hot reload for css, yikes!
+- Use `lsr` or `pd` to use live-server or parcel aliases from my_bin directly.
 
 ## FAQ's
 
@@ -135,7 +138,16 @@ Watch video [here](https://youtu.be/KYFwcIRx16g).
 
 ## Selectors
 
-### Compound selector (said by kevin)
+### Space selector (~sahil) or Compound selector (~kevin)
+
+```css
+/* Below selector will select all direct🔅︎ or indirect🔅︎ `a` tags children of `nav__list` class. */
+.nav__list a {
+  color: white;
+}
+```
+
+eg2.
 
 ```css
 .header h1 {
@@ -162,19 +174,33 @@ p.center {
   color: red;
 }
 
-/* ******** */
+/* For debugging... */
+debug {
+  border: 5px solid deeppink;
+}
+```
+
+### Combination selector
+
+**eg1**
+
+```css
+.col + .col {
+  background-color: skyblue;
+  /* above will select the second column in two or more `col class` dom elements. */
+  margin-left: 100px;
+}
+```
+
+**eg2**
+
+```css
 .split > * + * {
   /* This above selector is adjacent item selector, that means that only second element will be selected. */
   margin-left: 2em;
   /* If i had "> * + * + *" as selector, then the third element will be selected, yo!! */
 }
 /* implemented in 01-design-with-notes */
-/* ******** */
-
-/* For debugging... */
-debug {
-  border: 5px solid deeppink;
-}
 ```
 
 ## Woop.css
@@ -507,3 +533,95 @@ Check it [here (time-stamped)](https://youtu.be/McC4QkCvbaY?t=92).
   <div class="shankar">I am namah.</div>
 </div>
 ```
+
+## colors
+
+```css
+p {
+  color: rgba(0, 0, 0, 0.3);
+  /* here, 1 means normal, and LOWERING value will LOWER opacity. */
+}
+```
+
+## center a thing superfast
+
+**via align-text (for text only)**
+
+```css
+p {
+  text-align: center;
+}
+```
+
+**via flexbox**
+
+```css
+.my-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
+**via grid**
+
+```css
+.my-item {
+  display: grid;
+  place-items: center;
+  /* ^^ its shorthand for `justify-items: center` and `align-items: center` */
+}
+```
+
+## Using svg
+
+```html
+<img src="./example.svg" alt="an svg image" />
+<img src="./example.svg" width="2000" alt="an svg image with size" />
+<!--  -->
+<!-- Another 🔽︎ approach -->
+<style>
+  .my-svg {
+    width: 1000px;
+  }
+</style>
+<img class="my-svg" src="./example.svg" alt="an svg image" />
+
+<!-- direct approach -->
+<svg></svg>
+
+<!-- svg images are scalable vector graphics, you can scale them infinitely. -->
+```
+
+kevin video on svg: <https://youtu.be/ZJSCl6XEdP8>
+
+## sass
+
+Sass: Syntactically Awesome Style Sheets
+
+Scss (sass + css), and it supports existing css too, that means your existing css files would be just scss files by renaming to `.scss` files. BUT DRAWBACK OF SCSS is that you still got to use curly braces.
+e.g.
+
+```scss
+body
+  color: red
+```
+
+above is not a valid scss but valid sass.
+
+Online sass playground: <https://www.sassmeister.com/>
+TIP: Use `Options` to change compilation `scss` to `css` VS. `sass` to `css `.
+
+eg. valid sass
+
+```sass
+.nav
+    color: red
+    background: green
+    &__boom
+        color: pink
+```
+
+You might not get autocompletion things in sass though so feel free to use bare css though🤠︎.
+
+Note you don't need semicolons and braces.

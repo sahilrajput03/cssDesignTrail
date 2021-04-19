@@ -1,0 +1,78 @@
+body {
+	color: #fffffb;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+section {
+	padding: 30vh 0;
+}
+
+.one__icon {
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	/* Here, color gets layered opacity so total opacity for text-color gets 0.6, yo!! */
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	font-size: 2em;
+}
+
+.one {
+	background: #ffc145;
+	position: relative;
+}
+
+.one::after,
+.one::before {
+	position: absolute;
+	content: '';
+	width: 150px;
+	height: 150px;
+	background: #ffc145;
+	bottom: -1em;
+	z-index: 100;
+}
+
+.one::before {
+	right: 50%;
+	transform: skew(0, 20deg);
+}
+
+.one::after {
+	left: 50%;
+	transform: skew(0, -20deg);
+}
+
+.two {
+	background: rgb(255, 107, 108);
+	position: relative;
+	z-index: 10;
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+	margin-bottom: -10vw;
+}
+
+.two__image {
+	/* clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%); */
+	/* TIP: ^^ `0 0` is the top-left most point of the selector and then followed by next point in clockwise direction, yikes!. */
+	/* TIP: Interesting thing is you can add as many point as you want. */
+	/* ::MY TESTING BELOW:: */
+	/* * MAKE INTERESTING SHAPES @ https://bennettfeely.com/clippy/ */
+	/* clip-path: circle(30%); */
+	/* ^^ that will clip a circle of 30% size of the image. */
+	/* clip-path: polygon(0 0, 50% 0, 80% 100%, 0 100%); */
+	/* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+	clip-path: polygon(100% 0%, 73% 44%, 100% 100%, 25% 100%, 0 68%, 25% 0%);
+	/* ^^ made from the nennettfeely.com site, yo!! */
+}
+
+.three {
+	background: #5b5f97;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

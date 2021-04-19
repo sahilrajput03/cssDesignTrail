@@ -6,6 +6,8 @@ CONTINUE FROM HERE: <https://courses.kevinpowell.co/courses/conquering-responsiv
 
 <https://courses.kevinpowell.co/conquering-responsive-layouts>
 
+Do challenge 4 - [here](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/266333-day-12-**getting**-fancy-with-navigations/770916-flexbox-challenge-4).
+
 ## Always use rem instead of em
 
 Coz, em's compound on each other. But that doesn't mean you should not use em at all, but use em for margins and paddings things as margin and padding will auto scale based on the
@@ -63,19 +65,9 @@ has very less content.
 
 ## check for any property is you can use it any browser or not
 
-Browse: https://caniuse.com
+Browse: <https://caniuse.com>
 
 **Tip**: Search for `gap` for flexbox, and see if safari supports it ? Ans. NO!
-
-## Combinator selector
-
-```css
-.col + .col {
-  background-color: skyblue;
-  /* above will select all columns except one. */
-  margin-left: 100px;
-}
-```
 
 ## Awesome delay thing in css, love 🏩
 
@@ -133,9 +125,9 @@ I learned about inline flex from the below playground, yikes!
 
 - Access it on: <https://catchmyfame.github.io/flexboxplayground/>
 
-Source on github: https://github.com/catchmyfame/flexboxplayground
+Source on github: <https://github.com/catchmyfame/flexboxplayground>
 
-- Another playground @ http://flexbox.help/ , this one generates code for graphical things you do, yikes!!
+- Another playground @ <http://flexbox.help/> , this one generates code for graphical things you do, yikes!!
 
 - flexbox turns direct children into columns or rows depending you have set flex-direction: row or column respectively.
 
@@ -146,7 +138,7 @@ align-items: baseline;
 ```
 
 ^^ this is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing. Source for baseline:
-https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
+<https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762>
 
 - Why you should bother using `order: -1` or some +ve value to order to the children of flex, coz you might want to adjust the layout on smaller screen or different screen size
   using media queries. A good practice is to use different positive value of order on each item as required.
@@ -234,3 +226,68 @@ Make two ul list, and give the nav tag
 ```
 
 Check code @ <https://codepen.io/sahilrajput03/pen/gOgevaR> .
+
+## A common practice of removing margins from headings
+
+```css
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  /* 🐥︎ Coz by default headings have margins. */
+}
+```
+
+## line height
+
+```css
+p {
+  line-height: 1;
+  /* Note you can use unit less units i.e., 1 corresponding to normal height. */
+}
+```
+
+## invalid padding
+
+```css
+div {
+  padding: 5rem auto;
+  /* Above is 🦡︎error🦡︎ and below statement is likely what you want. */
+  padding: 5rem auto;
+}
+```
+
+## links are by default `inline` items
+
+So, basically if you put
+
+```css
+a {
+  margin: 2rem;
+  /* ^^ this will just not🤬︎ work for top/bottom but will work for left/right margins, to make top/bottom work you get to change `display:block` or `inline-block` (TESTED🤠︎) to be able to apply margins to `a` tags. */
+}
+```
+
+eg2
+
+```html
+<style>
+  .a-class {
+    margin: 2rem;
+    /* ^^ this will not work🤬︎ for top/bottom but will work for left/right margins. */
+  }
+</style>
+<a class="a-class" href="#">I am a link</a>
+```
+
+## Close off things to remember
+
+- Writing mobile first design is always a best design approach when we write any layout.
+- All websites are responsive by default and it is us who define layouts which causes issues with default responsive behaviour of our complex layout design, so if you have a comple layout you get to make change how browse's responsiveness beahave the way we want it to be. As you can see desktop first vs. mobile first design in below image:
+
+![](https://i.imgur.com/9DkUpxR.png)
+
+Both of the code behave exactly same except the right one is mobile first approach(i.e., using min-width).

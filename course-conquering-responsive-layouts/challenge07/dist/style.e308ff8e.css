@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	--clr-primary: #824936;
+	--clr-secondary: #f3eed9;
+	--clr-tertiary: #222c2a;
+
+	--ff-playfair: 'Playfair Display', serif;
+	--ff-roboto: 'Roboto', sans-serif;
+
+	--fw-roboto-thin: 300;
+	/* NOTE: roboto light >>  font-weight-300 */
+	/* font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif; */
+}
+
+body {
+	margin: 0;
+	font-family: var(--ff-roboto);
+	font-size: 1.3125rem;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+	/* width: 100%; */
+	/* below works as width: 100% as well when `col` is given width:100%, Yo */
+	/* width: inherit; */
+}
+
+h1,
+h2 {
+	color: var(--clr-primary);
+	font-family: var(--ff-playfair);
+	font-weight: 900;
+	margin-top: 0;
+}
+
+.container {
+	width: 85%;
+	/* ^^ this works better instead of giving padding. */
+	/* padding: 3rem; */
+	/* ^^ this is not good idea.🦡︎ */
+	/* border: 2px solid blue; */
+	max-width: 1128px;
+	/* ^^ this was given in challenge specifications🏇︎.*/
+
+	/* 🍗︎ center things magically */
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.intro {
+	min-height: 100vh;
+	min-height: 660px;
+
+	background: var(--clr-secondary);
+	/* border: 1px solid #000; */
+	display: flex;
+	align-items: center;
+}
+
+.intro__title {
+	font-family: var(--ff-playfair);
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.intro__text {
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	text-align: center;
+	opacity: 0.5;
+}
+
+/* section {
+	padding: 4em 0;
+} */
+
+.section-one,
+.section-one h2 {
+	color: var(--clr-secondary);
+	background: var(--clr-tertiary);
+}
+
+.section-one,
+.section-two,
+.section-zero {
+	font-family: var(--ff-roboto);
+}
+
+.section-two,
+.section-two h2 {
+	color: var(--clr-secondary);
+	background: var(--clr-primary);
+}
+
+@media (min-width: 600px) {
+	.row {
+		display: flex;
+	}
+
+	.col + .col {
+		margin-left: 3.8rem;
+	}
+	.col {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		/* IMPORTANT NOTE: For flex children flex-basis works same as width but flex-basis won't be effective on img tag huh⚡︎⚡︎, so beware of using `flex-basis: 100%` in this case⚡︎⚡︎. */
+		flex-basis: 100%;
+	}
+
+	.intro {
+		/* 🍗︎ vertical padding toggle it if you need. */
+		/* padding: 200px 0; */
+	}
+
+	.intro__title {
+		font-size: 3.25rem;
+	}
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
