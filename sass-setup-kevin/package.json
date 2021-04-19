@@ -1,0 +1,18 @@
+{
+	"name": "sass-setup-kevin",
+	"version": "1.0.0",
+	"description": "src: https://youtu.be/wYWf2m_yzBQ",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel src/index.html",
+		"build": "parcel build src/index.html",
+		"dev:legacy,yuck": "sass --watch src/scss:dist/css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.32.10"
+	}
+}

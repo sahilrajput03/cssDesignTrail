@@ -1,0 +1,49 @@
+$red: red;
+$green: green;
+$lpink: lightpink;
+
+body {
+	$lpink: aquamarine; // Overwriting $lpink color here(this works in 🥈︎ regular css too though).
+	background: $lpink;
+	// ^^ 🧩︎ as you can see variable work like how closures work in javascript.
+	margin: 0;
+}
+// this file works as well.
+
+// As you 🧸︎ can see the power of scss is that you write cleaner code🏇︎.
+.section-one {
+	font-family: sans-serif;
+	font-weight: 500;
+	margin: 10px;
+
+	&__title {
+		// ^^🧸︎ this is same as `.section-one__title` selector in css.
+		color: deepskyblue;
+	}
+
+	p {
+		color: deeppink;
+
+		&:hover {
+			color: red;
+		}
+	}
+
+	span {
+		border: 2px solid red;
+		padding: 5px;
+		border-radius: 10px;
+	}
+}
+
+.section-two {
+	> p {
+		// ^^ above selector selects direct `p` child only.
+		color: $green;
+	}
+
+	& p {
+		// ^^ above selector ( & in scss/sass means ``.section-two p`` selector in css ) selects direct and indirect(nested) `p` child.
+		background-color: beige;
+	}
+}
