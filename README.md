@@ -141,7 +141,7 @@ Watch video [here](https://youtu.be/KYFwcIRx16g).
 ### Space selector (~sahil) or Compound selector (~kevin)
 
 ```css
-/* Below selector will select all direct🔅︎ or indirect🔅︎ `a` tags children of `nav__list` class. */
+/* Selects all direct🔅︎ or indirect🔅︎ `a` tags children of `nav__list` class. */
 .nav__list a {
   color: white;
 }
@@ -152,6 +152,15 @@ eg2.
 ```css
 .header h1 {
   color: limegreen;
+}
+```
+
+### Direct children only
+
+```css
+.myclass > p {
+  /* ^^ this selects only direct ``p`` children in `.myclass` only. */
+  color: beige;
 }
 ```
 
@@ -625,3 +634,11 @@ eg. valid sass
 You might not get autocompletion things in sass though so feel free to use bare css though🤠︎.
 
 Note you don't need semicolons and braces.
+
+To get emmet working in scss, just do as suggested [here](https://stackoverflow.com/a/65885917/10012446).
+
+For sass, install this [extension](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) and you are all done.
+
+Visit the sass-setup-kevin folder to start with sass/scss🚴︎.
+
+[scss cheatsheet here 🐥︎🐥︎](https://dev.to/finallynero/scss-cheatsheet-7g6).

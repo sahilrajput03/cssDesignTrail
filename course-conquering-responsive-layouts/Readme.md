@@ -2,11 +2,7 @@
 
 ## Visit below link and login there
 
-CONTINUE FROM HERE: <https://courses.kevinpowell.co/courses/conquering-responsive-layouts/269778-day-15-intro-to-media-queries/779604-adding-one-to-our-layout>
-
 <https://courses.kevinpowell.co/conquering-responsive-layouts>
-
-Do challenge 4 - [here](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/266333-day-12-**getting**-fancy-with-navigations/770916-flexbox-challenge-4).
 
 ## Always use rem instead of em
 
@@ -291,3 +287,17 @@ eg2
 ![](https://i.imgur.com/9DkUpxR.png)
 
 Both of the code behave exactly same except the right one is mobile first approach(i.e., using min-width).
+
+## Difference between `display: none` and `visibility: hidden`
+
+`visibility:hidden` hides the element, but it still takes up space in the layout(to show element just use `visibility: visible` to override property with onClick event in js, yikes!).
+
+`display:none` removes the element from the document. It does not take up any space.
+
+For live e.g., [here in w3schools.com](https://www.w3schools.com/css/tryit.asp?filename=trycss_display).
+
+Want to know about what are possible options for `display` property , just get it [here in w3schools.com](https://www.w3schools.com/cssref/pr_class_display.asp).
+
+- NOTE : There is nothing like `display: hidden` but `visibility: hidden`.
+
+Simple `display:none/hidden` program [at codepen ~sahil](https://codepen.io/sahilrajput03/pen/YzNJaBG).
