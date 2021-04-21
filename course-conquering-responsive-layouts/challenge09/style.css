@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+ul {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	display: inline-block;
+	/* 🤸︎ By default a tags are `inline`, making it inline-block allows a tags to have margin-top and margin-bottom. */
+}
+
+button {
+	border: 0;
+	background: none;
+}
+
+button:focus {
+	outline: 0;
+}
+/* 🤸︎ Syntax for outline property: */
+/* outline: red dotted/solid/others 2px; */
+/* ************************************* */
