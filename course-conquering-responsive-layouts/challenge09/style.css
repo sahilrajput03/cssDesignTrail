@@ -30,3 +30,301 @@ button:focus {
 /* 🤸︎ Syntax for outline property: */
 /* outline: red dotted/solid/others 2px; */
 /* ************************************* */
+
+h1 {
+	margin: 0;
+}
+
+/* Feel free overwrite these classes, yo! */
+.row {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+/* .flex-end {
+	align-self: flex-end;
+} */
+
+.col {
+	flex-basis: 100%;
+}
+
+/* below block is intentionally put in the end of the css execution order, coz order or class names in class name definition in html-dom doesn't decide the code overwriting way. */
+.col-big {
+	flex-basis: 200%;
+}
+
+/* ********* */
+
+.nav--item__c1 {
+	display: flex;
+	align-items: center;
+}
+
+.nav--item__c2 {
+	display: flex;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+:root {
+	--clr-one: #2e323f;
+	--clr-two: #3b4050;
+	--clr-three: #a59678;
+	--clr-three-light: rgba(0, 0, 0, 0.048);
+	--clr-white: #ffffff;
+	--clr-five: #6f737f;
+}
+
+.logo {
+	height: 30px;
+}
+
+nav {
+	background: var(--clr-one);
+	padding: 13px;
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: space-between; */
+}
+
+nav .row {
+	justify-content: space-between;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+}
+
+.nav--item {
+	margin: 0 5px;
+	cursor: pointer;
+	/* ^^ changes mouse arrow to hand. */
+}
+
+nav li {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+nav .highlight {
+	display: inline-block;
+	color: white;
+	font-weight: 900;
+	border-radius: 2rem;
+	padding: 0.7rem 1.3rem;
+	background: var(--clr-three);
+}
+
+/* section hero */
+
+.section-hero {
+	background: var(--clr-two);
+	/* min-height: 60vh; */
+	/* ^^ giving height is bad, use margins or padding instead. */
+	/* border: 2px solid blue; */
+}
+
+.section-hero h1 {
+	font-size: 3.5rem;
+}
+
+.section-hero button {
+	background: var(--clr-three);
+	font-weight: bold;
+	border-radius: 2rem;
+	padding: 0.7rem 1.3rem;
+	color: white;
+	text-transform: uppercase;
+}
+
+.section-hero p {
+	color: white;
+}
+
+.section-hero p {
+	font-size: 0.8rem;
+	letter-spacing: 0.9px;
+}
+
+.section-hero .highlight {
+	color: var(--clr-three);
+}
+
+.section-hero h1 {
+	color: white;
+}
+
+.section-hero button {
+	/* ^^ selects button with class main. */
+	font-size: 0.8rem;
+}
+
+/* section one */
+
+.section-one {
+	color: rgba(0, 0, 0, 0.3);
+
+	background: var(--clr-three-light);
+}
+
+.section-one p {
+	color: black;
+}
+
+.section-one .row {
+	justify-content: space-around;
+}
+
+.section-one .col {
+	/* border: 1px solid #000; */
+	flex-basis: 25%;
+}
+
+.section-one h3,
+.section-one p {
+	text-align: center;
+}
+
+.section-one h3,
+.section-two h2,
+.section-three h3 {
+	color: var(--clr-three);
+}
+
+/* section two-aside */
+
+.section-two-aside .col {
+	background-color: var(--clr-one);
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.section-two-aside h3 {
+	font-size: 1.5rem;
+}
+
+.section-two-aside h3,
+.section-two-aside p {
+	color: white;
+	text-align: center;
+}
+/* section three */
+
+.section-three {
+	background-color: var(--clr-one);
+}
+
+.section-three h2 {
+	color: white;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.section-three li,
+.section-three p {
+	color: rgba(255, 255, 255, 0.3);
+}
+/* ********* */
+
+.container {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 1.3rem 1.3rem;
+}
+/* * SPECIAL QUERIES FOR EXTREMELY SMALL DEVICES. */
+@media (max-width: 460px) {
+	nav .nav-right {
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	nav .nav--item__c2 {
+		margin-top: 20px;
+	}
+	.section-one .row {
+		flex-direction: column;
+	}
+	.section-three .row {
+		flex-direction: column;
+		width: 100%;
+		padding: 5px;
+	}
+	.section-three .col,
+	.section-three p,
+	.section-three h3 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 511px) {
+	nav .row {
+		flex-direction: column;
+	}
+	nav .nav-right {
+		margin-top: 20px;
+	}
+}
+
+/* * I AM GOING WITH MOBILE FIRST DESIGN. */
+@media (min-width: 700px) {
+	.special-aside {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.container {
+		max-width: 900px;
+	}
+
+	.section-hero .container {
+		padding: 3rem 1.3rem;
+	}
+
+	.section-hero h1 {
+		font-size: 5rem;
+	}
+
+	.section-hero p {
+		font-size: 1.3rem;
+		letter-spacing: 1.3px;
+	}
+
+	.section-hero button {
+		/* ^^ selects button with class main. */
+		font-size: 1.5rem;
+	}
+
+	.section-hero .container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		max-width: 1200px;
+	}
+
+	.section-two-big {
+		display: flex;
+		/* justify-content: space-between; */
+	}
+
+	.special-aside {
+		flex-direction: column;
+		max-width: 400px;
+	}
+
+	.section-two-pseudo-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 1.3rem;
+	}
+}
