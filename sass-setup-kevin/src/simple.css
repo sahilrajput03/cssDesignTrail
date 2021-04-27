@@ -1,0 +1,17 @@
+/* You can 🥝︎ use variables in media-queries too with sass/scss, yikes! */
+/* Example usage 🥝︎ in media-queries.scss file. */
+
+/* 💣︎🛑︎⚡︎ 💣︎⚡︎🛑︎ 💣︎⚡︎ 🛑︎💣︎ ⚡︎With regular css its not possible to use css variables in media queries input. */
+:root {
+	--my-size: 600px;
+}
+
+/* @media (min-width: 600px) { */
+/* ^^ This works as 🆗︎ expected though. */
+
+@media (min-width: var(--my-size)) {
+	/* css variables doesn't 💣︎ work in regular css. */
+	.bar {
+		background: black;
+	}
+}

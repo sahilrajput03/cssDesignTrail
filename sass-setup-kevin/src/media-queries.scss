@@ -1,6 +1,11 @@
+$very-small: 200px;
+$small: 400px;
+$medium: 400px;
+$large: 600px;
+
 .target {
-	height: 15vh;
-	width: 100vw;
+	height: 20vh;
+	width: 100%;
 	color: white;
 	display: grid;
 	place-content: center;
@@ -10,12 +15,12 @@
 // * Order inside the pair1/pair2 media queries still matters as it would in regular css.
 
 // * pair1
-@media (min-width: 400px) {
+@media (min-width: $medium) {
 	.target {
 		background: orange;
 	}
 
-	@media (min-width: 600px) {
+	@media (min-width: $large) {
 		.target {
 			background: red;
 		}
@@ -23,12 +28,12 @@
 }
 
 // * pair2
-@media (max-width: 400px) {
+@media (max-width: $small) {
 	.target {
 		background: green;
 	}
 
-	@media (max-width: 200px) {
+	@media (max-width: $very-small) {
 		.target {
 			background: purple;
 		}

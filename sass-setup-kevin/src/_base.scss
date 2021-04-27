@@ -1,0 +1,12 @@
+// file: _base.scss, This is a module file as we have used _ to prefix this file's name.
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$boom: yellow;
+$bingo: orange;
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+}
+// This example(and modified by ~ sahil) is taken from the `Modules` section @ https://sass-lang.com/guide .
+// Docs are amazing for sass.

@@ -641,4 +641,18 @@ For sass, install this [extension](https://marketplace.visualstudio.com/items?it
 
 Visit the sass-setup-kevin folder to start with sass/scss🚴︎.
 
-[scss cheatsheet here 🐥︎🐥︎](https://dev.to/finallynero/scss-cheatsheet-7g6).
+[scss cheat sheet here 🐥︎🐥︎](https://dev.to/finallynero/scss-cheatsheet-7g6).
+
+[Read about modules, mixins in scss/sass - They are great, read in docs here](https://sass-lang.com/guide).
+
+My notes: Mixins are basically functions in sass/scss and it makes it easy to execute a piece of code which is usually repeated at lots of places, and the good thing is we can pass values to our functions too, oops i meant to say mixins.
+
+**What is Partials in scss/sass ?**
+
+A partial is a Sass file named with a leading underscore. ~ [Docs](https://sass-lang.com/guide).
+
+Read about **Extend/Inheritance** in sass [Docs](https://sass-lang.com/guide), its amazing!
+
+## collapsing margins shit in css ?
+
+[Watch it here by kevin, 22 April,21](https://youtu.be/qKiz9gdJdr8)

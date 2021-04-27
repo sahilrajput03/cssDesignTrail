@@ -1,0 +1,9 @@
+// file: styles.scss
+@use 'base';
+// Module file must be `_base.scss` only.
+
+body {
+	border: 30px solid base.$primary-color;
+	border-right: 30px solid base.$boom;
+	color: white;
+}
