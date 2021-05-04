@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+}
+
+button {
+	background: deeppink;
+	border-radius: 50px;
+	padding: 1rem;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 50rem;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	min-height: 600px;
+	align-items: flex-start;
+}

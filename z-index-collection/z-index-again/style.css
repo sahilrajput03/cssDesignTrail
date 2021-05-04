@@ -1,0 +1,31 @@
+/* `z-index`+position (other than ``static``) gives an element a stacking context(or simply say a layer). Just giving some element a z-index wont' do anything at all.🤺︎🤺︎ */
+/* Default value of z-index is ``auto`` */
+/* Default value of position is ``static`` */
+/* 🃏︎🃏︎LEARN THE SAME THING AGAIN.... */
+.box {
+	height: 9rem;
+	width: 9rem;
+	border: 2px solid orange;
+}
+/* ****** */
+/* A **BAD** practice to get three items aligned which are nested actually. */
+.one {
+	position: relative;
+	background: green;
+	z-index: 3;
+}
+.two {
+	position: relative;
+	background: purple;
+	margin-left: 2rem;
+	margin-top: -5rem;
+	z-index: 2;
+}
+.three {
+	position: relative;
+	background: red;
+	margin-left: 3rem;
+	margin-top: 3rem;
+	z-index: 10000;
+	/** 🏇︎It doesn't matter how big z-index you give to three, it just won't come up on green box, because two(parent of three) has a stacking context(or simply say layer) which is under first(i.e., green box), hence red can't be on top of green at all. */
+}

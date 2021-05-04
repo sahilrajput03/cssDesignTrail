@@ -1,0 +1,65 @@
+.box {
+	height: 9rem;
+	width: 9rem;
+	border: 2px solid orange;
+}
+
+body {
+	height: 100vh;
+}
+
+.one {
+	background: green;
+	text-align: right;
+	opacity: 0.8;
+	/*  ^ 🤹︎ Adds a stacking context(i.e., make it a layer.) */
+
+	/* transform: scale(0.8); */
+	/*  ^ 🤹︎ Adds a stacking context(i.e., make it a layer.) */
+}
+
+.two {
+	background: purple;
+	text-align: right;
+	margin-top: -7rem;
+	margin-left: 3rem;
+	/* 🛑︎	position: relative; */
+	/* position should be ``static`` which is default value of position to make this contrived example work. */
+}
+
+.three {
+	background: red;
+	text-align: right;
+	margin-left: 6rem;
+	margin-top: -6rem;
+	/* 🛑︎	position: relative; */
+	/* position should be ``static`` which is default value of position to make this contrived example work. */
+}
+
+/* **** */
+/* four, five, six demonstrates the way to undo the stacking context behaviour of opacity/transform like properties. */
+.four {
+	background: green;
+	text-align: right;
+	opacity: 0.8;
+	/* transform: scale(0.8); */
+	/* Lets undo the effect of stacking context we got from above opacity/transform property ~sahil */
+	position: relative;
+	/* 🥝︎ Note: We must use position other than ``static`` to make our below z-index property actually work, yikes!! */
+	z-index: -1;
+	/* 🥝︎ Note: Using 0 here won't set green box in bottom layer. */
+}
+
+.five {
+	background: purple;
+	text-align: right;
+	margin-top: -7rem;
+	margin-left: 3rem;
+}
+
+.six {
+	background: red;
+	text-align: right;
+	margin-left: 6rem;
+	margin-top: -6rem;
+}

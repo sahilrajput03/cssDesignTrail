@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>z-index</title>
+		<link rel="stylesheet" href="basicStyle.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="one box">one</div>
+		<!--  ^^ this has lowest z-index as it comes first in dom.-->
+		<div class="two box">two</div>
+		<div class="three box">three</div>
+		<!--   ^^ This one has highest z-index though, as it is coming last in dom.-->
+
+		<!--  The element with highest z-index will be on top of all elements. -->
+		<!-- By default each element has z-index: 0 . -->
+	</body>
+</html>

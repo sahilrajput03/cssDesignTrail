@@ -15,6 +15,7 @@ LEARN:  ^^ Default flex-direction is 'row' .
 }
 *************
 => ALIGN-ITEMS, ALIGN-SELF
+`align-items` is assigned to the cross bow itself, and `align-self` is assigned to the flex's items.
 *Basically makes things malleable perpendicularly
 to the flex-direction, yikes!!
 
@@ -116,27 +117,27 @@ flex-wrap:wrap
 ALIGN-CONTENT (it defined the arrangement of line in a perpendicular direction of `flex-direction`)
 DEFAULT value of align-content is `stretch`. This property works in the perpendicular direction of the flex-direction.
 
-align-content: stretch
+align-items: stretch
 ^^ this is DEFAULT property.
 
-align-content: flex-start
+align-items: flex-start
 ^^ this will make `lines containing elements` to get attracted toward upwards.
 
-align-content flex-end;
+align-items flex-end;
 ^^ this will make the `lines containing elements` to get attracted towar downwards.
 
-align-content: center;
+align-items: center;
 ^^ this makes the `line` attracted towards the center, yikes!
 
-align-content: space-around;
+align-items: space-around;
 ^^ this makes the `line` managed like space around as we learned ealier in other properties.
 
-align-content: space-between;
+align-items: space-between;
 ^^ this makes the `line` managed like space is only between the elements, not in the outer edges of the lines.
 
 
-*LEARN: When shooting vertically, using {align-content: flex-end;} will make lines attracted towards right side.
-*LEARN: What did I learn about `align-content`: When there gets too many zombies to fit in a single line and they start wrapping to new lines, those lines can be arranged in several different ways perpendicular to the direction I'm shooting, along the crossbow's blue Alignment Laser.
+*LEARN: When shooting vertically, using {align-items: flex-end;} will make lines attracted towards right side.
+*LEARN: What did I learn about `align-items`: When there gets too many zombies to fit in a single line and they start wrapping to new lines, those lines can be arranged in several different ways perpendicular to the direction I'm shooting, along the crossbow's blue Alignment Laser.
 
 **AMAZING: mozilla's documentation for css is just awesome!! Check it out @ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
  as live updating is there with evey character changed, yikes!!

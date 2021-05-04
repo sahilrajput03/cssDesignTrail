@@ -1,0 +1,27 @@
+/*  z-index does nothing if you don't have position: relative/absolute on an element that you are applying z-index to.... */
+.box {
+	height: 9rem;
+	width: 9rem;
+	border: 2px solid orange;
+}
+
+.one {
+	position: relative;
+	/* 🥭︎ Doesn't create stacking context at all ~ kevin. */
+
+	background: green;
+}
+
+.two {
+	/* 🛑︎ position: relative; */
+	background: purple;
+	margin-left: 3rem;
+	margin-top: -6rem;
+}
+
+.three {
+	/* 🛑︎ position: relative; */
+	background: red;
+	margin-left: 6rem;
+	margin-top: -6rem;
+}

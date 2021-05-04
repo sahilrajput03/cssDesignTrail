@@ -1,0 +1,32 @@
+/*  z-index does nothing if you don't have position: relative/absolute on an element that you are applying z-index to.... */
+.box {
+	height: 9rem;
+	width: 9rem;
+	border: 2px solid orange;
+}
+
+.one {
+	position: relative;
+	/* Giving z-index alone(without ``position:relative/absolute``) to any element just won't do anything(note in this case i.e., `.one` element we also have a `.box` class which has ``position: absolute``, thats why z-index works in our case).🥭︎ */
+	z-index: 0;
+	/* 0 is default, Try making the z-index of this to 1 or any number.  */
+	background: green;
+	text-align: right;
+}
+
+.two {
+	position: relative;
+	background: purple;
+	margin-left: 3rem;
+	margin-top: -6rem;
+	text-align: right;
+}
+.three {
+	position: relative;
+	z-index: 0;
+	/* 0 is default, Try making the z-index of this to -1 or any negative number.  */
+	background: red;
+	margin-left: 6rem;
+	margin-top: -6rem;
+	text-align: right;
+}
