@@ -1,0 +1,35 @@
+h1 {
+	text-align: center;
+}
+
+button {
+	background: deeppink;
+	border-radius: 50px;
+	padding: 1rem;
+	z-index: 2;
+	/* ^^🤺︎ */
+	align-self: flex-start;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 50rem;
+	/* border: 1px solid #000; */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	/* min-height: 600px; */
+}
+
+.modal-1 {
+	text-align: center;
+	background: lightblue;
+	border-radius: 50px;
+	padding: 2rem;
+	/* height: ; */
+	display: none;
+	position: fixed;
+	/* z-index: -1; */
+	/* ^^🤺︎ z-index works coz we have position other than `static` which is default. */
+}
