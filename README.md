@@ -2,12 +2,73 @@
 
 This is my personal repo for myself, its kinda cheat sheet.
 
+## HTML tags
+
+Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
+
+```html
+<head>
+  <meta />
+  <title></title>
+</head>
+<body>
+  <main>
+    <header>
+      <nav></nav>
+      <aside></aside>
+    </header>
+
+    <section>
+      <div>
+        <article>
+          <h1></h1>
+          <p></p>
+          <img src="" alt="" />
+        </article>
+
+        <article>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+          <code></code>
+          <label for=""></label>
+          <caption></caption>
+        </article>
+
+        <hr />
+        <br />
+        <article>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </article>
+
+        <pre></pre>
+
+        <b>bold</b>
+        <u>underline</u>
+        <i>italics</i>
+
+        <a href="#"></a>
+      </div>
+    </section>
+
+    <footer></footer>
+  </main>
+</body>
+```
+
 **TIP**:
 
 - Use `live-server` command on terminal to serve this whole directory. But with live-server you don't get hot-reload for css(though live-server does a whole page reload instead which makes scroll position lost on each change in css), so use `parcel index.html` in a particular directory to enable hot reload for css, yikes!
 - Use `lsr` or `pd` to use live-server or parcel aliases from my_bin directly.
 
 ## FAQ's
+
+### width property on img
+
+The width property say 20% on img tag means that img size will be 20% of its 🧿︎ own 🧿︎ original size(not the container).
 
 ### What all do i know in plain css ??
 

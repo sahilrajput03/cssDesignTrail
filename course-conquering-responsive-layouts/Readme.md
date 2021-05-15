@@ -147,10 +147,6 @@ This is applicable to a child in flex, yo!! that means,`flex-grow, flex-shrink, 
 
 `{flex: 10 auto;}`
 
-## html tags
-
-main, section (in main possibly), aside, nav, etc.
-
 ## If you want to get rid of bullet points in ul
 
 Just define
