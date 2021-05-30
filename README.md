@@ -717,3 +717,43 @@ Read about **Extend/Inheritance** in sass [Docs](https://sass-lang.com/guide), i
 ## collapsing margins shit in css ?
 
 [Watch it here by kevin, 22 April,21](https://youtu.be/qKiz9gdJdr8)
+
+## Want to to give background image to a element with css, watch out
+
+```css
+element{
+	background-image: url(./my-image.jpg)
+
+}
+
+.my-div{
+	<!-- Note: You need to have height and width specified to be able to see the image, also you can quote the url with ' or " or do not quote at all, and either way the url works.
+  background-image: url('https://i.picsum.photos/id/642/536/354.jpg?hmac=fsIxfyo75b-oAC-eFF5XxAGUAiN2k5bXddSQc7C4p30');
+  height: 200px;
+  width: 300px;  
+}
+```
+See live demo @: https://codepen.io/sahilrajput03/pen/jOBaLON
+
+## Transition
+
+```css
+div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+<!-- Note below is a shorthand of above individual properties 🤺︎🤺︎(src: https://www.w3schools.com/css/css3_transitions.asp). -->
+
+div {
+  transition: width 2s linear 1s;
+}
+```
+
+To see different transition-timing-function in action together, just see it at below codesandbox
+
+Src: https://codesandbox.io/s/amazing-transition-timing-function-f9y2k?file=/src/App.js
+
+Read on awesome info @ https://www.w3schools.com/css/css3_transitions.asp
