@@ -570,7 +570,7 @@ p {
 }
 ```
 
-## read article on transform property and what are the options available. probably on css-tricks...
+## Read article on transform property and what are the options available. probably on css-tricks...
 
 eg.1 transform
 
@@ -581,6 +581,19 @@ p {
   /* First param is x axis width and second param is y-axis width. */
 }
 ```
+🚵︎🚵︎🚵︎🤺︎🤺︎🤺︎🤺︎🤺︎🥇︎🥇︎🥇︎🥇︎
+
+Watch out my example that I modidifed a little from w3schools's example in the chapter @ https://www.w3schools.com/code/tryit.asp?filename=GR21OP0LEVNP
+
+Note, that I have added transition property to `div#myDiv` so that when i unhover(i.e., the event when you hover a element and after that you take your cursor of the element boundard) you would see it getting it to its original shape(default value: `transform: none`) with a smooth transition too instead of directly getting to its shape without animation🏅︎🏅︎.
+
+CSS 2D Transforms: https://www.w3schools.com/css/css3_2dtransforms.asp
+The best and most interesting is when you use skew() and matrix() methods, and those two combines all other transform properties, yikes!!🧶︎🧶︎
+
+CSS 3D Transforms: https://www.w3schools.com/css/css3_3dtransforms.asp
+
+CSS transform Property: https://www.w3schools.com/cssref/css3_pr_transform.asp
+
 
 ## what happens when you have a error in your css (typo)
 
@@ -735,7 +748,23 @@ element{
 ```
 See live demo @: https://codepen.io/sahilrajput03/pen/jOBaLON
 
-## Transition
+### Transition
+
+Wow 🤺︎🤺︎: What a amazing "Try it out" from w3school @ https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_transform .
+
+Amazing chapter @ w3school, read if you are living life @ https://www.w3schools.com/css/css3_transitions.asp
+
+All transition-timing-functions:
+
+The transition-timing-function property can have the following values:
+
+    ease - specifies a transition effect with a slow start, then fast, then end slowly (this is 🥇︎DEFAULT🥇︎)
+    linear - specifies a transition effect with the same speed from start to end
+    ease-in - specifies a transition effect with a slow start
+    ease-out - specifies a transition effect with a slow end
+    ease-in-out - specifies a transition effect with a slow start and end
+    cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+
 
 ```css
 div {
@@ -757,3 +786,80 @@ To see different transition-timing-function in action together, just see it at b
 Src: https://codesandbox.io/s/amazing-transition-timing-function-f9y2k?file=/src/App.js
 
 Read on awesome info @ https://www.w3schools.com/css/css3_transitions.asp
+
+### Wonder what is media screen
+
+src of below knowledge: https://stackoverflow.com/a/8595600
+src of another answer linked in above answer: https://stackoverflow.com/a/14168210
+and w3c resource links in ^^ this answer.
+
+Amazing docs from w3school, please read this in whole when in moode: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+```
+ @media print {
+    body { font-size: 10pt }
+  }
+  @media screen {
+    body { font-size: 13px }
+  }
+  @media screen, print {
+    body { line-height: 1.2 }
+  }
+```
+
+So in above code, we can see for different type of medias we are defining different rules here.
+
+From reading the docs about media types, some content is like below..
+
+```
+7.3 Recognized media types (media queries)
+
+Read the amazing info @w3schools.com @ link: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+The names chosen for CSS media types reflect target devices for which the relevant properties make sense. In the following list of CSS media types the names of media types are normative, but the descriptions are informative. Likewise, the "Media" field in the description of each property is informative.
+
+all
+    Suitable for all devices. 
+braille
+    Intended for braille tactile feedback devices. 
+embossed
+    Intended for paged braille printers. 
+handheld
+    Intended for handheld devices (typically small screen, limited bandwidth). 
+print
+    Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media for information about formatting issues that are specific to paged media. 
+projection
+    Intended for projected presentations, for example projectors. Please consult the section on paged media for information about formatting issues that are specific to paged media. 
+screen
+    Intended primarily for color computer screens. 
+speech
+    Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose. See the appendix on aural style sheets for details. 
+tty
+    Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities). Authors should not use pixel units with the "tty" media type. 
+tv
+    Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available). 
+
+Media type names are case-insensitive.
+
+Media types are mutually exclusive in the sense that a user agent can only support one media type when rendering a document. However, user agents may use different media types on different canvases. For example, a document may (simultaneously) be shown in 'screen' mode on one canvas and 'print' mode on another canvas.
+
+Note that a multimodal media type is still only one media type. The 'tv' media type, for example, is a multimodal media type that renders both visually and aurally to a single canvas.
+
+@media and @import rules with unknown media types (that are nonetheless valid identifiers) are treated as if the unknown media types are not present. If an @media/@import rule contains a malformed media type (not an identifier) then the statement is invalid.
+
+Note: Media Queries supercedes this error handling.
+
+For example, in the following snippet, the rule on the P element applies in 'screen' mode (even though the '3D' media type is not known).
+
+@media screen, 3D {
+  P { color: green; }
+}
+
+Note. Future updates of CSS may extend the list of media types. Authors should not rely on media type names that are not yet defined by a CSS specification. 
+```
+
+src: https://www.w3.org/TR/CSS2/media.html
+
+
+Also, this particular topic is also interesting: https://www.w3.org/TR/CSS2/media.html#media-groups
+
+Read the whole w3c recommendations @ https://www.w3.org/TR/CSS2/media.html though.
