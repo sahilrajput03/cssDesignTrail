@@ -566,7 +566,14 @@ p {
   left: 0;
   right: 0;
   /* Above and below is equivalent. */
-  inset: 0 0 0 0;
+ inset: 0 0 0 0;  /* In same fashion as as we follow padding and margin. */
+ 
+<!-- padding/margin -->
+<!-- All below fashion of assigning property work with inset shorthand as well. -->
+  padding: 1px 2px 3px 4px;  /* top right bottom left */
+  padding: 5px 15px 10px; /* top left/right bottom */
+  padding: 4px 8px; /* top/bottom left/right */
+  padding: 10px; /* value applied to all edges */
 }
 ```
 
