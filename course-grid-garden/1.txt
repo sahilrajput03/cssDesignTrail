@@ -98,8 +98,9 @@ Level: 14: Using both dimensions to position:
 
 *****
 Level: 15: If typing out both grid-column and grid-row is too much for you, there's yet another shorthand for that.
-`grid-area` accepts four values separated by slashes: 
+`grid-area` accepts four values separated by slashes:
 => grid-row-start, grid-column-start, grid-row-end, followed by grid-column-end.
+🤺︎ Learning acronym: RCRC
 
 #water {
   grid-area: 1 / 2 / 4 / 6 ;
