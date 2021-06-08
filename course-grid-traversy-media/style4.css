@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a,
+b,
+i,
+button,
+code,
+img,
+input,
+label,
+span,
+strong,
+textarea {
+	display: inline-block;
+	/* 🤸︎ By default a tags are `inline`, making it inline-block allows a tags to have margin-top and margin-bottom. */
+}
+
+button:focus {
+	outline: none;
+	/* ^^ To disable outline when the button is in focus(i.e., after you click the button for once)*/
+}
+
+.target {
+	user-select: none;
+	/* To disable text selection. */
+}
+
+/* ************************************* */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 1rem;
+
+	justify-items: stretch; /* justify-items is very similar in the fashion we use justify-content in flex as to define the positioning in the horizontal space.*/
+	/* Used in Grid: ^^ You can have values like start, center, end, stretch (default). */
+
+	/* align-items: center; */
+	/* Default value is stretch though. */
+}
+
+.box1 {
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+
+.box2 {
+	grid-column: 3;
+	/* 🔼︎ Here, 3 means put at column line 3. */
+
+	grid-row: 1/3;
+}
+
+.box3 {
+	grid-column: 2/4;
+	grid-row: 3;
+}
+
+.box4 {
+	grid-column: 1;
+	grid-row: 2 / 4;
+
+	border: 6px solid #333;
+	/* 👌🏻 Good thing about grid is we can overlap item, like we are doing with this Box 4. */
+}
+
+.wrapper > div {
+	background: #eee;
+	padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+	background: #ddd;
+}

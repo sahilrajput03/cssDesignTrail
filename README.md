@@ -2,6 +2,8 @@
 
 This is my personal repo for myself, its kinda cheat sheet.
 
+Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎.
+
 ## HTML tags
 
 Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
@@ -442,14 +444,14 @@ p {
 ## pseudo elements vs. pseduco class
 
 ```bash
-a: hover
+a:hover
 // here hover is pseudo class.
 
 p::before
 // here before is pseudo element.
 ```
 
-`p::before` means that we care creating a pseudo element inside p tag but before any of its content, and the same applies to `p::after` way.
+`p::before` means that we care creating a pseudo element inside p tag but before all content, and the same applies to `p::after` i.e., we are creating element after all content inside p.
 
 By default pseudo elements are inline elements i.e., they don't take entire line but share line with other elements. You can make them block elements by `display: block`.
 
@@ -581,6 +583,7 @@ p {
   /* First param is x axis width and second param is y-axis width. */
 }
 ```
+
 🚵︎🚵︎🚵︎🤺︎🤺︎🤺︎🤺︎🤺︎🥇︎🥇︎🥇︎🥇︎
 
 Watch out my example that I modidifed a little from w3schools's example in the chapter @ https://www.w3schools.com/code/tryit.asp?filename=GR21OP0LEVNP
@@ -593,7 +596,6 @@ The best and most interesting is when you use skew() and matrix() methods, and t
 CSS 3D Transforms: https://www.w3schools.com/css/css3_3dtransforms.asp
 
 CSS transform Property: https://www.w3schools.com/cssref/css3_pr_transform.asp
-
 
 ## what happens when you have a error in your css (typo)
 
@@ -743,9 +745,10 @@ element{
 	<!-- Note: You need to have height and width specified to be able to see the image, also you can quote the url with ' or " or do not quote at all, and either way the url works.
   background-image: url('https://i.picsum.photos/id/642/536/354.jpg?hmac=fsIxfyo75b-oAC-eFF5XxAGUAiN2k5bXddSQc7C4p30');
   height: 200px;
-  width: 300px;  
+  width: 300px;
 }
 ```
+
 See live demo @: https://codepen.io/sahilrajput03/pen/jOBaLON
 
 ### Transition
@@ -764,7 +767,6 @@ The transition-timing-function property can have the following values:
     ease-out - specifies a transition effect with a slow end
     ease-in-out - specifies a transition effect with a slow start and end
     cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
-
 
 ```css
 div {
@@ -794,6 +796,7 @@ src of another answer linked in above answer: https://stackoverflow.com/a/141682
 and w3c resource links in ^^ this answer.
 
 Amazing docs from w3school, please read this in whole when in moode: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
 ```
  @media print {
     body { font-size: 10pt }
@@ -818,25 +821,25 @@ Read the amazing info @w3schools.com @ link: https://www.w3schools.com/cssref/cs
 The names chosen for CSS media types reflect target devices for which the relevant properties make sense. In the following list of CSS media types the names of media types are normative, but the descriptions are informative. Likewise, the "Media" field in the description of each property is informative.
 
 all
-    Suitable for all devices. 
+    Suitable for all devices.
 braille
-    Intended for braille tactile feedback devices. 
+    Intended for braille tactile feedback devices.
 embossed
-    Intended for paged braille printers. 
+    Intended for paged braille printers.
 handheld
-    Intended for handheld devices (typically small screen, limited bandwidth). 
+    Intended for handheld devices (typically small screen, limited bandwidth).
 print
-    Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media for information about formatting issues that are specific to paged media. 
+    Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media for information about formatting issues that are specific to paged media.
 projection
-    Intended for projected presentations, for example projectors. Please consult the section on paged media for information about formatting issues that are specific to paged media. 
+    Intended for projected presentations, for example projectors. Please consult the section on paged media for information about formatting issues that are specific to paged media.
 screen
-    Intended primarily for color computer screens. 
+    Intended primarily for color computer screens.
 speech
-    Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose. See the appendix on aural style sheets for details. 
+    Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose. See the appendix on aural style sheets for details.
 tty
-    Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities). Authors should not use pixel units with the "tty" media type. 
+    Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities). Authors should not use pixel units with the "tty" media type.
 tv
-    Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available). 
+    Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available).
 
 Media type names are case-insensitive.
 
@@ -854,12 +857,19 @@ For example, in the following snippet, the rule on the P element applies in 'scr
   P { color: green; }
 }
 
-Note. Future updates of CSS may extend the list of media types. Authors should not rely on media type names that are not yet defined by a CSS specification. 
+Note. Future updates of CSS may extend the list of media types. Authors should not rely on media type names that are not yet defined by a CSS specification.
 ```
 
 src: https://www.w3.org/TR/CSS2/media.html
 
-
 Also, this particular topic is also interesting: https://www.w3.org/TR/CSS2/media.html#media-groups
 
 Read the whole w3c recommendations @ https://www.w3.org/TR/CSS2/media.html though.
+
+### Why floats exists ?
+
+Simply go to this [codepen by kevin](https://codepen.io/kevinpowell/pen/gzZpGL/), he talks about it in below video 🥰︎.
+
+[Timestamped video of kevin](https://youtu.be/R7gqJkdc5dM?t=253)
+
+Also, he said he got inspired about it via reading this article - [Article on medium](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)

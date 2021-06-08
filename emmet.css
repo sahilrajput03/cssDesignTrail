@@ -9,7 +9,42 @@
     
  */
  /* **************************8 */
+ /* ? Official full length cheat sheet from emmet: https://docs.emmet.io/cheat-sheet/ */
+ 
 * {
+  fxw
+  flex-wrap: nowrap;
+  /* 🧸︎ (Flexbox wins! ~kevin powell) This is REALLY good say if you want your items in flex (row) to get stacked in multiple rows when you have given width to each item and they would just stack underneath of each other when the row is filled, awesome !  */
+  
+  gc
+  grid-column: ;
+  
+  je
+  justify-self: end;
+  /* Grid */
+  
+  gtc
+  grid-template-columns: repeat ( );
+
+  gar
+  grid-auto-rows: auto;
+
+  gg
+  grid-gap: ;
+
+  ji
+  justify-items: start;
+	/* Used in Grid: ^^ You can have values like stretch (default), start, center, end. */
+
+  ai
+  align-items: start;
+  /* Grid values (assigned to crossbow): stretch(default), start, end, center. */
+  /* Flex values (assigned to crossbow): stretch(default), center, flex-start, flex-end, baseline. */
+  
+  as
+  align-self: start;
+  /* Grid, , Flex */
+  
   ac:c
   align-content: center;
   
@@ -65,6 +100,9 @@
   ta:c
   text-align: center;
 
+  bd
+  border: 1px solid #000;
+  
   bd:2:solid:blue
   border: 2px solid blue;
 
@@ -92,6 +130,9 @@
 
   df
   display: flex;
+  
+  dg
+  display: grid;
 
   fxd
   flex-direction: row;

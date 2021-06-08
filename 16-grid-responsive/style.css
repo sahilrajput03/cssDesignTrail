@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a,
+b,
+i,
+button,
+code,
+img,
+input,
+label,
+span,
+strong,
+textarea {
+	display: inline-block;
+	/* 🤸︎ By default a tags are `inline`, making it inline-block allows a tags to have margin-top and margin-bottom. */
+}
+
+button:focus {
+	outline: none;
+	/* ^^ To disable outline when the button is in focus(i.e., after you click the button for once)*/
+}
+
+.target {
+	user-select: none;
+	/* To disable text selection. */
+}
+
+/* ************************************* */
+
+.my-grid > div {
+	/* width: 100%; */
+	/* 🧿︎ You can give width yourself too if you want. */
+	border: 1px solid #fff;
+	margin: 0.2rem;
+}
+
+.my-grid {
+	display: grid;
+	grid-gap: 1.1rem;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(200px, 1fr)
+	); /* Here we are saying that don't get smaller than 200px and also see if you growing you must not grow to 200px coz at that time you are suppose to accommodate the next child to the same row automatically and this follows the same for these two elements in the row then for the accommodation of the third element in the same row.*/
+	/* The repeat(auto-fit, minmax) thing creates a magical media query like behaviour (without using media query) that is really amazing ~kevin. */
+	/* src(~kevin): https://youtu.be/R7gqJkdc5dM?t=1281 */
+}

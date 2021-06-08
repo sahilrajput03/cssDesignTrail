@@ -69,6 +69,13 @@ grid-column: 2 / 4;
 *Hint: This will occupy total of two grids, starting from line 2 and ending on line 4.
 
 
+Level: 11(I made this on my own though)
+
+grid-column: 1 / -1;
+
+*Hint: This will actually take all the hozirontal space in its row coz column1 is the extreme left vertical line and column -1 is the extreme right vertical line.
+
+
 *****
 Level: 12:
 One of the things that sets CSS grids apart from flexbox is that you can easily position items in two dimensions: columns and rows. grid-row-start works much like grid-column-start except along the vertical axis.
