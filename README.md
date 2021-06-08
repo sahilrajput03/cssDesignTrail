@@ -568,8 +568,38 @@ p {
   left: 0;
   right: 0;
   /* Above and below is equivalent. */
-  inset: 0 0 0 0;
+ inset: 0 0 0 0;  /* In same fashion as as we follow padding and margin. */
+ 
+/* padding/margin */
+/* All below fashion of assigning property work with inset shorthand as well. */
+  padding: 1px 2px 3px 4px;  /* top right bottom left */
+  padding: 5px 15px 10px; /* top left/right bottom */
+  padding: 4px 8px; /* top/bottom left/right */
+  padding: 10px; /* value applied to all edges */
 }
+```
+
+Amaing below code samples from mdn docs for inset:
+
+[inset@mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/inset)
+
+```css
+/* <length> values */
+inset: 10px; /* value applied to all edges */
+inset: 4px 8px; /* top/bottom left/right */
+inset: 5px 15px 10px; /* top left/right bottom */
+inset: 2.4em 3em 3em 3em; /* top right bottom left */
+
+/* <percentage>s of the width (left/right) or height (top/bottom) of the containing block */
+inset: 10% 5% 5% 5%;
+
+/* Keyword value */
+inset: auto;
+
+/* Global values */
+inset: inherit;
+inset: initial;
+inset: unset;
 ```
 
 ## Read article on transform property and what are the options available. probably on css-tricks...
