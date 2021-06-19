@@ -34,10 +34,6 @@ Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
             <li></li>
             <li></li>
           </ul>
-
-          <code></code>
-          <label for=""></label>
-          <caption></caption>
         </article>
 
         <hr />
@@ -53,6 +49,10 @@ Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
         <i>italics</i>
 
         <a href="#"></a>
+        <code> </code>
+        <label for=""></label>
+        <caption></caption>
+				<blockquotes></blockquotes>
       </div>
     </section>
 
@@ -61,7 +61,7 @@ Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
 </body>
 ```
 
-**TIP**:
+**Tips**:
 
 - Use `live-server` command on terminal to serve this whole directory. But with live-server you don't get hot-reload for css(though live-server does a whole page reload instead which makes scroll position lost on each change in css), so use `parcel index.html` in a particular directory to enable hot reload for css, yikes!
 - Use `lsr` or `pd` to use live-server or parcel aliases from my_bin directly.
@@ -903,3 +903,32 @@ Simply go to this [codepen by kevin](https://codepen.io/kevinpowell/pen/gzZpGL/)
 [Timestamped video of kevin](https://youtu.be/R7gqJkdc5dM?t=253)
 
 Also, he said he got inspired about it via reading this article - [Article on medium](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+
+### Using transofrm
+```css
+transform: translate(-50%, -50%);
+```
+
+### Using `border`
+
+```css
+.myitem{
+  border-top: 2px solid blue;
+  border-right: 2px dotted red;
+  border-bottom: 2px dotted yellow;
+  border-left: 2px solid deeppink;
+}
+```
+
+## Using `border-radius`
+
+🤺︎ Amazing: src: https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+
+- Four values - border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner).
+
+- Three values - border-radius: 15px 50px 30px; (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner).
+
+- Two values - border-radius: 15px 50px; (first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners):
+
+- One value - border-radius: 15px; (the value applies to all four corners, which are rounded equally:
+
