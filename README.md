@@ -80,7 +80,7 @@ Use command `live-server` to serve the whole project and navigate to different d
 
 ### What is `:root` and why do we use it?
 
-`:root` css selector has the highest specificity, and we use it define global things, it could be vars or css properties.
+`:root` css selector has the highest specificity, and we use it define global things, it could be vars or css properties. Also, using `:root` selector is just same as using `html` selector.
 
 ### What is `*` and why do we use it?
 
@@ -910,6 +910,15 @@ transform: translate(-50%, -50%);
 ```
 
 ### Using `border`
+
+The border property is a shorthand property for the following individual border properties:
+
+```css
+border-width
+border-style (required)
+border-color
+```
+src: https://www.w3schools.com/css/css_border_shorthand.asp
 
 ```css
 .myitem{
