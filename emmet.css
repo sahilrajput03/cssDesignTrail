@@ -40,6 +40,29 @@
   align-items: start;
   /* Grid values (assigned to crossbow): stretch(default), start, end, center. */
   /* Flex values (assigned to crossbow): stretch(default), center, flex-start, flex-end, baseline. */
+
+  jc:sb
+  jc:sw
+  /* ^^ both does same */
+  justify-content: space-between;
+  /* for flex */
+
+  jc:s
+  justify-content: start;
+  /* for flex */
+
+  jc:e
+  justify-content: end;
+  /* for flex */
+
+  jc:so
+  jc:su
+  jc:sd
+  /* ^^ above three does same */
+  justify-content: space-around;
+  /* for flex*/
+
+
   
   as
   align-self: start;
@@ -142,6 +165,12 @@
   
   fxd:c
   flex-direction: column;
+
+  w:100
+  width: 100px;
+
+  w:100p
+  width: 100%;
 
   p2r+w100p+ma75r+m0:auto
   padding: 2rem;

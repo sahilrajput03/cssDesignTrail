@@ -52,7 +52,7 @@ Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
         <code> </code>
         <label for=""></label>
         <caption></caption>
-				<blockquotes></blockquotes>
+        <blockquotes></blockquotes>
       </div>
     </section>
 
@@ -568,11 +568,11 @@ p {
   left: 0;
   right: 0;
   /* Above and below is equivalent. */
- inset: 0 0 0 0;  /* In same fashion as as we follow padding and margin. */
- 
-/* padding/margin */
-/* All below fashion of assigning property work with inset shorthand as well. */
-  padding: 1px 2px 3px 4px;  /* top right bottom left */
+  inset: 0 0 0 0; /* In same fashion as as we follow padding and margin. */
+
+  /* padding/margin */
+  /* All below fashion of assigning property work with inset shorthand as well. */
+  padding: 1px 2px 3px 4px; /* top right bottom left */
   padding: 5px 15px 10px; /* top left/right bottom */
   padding: 4px 8px; /* top/bottom left/right */
   padding: 10px; /* value applied to all edges */
@@ -905,6 +905,7 @@ Simply go to this [codepen by kevin](https://codepen.io/kevinpowell/pen/gzZpGL/)
 Also, he said he got inspired about it via reading this article - [Article on medium](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 
 ### Using transofrm
+
 ```css
 transform: translate(-50%, -50%);
 ```
@@ -918,10 +919,11 @@ border-width
 border-style (required)
 border-color
 ```
+
 src: https://www.w3schools.com/css/css_border_shorthand.asp
 
 ```css
-.myitem{
+.myitem {
   border-top: 2px solid blue;
   border-right: 2px dotted red;
   border-bottom: 2px dotted yellow;
@@ -941,3 +943,18 @@ src: https://www.w3schools.com/css/css_border_shorthand.asp
 
 - One value - border-radius: 15px; (the value applies to all four corners, which are rounded equally:
 
+## Outline
+
+Always prefer outline instead of border coz outline doesn't cause existing layout to have sideaffects but border does. So if you are adding outline to any item you are not adding sizing differences to the ui but just adding some thing for debug only practise, yo!
+
+Usage (syntax is same as border):
+
+```css
+.twelfth {
+  outline: 2px solid deeppink;
+}
+```
+
+## Directly edit html content in `Elements` tab in browser tools
+
+Use f2 to edit and save directly for fast access, yikes!!
