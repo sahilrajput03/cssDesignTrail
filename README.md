@@ -958,3 +958,9 @@ Usage (syntax is same as border):
 ## Directly edit html content in `Elements` tab in browser tools
 
 Use f2 to edit and save directly for fast access, yikes!!
+
+## What is !important?
+
+src: https://www.w3schools.com/css/css_important.asp
+
+Amazing..!!
