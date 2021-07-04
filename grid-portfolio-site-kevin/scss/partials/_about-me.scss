@@ -1,47 +1,71 @@
 .about-me {
-    @include container($max-width: 20em);
-    @include clearfix; 
+	@include container($max-width: 80em); //~from us for hotfixing the max-width..
+	// @include container($max-width: 20em);
+	@include clearfix;
+	color: $dark-gray;
 
-    margin-top: 5em;
-    margin-bottom: 5em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+
+	h2 {
+		color: $dark-blue;
+		// ^^ added by us..
+	}
 }
 
 .about-img {
-    @media (min-width : 42em) {
-        float: left;
-        margin-right: 1em;
-    }
+	@media (min-width: 42em) {
+		float: left;
+		margin-right: 1em;
+	}
 }
 .about-img {
-    max-height: 25em;
+	max-height: 25em;
 }
 .about-title {
-    margin-bottom: .5em;
+	margin-bottom: 0.5em;
 }
 .about-subtitle {
-    margin: .5em 0;
-    
+	margin: 0.5em 0;
 }
 
-@supports (display: grid) 
-{
-    .about-me {
-        display : grid;
-        grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end] 2fr [port-end];
-    }
-    .about-img {
-        grid-column: port / img ;
-        grid-row: 1 / 2;
-    }
+@supports (display: grid) {
+	.about-me {
+		display: grid;
+		grid-template-columns:
+			[port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr)
+			[img-end] 2fr [port-end];
+		grid-column-gap: 1em;
+	}
 
-    .about-title {
-        grid-column: name / port ;
-        grid-row: 1 / 2;
-        align-self: end;
-        
-    }
-    .about-subtitle, .about-text {
-        grid-column: port / port;
-    }
-    
+	.about-img {
+		grid-column: port / img;
+		grid-row: 1 / 2;
+
+		@include mq {
+			grid-row: 1 / 4;
+		}
+	}
+
+	.about-title {
+		grid-column: name / port;
+		grid-row: 1 / 2;
+		align-self: end;
+	}
+	.about-subtitle,
+	.about-text {
+		grid-column: port / port;
+
+		@include mq {
+			grid-column: image-end / port-end;
+		}
+	}
+
+	.about-subtitle {
+		grid-row: 2 / 3;
+	}
+
+	.about-text {
+		grid-row: 3/4;
+	}
 }
