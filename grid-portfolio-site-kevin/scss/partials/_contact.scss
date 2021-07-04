@@ -1,0 +1,75 @@
+.contact {
+	@include container;
+	padding: 5em 0;
+
+	h1 {
+		text-align: center;
+	}
+}
+
+label {
+	display: block;
+	margin-top: 1em;
+	color: $dark-gray;
+}
+
+input,
+textarea {
+	box-sizing: border-box;
+	display: block;
+	padding: 0.5em;
+	width: 100%;
+	min-width: 20em;
+	background: lighten($light-gray, 7%);
+	//          ^^ src: https://sass-lang.com/documentation/modules/color#lighten
+	border: 1px solid $light-gray;
+	padding: 0.75em;
+}
+
+.button {
+	display: block;
+	// ^^ this is hotfix form our side instead of kevin's solution of making form a flex so that ``margin-left: auto`` works on `Send` button. Yo!
+	width: auto;
+	min-width: auto;
+	margin-top: 1em;
+	margin-left: auto;
+	background: $accent;
+	@include sans-serif($fs: 2rem, $color: $white);
+	padding: 0.5em 1.5em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+
+	@supports (display: grid) {
+		@include mq {
+			display: grid;
+			grid-column-gap: 1em;
+			grid-template-areas:
+				'name    email'
+				'message message'
+				'.       button';
+
+			.name {
+				grid-area: name;
+			}
+
+			.email {
+				grid-area: email;
+			}
+
+			.message {
+				grid-area: message;
+
+				textarea {
+					height: 10em;
+				}
+			}
+
+			.button {
+				grid-area: button;
+			}
+		}
+	}
+}
