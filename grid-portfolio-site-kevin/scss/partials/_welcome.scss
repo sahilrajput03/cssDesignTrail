@@ -1,3 +1,5 @@
+@use '../modules' as *;
+
 .welcome {
 	background-image: url(../img/header-bg.png);
 	background-size: cover;
