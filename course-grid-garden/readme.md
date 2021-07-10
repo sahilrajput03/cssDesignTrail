@@ -264,3 +264,61 @@ Unfortunately, the left 20% of your carrots have been overrun with weeds. Use CS
 ****************
 
 ```
+
+---
+
+## More learnings :
+
+Using `grid-template-areas`
+
+If you hate using `grid-template-columns` and `grid-template-rows` property you can use `grid-template-areas` as a replacement for those.
+
+The good thing about using names in grid-area is that you don't need to use numbers there i.e.,
+
+```css
+.item1 {
+  grid-area: 2 / 1 / span 2 / span 3;
+}
+```
+
+You don't want to specify `row-start, column-start, row-end, column-end` but name of the area directly. Yikes!
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu    main   main  main   right   right'
+    'menu footer footer footer  footer  footer';
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+```
+
+example source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-area_named4
+
+w3school content page: https://www.w3schools.com/cssref/pr_grid-area.asp
