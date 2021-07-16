@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,700');
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.basic-example {
+	display: flex;
+}
+
+.text p:target {
+	background: red;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: limegreen;
+	padding: 0.5em 1.25em;
+}
+
+.portfolio {
+	display: grid;
+	grid: auto / repeat(auto-fit, minmax(15em, 1fr));
+	grid-gap: 1em;
+	background: #333;
+	padding: 7em 4em;
+}
+
+.portfolio__item {
+	position: relative;
+	flex-basis: 30%;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+.portfolio__desc {
+	padding: 1.5em;
+}
+
+.portfolio__title {
+	font-family: 'Roboto Condensed', sans-srif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+
+.portfolio__image,
+.portfolio-lightbox__image {
+	width: 100%;
+	display: block;
+}
+
+.portfolio-lightbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: scale(0, 1);
+	transition: transform 150ms ease-in-out;
+	transform-origin: right;
+	padding: 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	/* box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .25); */
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+}
+
+.portfolio-lightbox:target {
+	transform: scale(1, 1);
+	transform-origin: left;
+}
+
+.portfolio-lightbox__content {
+	width: 75%;
+	padding: 1em;
+	background: black;
+	position: relative;
+}
+
+.portfolio__lightbox__image {
+	margin-bottom: 1em;
+}
+
+.close {
+	position: absolute;
+	right: -1em;
+	top: -1em;
+	border: white 2px solid;
+	display: flex;
+	width: 2em;
+	height: 2em;
+	background: red;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.close::after {
+	content: 'x';
+	color: white;
+}
