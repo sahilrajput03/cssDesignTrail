@@ -1,0 +1,33 @@
+/* src: https://youtu.be/b64gzAvAi1A */
+.links {
+	position: fixed;
+	top: 10rem;
+	left: 2rem;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 2rem;
+	width: 12rem;
+	border: 1px solid pink;
+}
+
+.item {
+	margin: 0 0 13rem 5rem;
+}
+
+a {
+	text-decoration: none;
+	margin: 0.4rem 2rem;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+	/* ^ this is so amazing that after the scroll there would be a 2rem padding at the top, wow! */
+}
+
+.item:target {
+	color: orange;
+}
+
+.item:target .paragraph {
+	color: lightcoral;
+}

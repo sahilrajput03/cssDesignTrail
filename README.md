@@ -92,6 +92,9 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 ### Want to get a demo image fast..?
 
+Source: https://picsum.photos/ or https://unsplash.it/
+Kevin: https://youtu.be/uc748NLoFT8
+
 **TIP**: Try using the final image link redirected from below urls: (note: each time url is accessed img url changes to new image url, yo!!)
 
 Below will give you a square image, but if you want a custom rectangular shape of photo, you can do that via <https://unsplash.it/300/400>, and it will give you a photo of size
@@ -604,6 +607,8 @@ inset: unset;
 
 ## Read article on transform property and what are the options available. probably on css-tricks...
 
+Learn about all the transform possibilities @ https://www.w3schools.com/css/css3_2dtransforms.asp .
+
 eg.1 transform
 
 ```css
@@ -613,6 +618,14 @@ p {
   /* First param is x axis width and second param is y-axis width. */
 }
 ```
+
+In scale if you put like
+
+p {
+transform: scale(2, 3);
+}
+
+then p is increased by the size of an element (according to the parameters given for the width and height) like two times of its original width, and three times of its original height. AND ITS JUST THE SAME WAY as in general any image resolution thing like first parameter is width and second is height i.e, 200x400 img means 200 width and 400 height, yikes!!
 
 🚵︎🚵︎🚵︎🤺︎🤺︎🤺︎🤺︎🤺︎🥇︎🥇︎🥇︎🥇︎
 
@@ -626,6 +639,19 @@ The best and most interesting is when you use skew() and matrix() methods, and t
 CSS 3D Transforms: https://www.w3schools.com/css/css3_3dtransforms.asp
 
 CSS transform Property: https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+### What the heck is matrix in transition .?
+
+```
+.class1{
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  /*The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+
+  /*  1st/4th: scale(width{default: 1},height{default: 1})*/
+  /*2nd/3rd: skew(height), skew(width) */
+  /* 5th/6th: movement(vertical), movement(horizontal)  */
+}
+```
 
 ## what happens when you have a error in your css (typo)
 
