@@ -1,0 +1,12 @@
+/* src: https://www.youtube.com/watch?v=-0fAhoahXYw */
+.item {
+	writing-mode: vertical-rl;
+	/* writing-mode: vertical-rl; */
+	border: 1px solid green;
+
+	/* padding-top: 50px; */
+	/* In vertical writing mode padding-top is not aligned to the top of text but its actually top of our vertical block layout. */
+
+	padding-block-start: 50px;
+	/* whereas padding-block-start works just as expected!! Yo! */
+}
