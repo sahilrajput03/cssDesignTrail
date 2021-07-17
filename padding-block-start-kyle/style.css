@@ -1,4 +1,5 @@
 /* src: https://www.youtube.com/watch?v=-0fAhoahXYw */
+/* The browser support is important to be checked out if you wanna apply it. */
 .item {
 	writing-mode: vertical-rl;
 	/* writing-mode: vertical-rl; */
