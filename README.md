@@ -4,6 +4,8 @@ This is my personal repo for myself, its kinda cheat sheet.
 
 Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎.
 
+Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
+
 ## HTML tags
 
 Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
