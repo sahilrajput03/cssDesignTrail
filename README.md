@@ -101,7 +101,7 @@ Fyi: https://unsplash.it/ redirects to https://picum.photos
 ```bash
 # Treasure of photos
 https://unsplash.com
-https://undraw.co # Open Source Illustrations: 
+https://undraw.co # Open Source Illustrations(svgs): 
 
 // FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
