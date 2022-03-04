@@ -92,42 +92,33 @@ Use command `live-server` to serve the whole project and navigate to different d
 
 Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
-### Want to get a demo image fast..?
+### Images #free images, #random image #place holderimage
 
-Source: https://picsum.photos/ or https://unsplash.it/
-Kevin: https://youtu.be/uc748NLoFT8
+Kevin's usage: https://youtu.be/uc748NLoFT8
 
-**TIP**: Try using the final image link redirected from below urls: (note: each time url is accessed img url changes to new image url, yo!!)
-
-Below will give you a square image, but if you want a custom rectangular shape of photo, you can do that via <https://unsplash.it/300/400>, and it will give you a photo of size
-width:height as 300:400.
+Fyi: https://unsplash.it/ redirects to https://picum.photos
 
 ```bash
-https://unsplash.it/100
-https://unsplash.it/200
-https://unsplash.it/300
-...
-https://unsplash.it/900
-https://unsplash.it/1000
-https://unsplash.it/... and so on...
+# Treasure of photos
+https://unsplash.com
+https://undraw.co # Open Source Illustrations: 
 
-###
-#Get a custom sized photo instead of square one via below:
-https://unsplash.it/300/400
+// FOR APIS:
+# picsum.photos // TIP : To get a selected image, use redirected image link instead
+https://picsum.photos/300/400 	# Reactangular images (w:300, h:400)
+https://picsum.photos/100 	# Square images
+https://picsum.photos/200 	# ...can go upto... /1000
+
+
+# placekitten.com
+https://placekitten.com/ 	# Search your cat image
+http://placekitten.com/200/300	# (w:300, h:400)
+https://placekitten.com/200/301 # HACK: Get to get different cat from above
 ```
 
-**Also**
+### What is that called when you encounter a unnecessary out of window to scroll horizontally.?
 
-Use placeholder images from here:
-
-src: <https://placekitten.com/>
-
-E.g., `https://placekitten.com/200/300` will give you image of cat with width of 200 and height 300. But the hack is you may use `https://placekitten.com/200/301` to get different
-image of a cat and so on.., to get a list of images.! Yo!!
-
-### What is that called when you get to scroll horizontal scroll.?
-
-Side scrolling.
+Side scrolling bug.
 
 ### Specificity
 
