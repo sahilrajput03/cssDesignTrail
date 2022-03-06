@@ -99,7 +99,7 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 # COLOR THEMES
 https://coolors.co/
 
-// ICONS
+# ICONS
 https://iconarchive.com/
 
 
@@ -107,7 +107,7 @@ https://iconarchive.com/
 https://unsplash.com
 https://undraw.co # Open Source Illustrations(svgs): 
 
-// FOR APIS:
+# FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
 https://picsum.photos/300/400 	# Reactangular images (w:300, h:400)
 https://picsum.photos/100 	# Square images
