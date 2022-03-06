@@ -96,15 +96,16 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 
 ```bash
-# Treasure of photos
-https://unsplash.com
-https://undraw.co # Open Source Illustrations(svgs): 
-
-# color themes
+# COLOR THEMES
 https://coolors.co/
 
-// Free icons
+// ICONS
 https://iconarchive.com/
+
+
+# PHOTOS
+https://unsplash.com
+https://undraw.co # Open Source Illustrations(svgs): 
 
 // FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
