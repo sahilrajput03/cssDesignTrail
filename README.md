@@ -94,14 +94,17 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 ### Images #free images, #random image #place holderimage
 
-Kevin's usage: https://youtu.be/uc748NLoFT8
-
-Fyi: https://unsplash.it/ redirects to https://picum.photos
 
 ```bash
 # Treasure of photos
 https://unsplash.com
 https://undraw.co # Open Source Illustrations(svgs): 
+
+# color themes
+https://coolors.co/
+
+// Free icons
+iconarchive.com
 
 // FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
@@ -114,6 +117,8 @@ https://picsum.photos/200 	# ...can go upto... /1000
 https://placekitten.com/ 	# Search your cat image
 http://placekitten.com/200/300	# (w:300, h:400)
 https://placekitten.com/200/301 # HACK: Get to get different cat from above
+
+# FYI: https://unsplash.it/ redirects to https://picum.photos
 ```
 
 ### What is that called when you encounter a unnecessary out of window to scroll horizontally.?
