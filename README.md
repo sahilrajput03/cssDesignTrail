@@ -104,7 +104,7 @@ https://undraw.co # Open Source Illustrations(svgs):
 https://coolors.co/
 
 // Free icons
-iconarchive.com
+https://iconarchive.com/
 
 // FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
