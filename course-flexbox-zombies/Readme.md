@@ -98,8 +98,12 @@ FLEX-GROW: 1;
 flex-shrink: 1
 * If you give flex-shrink (ITS ABOUT RATIOS ONLY) to all elements via a separate class to all the child of the flex with flex-shrink as 1 or 2 or 3 or anything else, its just same, yikes!(coz its after all rations that is assigned to every element.)
 
-*DEFAULT value of flex-shrink is 1.
-*You can make a child to refuse to shrink via setting flex-shrink as 0.
+*LEARN: DEFAULT value of flex-shrink is 1.
+*LEARN: Setting value to 2 will make that particular flex-item to shrink twice as other items coz other items have 1 as their value by default.
+*LEARN: You can make a child to refuse to shrink via setting flex-shrink as 0.
+*LEARN: The value other 
+Amazing demonstration @ https://youtu.be/o-dDFSH-BxM
+
 //////////////
 FLEX-BASIS (basically it overrides the width property, yikes!)
 It is a new and improved version of css width property. e.g. usage: flex-basis: 300px;
