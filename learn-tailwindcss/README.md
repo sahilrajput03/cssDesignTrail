@@ -15,6 +15,6 @@ text-pink-400
 AMZ Images:
 
 - ![](./AMZ-hover.png)
-- ![](./c.png)
+- ![](./AMZ-how-group-works-magic.png)
 - ![](./AMZ-duplicate-bg-error.png)
 - ![](./AMZ-custom-values.png)
