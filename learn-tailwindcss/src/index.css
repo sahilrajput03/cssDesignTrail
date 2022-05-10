@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.sidebar-icon {
+		@apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-gray-800 dark:bg-gray-100 text-green-500 hover:bg-green-600 rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+	}
+
+	.sidebar-tooltip {
+		@apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
+
+		/* LEARN1: Note: We're giving scale-0 by default so its size is zero.
+		Learn: Sahil: Try what atually scale property is interactively: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale */
+
+		/* LEARN2:  We can't use hover over an invisible item so we can't use hover: class in above tooltip classes in there, but amazingly tailwindcss has a very good feature to help in such situations i.e., `group`. `group` is a clever way to apply classes to a child element when a parent's state changes (in our case we make use of hover state of parent)! Yikes!
+
+		BUT IMPORATNT THIS TO NOTE, is that `group` doesn't work in `@appy` so instead we would need to apply such gorup classes in direct markup i.e, in our SideBar.js file.
+		
+		SO NOW SIMPLY GO TO SideBar.js file to see hove I have used `group` and `group-hover:scale-100` there! */
+	}
+
+	.sidebar-hr {
+		@apply bg-gray-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-800 rounded-full mx-2;
+	}
+	.content-container {
+		@apply flex flex-col bg-gray-300 dark:bg-gray-700 dark:text-white h-full w-full overflow-hidden m-0 ml-16;
+		/* Giving margin of 16 units from left coz our sidebar is fixed so it gets our of the document flow! Fireshipio uses it this way only! */
+		/* FYI: We chose ^^^^^ margin-left as 16 units coz we have given our sidebar a width of 16 by specifying `w-16`, see that in SideBar component jsx. */
+	}
+}
+
+/* Just like the `hover:` variant we have other variants as well i.e, :focus, :sm, :md, :lg, :xl, :2xl. Know about them @ https://tailwindcss.com/docs/responsive-design */
