@@ -14,7 +14,18 @@ text-pink-400
 
 AMZ Images:
 
-- ![](./AMZ-hover.png)
-- ![](./AMZ-how-group-works-magic.png)
-- ![](./AMZ-duplicate-bg-error.png)
-- ![](./AMZ-custom-values.png)
+- **How hover/active thing works?**
+
+	![](./AMZ-hover.png)
+
+- **How group thing works?**
+
+	![](./AMZ-how-group-works-magic.png)
+
+- **How any duplicate class added throws compiler error, amazing though:**
+
+	![](./AMZ-duplicate-bg-error.png)
+
+- **How custom values in Tailwind works?**
+
+	![](./AMZ-custom-values.png)
