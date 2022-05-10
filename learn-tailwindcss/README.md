@@ -20,7 +20,7 @@ AMZ Images:
 
 - **How group thing works?**
 
-	*FYI: The `sidebar-tooltip` custom pseudo class has `scale-0` property which makes it hidden (size zero) by default. So on hovering the parent element i.e., having class `group` will make the `sidebar-tooltip` element have `scale-100` i.e., expand to its full size.*
+	*FYI: The `sidebar-tooltip` custom pseudo class has `scale-0` property which makes it hidden (size zero) by default. So on hovering the parent element ( i.e., having class `group`) will make the `sidebar-tooltip` element have `scale-100` i.e., expand to its full size.*
 
 	![](./AMZ-how-group-works-magic.png)
 
