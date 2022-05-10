@@ -14,7 +14,7 @@ text-pink-400
 
 AMZ Images:
 
-- **How hover/active thing works?**
+- **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
 	![](./AMZ-hover.png)
 
