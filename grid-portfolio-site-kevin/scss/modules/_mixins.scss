@@ -1,3 +1,4 @@
+// 50em = 800px
 @mixin container($width: 90%, $max-width: 50em) {
 	width: $width;
 	margin: 0 auto;
