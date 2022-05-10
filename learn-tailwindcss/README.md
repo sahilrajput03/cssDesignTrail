@@ -12,7 +12,9 @@ text-3xl bg-blue-300 text-black font-bold
 text-pink-400
 ```
 
-AMZ Images:
+## AMZ Images:
+
+***Bcoz images are worth a thousand words!***
 
 - **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
