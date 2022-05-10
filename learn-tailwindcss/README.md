@@ -22,6 +22,11 @@ AMZ Images:
 
 	![](./AMZ-how-group-works-magic.png)
 
+
+- **How you can make your own pseudo classes with layer directive?**
+
+	![](./AMZ-custom-classes-with-layer-directive.png)
+
 - **How any duplicate class added throws compiler error, amazing though:**
 
 	![](./AMZ-duplicate-bg-error.png)
