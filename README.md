@@ -6,6 +6,12 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## flex issues faced, i.e., items in a `flex-direction: column` I was not able to center items in horizontally using `align-items: center`
+
+Possible Solution: 1. Make sure the items you want to be centered have to be `block` type else make them block by `display: block` or by `display: inline-block`.
+
+Possible Solution: 2. Make sure you wrap the list of items if you have many in a div so that they get sqeezed to the common width of the div itself and thus will help the issue.
+
 ## HTML tags
 
 Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
