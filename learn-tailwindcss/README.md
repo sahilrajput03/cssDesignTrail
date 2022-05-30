@@ -47,4 +47,4 @@ text-pink-400
 
 - **Using custom colors in tailwindcss:** ![](./AMZ-custom-colors-1.png) ![](./AMZ-custom-colors-2.png)
 
-- **Simplistic use of complex writing of \* + \* operator with `space-x-` keyword:** ![](./AMZ-start%2Bstart-application.png)
+- **Simplistic use of complex writing of \* + \* operator with `space-x-` keyword:** [Docs](https://tailwindcss.com/docs/space) ![](./AMZ-start%2Bstart-application.png)
