@@ -6,6 +6,8 @@ Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/cre
 
 - Github code of fireshipio: https://github.com/fireship-io/tailwind-dashboard
 
+- [Tailwind Crash Course | Project From Scratch by Traversy media @ youtube](https://youtu.be/dFgzHOX84xQ), [Code here](https://github.com/bradtraversy/tailwind-landing-page)
+
 ```bash
 # Some Common classes
 text-3xl bg-blue-300 text-black font-bold
@@ -57,4 +59,4 @@ text-pink-400
 
 - **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
 
-	Using font sizes: ![](./AMZ-using-font-sizes.png)
+  Using font sizes: ![](./AMZ-using-font-sizes.png)
