@@ -15,7 +15,7 @@ text-pink-400
 ## Official good reference pages
 
 - [Forms with Tailwind](https://v1.tailwindcss.com/components/forms)
-- a
+- 50% width: `w-1/2`
 
 ## AMZ Images:
 
