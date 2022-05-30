@@ -37,3 +37,5 @@ text-pink-400
 - **How custom values in Tailwind works?**
 
 	![](./AMZ-custom-values.png)
+
+- **Media queries made easy**: ![](./AMZ-custom-screen-size-usages.png)
