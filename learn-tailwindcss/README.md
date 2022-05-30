@@ -17,33 +17,34 @@ text-pink-400
 - [Forms with Tailwind](https://v1.tailwindcss.com/components/forms)
 - a
 
-
 ## AMZ Images:
 
-***Bcoz images are worth a thousand words!***
+**_Bcoz images are worth a thousand words!_**
 
 - **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
-	![](./AMZ-hover.png)
+  ![](./AMZ-hover.png)
 
 - **How group thing works?**
 
-	*FYI: The `sidebar-tooltip` custom pseudo class has `scale-0` property which makes it hidden (size zero) by default. So on hovering the parent element ( i.e., having class `group`) will make the `sidebar-tooltip` element have `scale-100` i.e., expand to its full size.*
+  _FYI: The `sidebar-tooltip` custom pseudo class has `scale-0` property which makes it hidden (size zero) by default. So on hovering the parent element ( i.e., having class `group`) will make the `sidebar-tooltip` element have `scale-100` i.e., expand to its full size._
 
-	![](./AMZ-how-group-works-magic.png)
+  ![](./AMZ-how-group-works-magic.png)
 
 - **How you can make your own pseudo classes with layer directive?**
 
-	![](./AMZ-custom-classes-with-layer-directive.png)
+  ![](./AMZ-custom-classes-with-layer-directive.png)
 
 - **How any duplicate class added throws compiler error, amazing though:**
 
-	![](./AMZ-duplicate-bg-error.png)
+  ![](./AMZ-duplicate-bg-error.png)
 
 - **How custom values in Tailwind works?**
 
-	![](./AMZ-custom-values.png)
+  ![](./AMZ-custom-values.png)
 
-- **Media queries made easy**: ![](./AMZ-custom-screen-size-usages.png)
+- **Media queries made easy:** ![](./AMZ-custom-screen-size-usages.png)
 
-- **Using custom colors in tailwindcss**: ![](./AMZ-custom-colors-1.png) ![](./AMZ-custom-colors-2.png)
+- **Using custom colors in tailwindcss:** ![](./AMZ-custom-colors-1.png) ![](./AMZ-custom-colors-2.png)
+
+- **Simplistic use of complex writing of \* + \* operator with `space-x-` keyword:** ![](./AMZ-start%2Bstart-application.png)
