@@ -55,5 +55,5 @@ text-pink-400
 
 - **Using negative values:** ![](./AMZ-negative-magin-values.png)
 
-- **Font sizes in tailwind config file:** ![](./AMZ-font-sizes-in-config-file.png)
+- **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
 
