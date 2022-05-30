@@ -51,3 +51,4 @@ text-pink-400
 
 - **Simplistic use of complex writing of \* + \* operator with `space-y-` keyword:** [Docs](https://tailwindcss.com/docs/space) ![](./AMZ-star+star-application-y.png).
 
+- **How `w/2`, `w/3` works so amazingly:** ![](./AMZ-w-slash-number-works-cool.png)
