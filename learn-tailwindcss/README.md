@@ -45,3 +45,5 @@ text-pink-400
 	![](./AMZ-custom-values.png)
 
 - **Media queries made easy**: ![](./AMZ-custom-screen-size-usages.png)
+
+- **Using custom colors in tailwindcss**: ![](./AMZ-custom-colors-1.png) ![](./AMZ-custom-colors-2.png)
