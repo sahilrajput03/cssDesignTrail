@@ -54,3 +54,6 @@ text-pink-400
 - **How `w/2`, `w/3` works so amazingly:** ![](./AMZ-w-slash-number-works-cool.png)
 
 - **Using negative values:** ![](./AMZ-negative-magin-values.png)
+
+- **Font sizes in tailwind config file:** ![](./AMZ-font-sizes-in-config-file.png)
+
