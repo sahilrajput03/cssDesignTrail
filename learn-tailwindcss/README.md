@@ -12,6 +12,12 @@ text-3xl bg-blue-300 text-black font-bold
 text-pink-400
 ```
 
+## Official good reference pages
+
+- [Forms with Tailwind](https://v1.tailwindcss.com/components/forms)
+- a
+
+
 ## AMZ Images:
 
 ***Bcoz images are worth a thousand words!***
