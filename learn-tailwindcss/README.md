@@ -6,7 +6,7 @@ Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/cre
 
 - Github code of fireshipio: https://github.com/fireship-io/tailwind-dashboard
 
-- [Tailwind Crash Course | Project From Scratch by Traversy media @ youtube](https://youtu.be/dFgzHOX84xQ), [Code here](https://github.com/bradtraversy/tailwind-landing-page)
+- Tailwind Crash Course | Project From Scratch by Traversy media [@ youtube](https://youtu.be/dFgzHOX84xQ), [Code here](https://github.com/bradtraversy/tailwind-landing-page)
 
 ```bash
 # Some Common classes
