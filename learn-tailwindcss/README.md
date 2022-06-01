@@ -1,5 +1,7 @@
 # README
 
+Play with tailwindcss: https://play.tailwindcss.com/
+
 Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/create-react-app .
 
 - Motivation: https://youtu.be/pfaSUYaSgRo
