@@ -71,4 +71,4 @@ text-pink-400
 
 - **Using negative values:** ![](./AMZ-negative-magin-values.png)
 
-- **What is container class:** ![](./AMZ-what-is-container-class.png)
+- **What is container class:** For tailwindcss playground [click here](https://play.tailwindcss.com/o1Qu4T4JtX). ![](./AMZ-what-is-container-class.png)
