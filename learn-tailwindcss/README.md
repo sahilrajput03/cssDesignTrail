@@ -53,6 +53,8 @@ text-pink-400
 
 - **Media queries made easy:** ![](./AMZ-custom-screen-size-usages.png)
 
+- **Testing screen/custom media queries:** ![](./AMZ-testing-custom-sizes.png)
+
 - **Modifying/Adding our screen sizes i.e., media queries is super easy in tailwindcss:** ![](./AMZ-custom-screen-size-usages.png)
 
 - **Using custom colors in tailwindcss:** ![](./AMZ-custom-colors-1.png) ![](./AMZ-custom-colors-2.png)
