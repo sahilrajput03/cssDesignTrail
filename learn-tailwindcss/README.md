@@ -27,7 +27,11 @@ text-pink-400
 
 - **Searching docs:** ![](./AMZ-searching-docs.png)
 
-- **Variety of font sizes:** ![](./AMZ_font-sizes.png
+- **Variety of font sizes:** ![](./AMZ_font-sizes.png)
+
+- **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
+
+  Using font sizes: ![](./AMZ-using-font-sizes.png)
 
 - **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
@@ -67,6 +71,3 @@ text-pink-400
 
 - **Using negative values:** ![](./AMZ-negative-magin-values.png)
 
-- **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
-
-  Using font sizes: ![](./AMZ-using-font-sizes.png)
