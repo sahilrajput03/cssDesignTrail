@@ -25,6 +25,8 @@ text-pink-400
 
 **_Bcoz images are worth a thousand words!_**
 
+- Variety of font sizes: ![](./AMZ_font-sizes.png
+
 - **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
   ![](./AMZ-hover.png)
