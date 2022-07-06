@@ -1,0 +1,14 @@
+:root {
+}
+
+.section {
+	height: 50vh;
+	text-align: center;
+	background: pink;
+	border: 1px solid red;
+	margin-bottom: 50px;
+}
+
+.section1 {
+	background: orange;
+}

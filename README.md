@@ -2,7 +2,7 @@
 
 This is my personal repo for myself, its kinda cheat sheet.
 
-Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎.
+Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎. [Source](https://github.com/sahilrajput03/my_bin/tree/master/parcel-dev)
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
@@ -70,6 +70,12 @@ Browse all html tags @ <https://www.w3schools.com/tags/tag_comment.asp>
 ```
 
 **Tips**:
+
+Install `parcel` via
+
+```bash
+npm i -g parcel-bundler
+```
 
 - Use `live-server` command on terminal to serve this whole directory. But with live-server you don't get hot-reload for css(though live-server does a whole page reload instead which makes scroll position lost on each change in css), so use `parcel index.html` in a particular directory to enable hot reload for css, yikes!
 - Use `lsr` or `pd` to use live-server or parcel aliases from my_bin directly.

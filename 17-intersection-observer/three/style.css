@@ -1,0 +1,18 @@
+div {
+	font-size: 2rem;
+	letter-spacing: 10px;
+	line-height: 15rem;
+	text-align: center;
+}
+
+img {
+	height: 50vh;
+	border: 2px solid red;
+	display: block;
+	margin: 10px;
+	transition: transform ease 0.5s;
+}
+
+.slide {
+	transform: translateX(-150px);
+}
