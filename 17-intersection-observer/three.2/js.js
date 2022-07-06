@@ -16,7 +16,8 @@ const preloadImage = (img) => {
 const imgOptions = {
 	//? `rootMargin`: Learn: we can give values in px or % only.
 	// rootMargin: '0px 0px -400px 0px',
-	rootMargin: '-250px',
+	// rootMargin: '-250px',
+	rootMargin: '-250px 0px', // i.e., 'top+bottom left+righ'
 	threshold: 0,
 }
 

@@ -1,5 +1,7 @@
 # learn intersection observers
 
+TODO: *Article suggested by Kevin: [Click here](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)*
+
 Kevin 7 Video Playlist on Intersetction Observer: https://www.youtube.com/playlist?list=PLC2rzhluWUp-iWl6P2S7JG3xkHxeVCgBs
 
 Theory: They are basically events which we register which get fired when the target html element intersects with viewport boundary. ~ kevin
