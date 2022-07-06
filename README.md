@@ -1,5 +1,7 @@
 # CssDesignTrail
 
+TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
+
 This is my personal repo for myself, its kinda cheat sheet.
 
 Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎. [Source](https://github.com/sahilrajput03/my_bin/tree/master/parcel-dev)
@@ -106,7 +108,6 @@ Source, timestamped in yt video [here](https://youtu.be/ykn4XNDwW7Q?t=1212).
 
 ### Images #free images, #random image #place holderimage
 
-
 ```bash
 # COLOR THEMES
 https://coolors.co/
@@ -118,7 +119,7 @@ https://iconarchive.com/
 # PHOTOS
 https://unsplash.com
 https://pixabay.com/
-https://undraw.co # Open Source Illustrations(svgs): 
+https://undraw.co # Open Source Illustrations(svgs):
 
 # FOR APIS:
 # picsum.photos // TIP : To get a selected image, use redirected image link instead
