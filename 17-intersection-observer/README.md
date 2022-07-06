@@ -1,5 +1,7 @@
 # learn intersection observers
 
+FYI: For lazy loading you can simply use `<img loading='lazy'> </img>` with your image tags but be sure to give respective heights and width to your images so they even if they are still loading your content doesn't shift at all when the user starts reading the content as the page is still loading. Learn [more about it by Kevin here](https://youtu.be/AActXSWxsRo).
+
 TODO: *Article suggested by Kevin: [Click here](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)*
 
 Kevin 7 Video Playlist on Intersetction Observer: https://www.youtube.com/playlist?list=PLC2rzhluWUp-iWl6P2S7JG3xkHxeVCgBs
