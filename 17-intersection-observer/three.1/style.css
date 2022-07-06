@@ -1,3 +1,7 @@
+:root {
+	color: white;
+	background: black;
+}
 div {
 	font-size: 2rem;
 	letter-spacing: 10px;
@@ -10,11 +14,13 @@ img {
 	aspect-ratio: 0.8;
 	/* border: 2px solid red; */
 	display: block;
-	margin: 10px;
-	transition: transform ease 0.5s;
-	transform: translateX(-150px);
+	margin: 50px;
+	border-radius: 10px;
+	transition: transform ease 0.8s, opacity ease 1.5s;
+	opacity: 0;
 }
 
 .slide {
 	transform: translateX(150px);
+	opacity: 1;
 }

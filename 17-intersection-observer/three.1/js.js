@@ -1,3 +1,4 @@
+// @ts-nocheck
 let log = console.log
 
 const images = document.querySelectorAll('[data-src]')
@@ -13,12 +14,14 @@ const preloadImage = (img) => {
 	// log('set src', src)
 }
 const imgOptions = {
-	rootMargin: '0px 0px -400px 0px',
+	//? `rootMargin`: Learn: we can give values in px or % only.
+	// rootMargin: '0px 0px -400px 0px',
+	rootMargin: '-250px',
 	threshold: 0,
 }
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-	// log({entries})
+	log({entries})
 
 	entries.forEach((entry, idx) => {
 		const isOnPage = entry.isIntersecting
@@ -29,9 +32,9 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 			entry.target.classList.add('slide')
 
 			// Unobserve now:
-			imgObserver.unobserve(entry.target)
+			// imgObserver.unobserve(entry.target)
 		} else {
-			return
+			entry.target.classList.remove('slide')
 		}
 	})
 }, imgOptions)
