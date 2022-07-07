@@ -16,6 +16,10 @@ text-3xl bg-blue-300 text-black font-bold
 text-pink-400
 ```
 
+## In vanilla js project
+
+- Watch with tailwindcss: `tailwindcss -w -i ./static/src/main.css -o ./static/dist/main.css --minify` (-w is for watch mode).
+
 ## Official good reference pages
 
 - [Forms with Tailwind](https://v1.tailwindcss.com/components/forms)
