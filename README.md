@@ -8,6 +8,13 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Such an amazing property to make some div's content non-wrappable
+
+source: [stackoverflow answer](https://stackoverflow.com/a/4652666/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/187459636-1719e339-1924-4b32-9f52-09a2e5bbc371.png)
+
+
 ## This is such a helpful way to make a flex (say with direction row) to make it take only content's width only
 
 ![image](https://user-images.githubusercontent.com/31458531/187454004-6b03d703-467b-4343-b5d5-eaefc6b87af8.png)
