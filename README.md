@@ -8,6 +8,11 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## This is such a helpful way to make a flex (say with direction row) to make it take only content's width only
+
+![image](https://user-images.githubusercontent.com/31458531/187454004-6b03d703-467b-4343-b5d5-eaefc6b87af8.png)
+
+
 ## Make scrollbar take no space / prevent layout shift
 
 Source: https://stackoverflow.com/a/54979559/10012446
