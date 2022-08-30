@@ -8,6 +8,16 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Make scrollbar take no space / prevent layout shift
+
+Source: https://stackoverflow.com/a/54979559/10012446
+
+```css
+html {
+    overflow-y: overlay;
+}
+```
+
 ## flex issues faced, i.e., items in a `flex-direction: column` I was not able to center items in horizontally using `align-items: center`
 
 Possible Solution: 1. Make sure the items you want to be centered have to be `block` type else make them block by `display: block` or by `display: inline-block`.
