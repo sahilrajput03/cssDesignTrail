@@ -8,6 +8,13 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Thats how you divide all the space between the flex items in a flexbox
+
+Source: [css-tricks](https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/)
+
+![image](https://user-images.githubusercontent.com/31458531/188324220-9afe6b9c-5c83-41b3-8bd2-d6004b3b9c0b.png)
+
+
 ## Such an amazing property to make some div's content non-wrappable
 
 source: [stackoverflow answer](https://stackoverflow.com/a/4652666/10012446)
