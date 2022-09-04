@@ -12,8 +12,7 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 Source: [css-tricks](https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/)
 
-![image](https://user-images.githubusercontent.com/31458531/188324220-9afe6b9c-5c83-41b3-8bd2-d6004b3b9c0b.png)
-
+![image](https://user-images.githubusercontent.com/31458531/188324584-a0e423d6-bca1-4341-9917-ad9c86169ea1.png)
 
 ## Such an amazing property to make some div's content non-wrappable
 
