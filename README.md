@@ -10,6 +10,8 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 ## Thats how you divide all the space between the flex items in a flexbox (#2 duplicate)
 
+**Full responsivity -**
+
 ![image](https://user-images.githubusercontent.com/31458531/188490929-228e9299-d0ab-4337-91ea-1be457c20c64.png)
 
 
