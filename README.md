@@ -8,6 +8,11 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Thats how you divide all the space between the flex items in a flexbox (#2 duplicate)
+
+![image](https://user-images.githubusercontent.com/31458531/188490929-228e9299-d0ab-4337-91ea-1be457c20c64.png)
+
+
 ## Thats how you divide all the space between the flex items in a flexbox
 
 Source: [css-tricks](https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/)
