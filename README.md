@@ -8,6 +8,11 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Easiest possible way to center things
+
+![image](https://user-images.githubusercontent.com/31458531/188959307-c984c62d-8a67-44c8-9f23-d507c6b3efdf.png)
+
+
 ## Thats how you divide all the space between the flex items in a flexbox (#2 duplicate)
 
 **Full responsivity -**
