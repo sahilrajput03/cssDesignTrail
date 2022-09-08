@@ -3,7 +3,7 @@
 
 Source: [@mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
 
-![image](https://user-images.githubusercontent.com/31458531/189072633-6136c4aa-a4c2-4d8f-b474-4428a5fce925.png)
+![image](https://user-images.githubusercontent.com/31458531/189073973-d0ab5887-dd13-4b2c-be05-e99d72a290d2.png)
 
 
 ## Everything you need to know
