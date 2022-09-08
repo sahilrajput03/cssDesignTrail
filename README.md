@@ -8,6 +8,14 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ğŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Mobile screen sizes
+
+Redmi note5
+
+<img src="https://user-images.githubusercontent.com/31458531/189069912-83ca8a96-4f46-4da3-8c33-59ec53eb33ae.jpg" alt="drawing" width="230"/> 	<img src="https://user-images.githubusercontent.com/31458531/189069927-1b54a896-28b6-45ba-bfcd-273ce7002d37.jpg" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/189069928-98fc6fde-1e22-467d-9a91-2b82547bfa83.jpg" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/189069936-03301f70-d287-4942-9ceb-3b2065b8986f.jpg" alt="drawing" width="230"/>
+
 ## Easiest possible way to center things
 
 ![image](https://user-images.githubusercontent.com/31458531/188959307-c984c62d-8a67-44c8-9f23-d507c6b3efdf.png)
