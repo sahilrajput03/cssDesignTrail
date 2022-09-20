@@ -8,7 +8,7 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
-## confetti thing examples
+## Confetti thing examples (to be done in sahilrajput.ml)
 
 https://www.cssscript.com/tag/confetti/
 
