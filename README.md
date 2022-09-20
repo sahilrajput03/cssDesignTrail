@@ -8,6 +8,17 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## By Ansh Mehra - Awesome Resources
+
+Src: https://www.youtube.com/watch?v=iehzWCm8KHs
+
+1. Case studies of design: growth.design
+2. mobbin.design
+3. Muzli Plugin  ~Chrome Plugin to show new design on new tabs
+
+
+~By Ansh Mehra
+
 ## Confetti thing examples (to be done in sahilrajput.ml)
 
 https://www.cssscript.com/tag/confetti/
