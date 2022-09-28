@@ -6,6 +6,8 @@
 - **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
+- **Whats Dribble.com:** [Click here](https://dribbble.com/) (Explore the world’s leading design portfolios)
+- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
