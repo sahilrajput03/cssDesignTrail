@@ -12,9 +12,12 @@
 	- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
 	- **godly.website:** - [Click here](https://godly.website/)
 	- **uigarage.net:** [Click here](https://uigarage.net/)
+	- **SiteInspire.com:** [Click here](https://www.siteinspire.com/)
+	- **Land-book.com:** [Click here](https://land-book.com/)
+	- **Landingfolio.com:** [Click here](https://www.landingfolio.com/)
 	- **Mobile Only:**
 		- **uisources:** - [Click here](https://www.uisources.com/)
-		- 
+		- **mobbin.com:** - [Click here](https://mobbin.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
 - Scroll Transitions Websites:
