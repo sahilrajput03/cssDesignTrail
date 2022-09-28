@@ -7,6 +7,7 @@
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
 - **Dribble.com - Explore the world’s leading design portfolios:** [Click here](https://dribbble.com/)
+- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
 - Scroll Transitions Websites:
