@@ -6,7 +6,7 @@
 - **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
-- Explore Website Designs: [source]
+- Explore Website Designs: [source](https://www.youtube.com/watch?v=23Y01_aVdzM)
 	- **Dribble.com** [Click here](https://dribbble.com/)
 	- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
 	- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
