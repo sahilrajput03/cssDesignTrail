@@ -14,6 +14,8 @@
 	- Meetings: [Click here](https://www.meetings.fr/)
 - Crazy sites made using Three.js and similar libraries:
 	- Low Carbon Park: [Click here](https://vivatech2022.cher-ami.tv/room/low-carbon-park-by-edf)
+- Article:
+	- Animation Libraries in Js: [Click here](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
