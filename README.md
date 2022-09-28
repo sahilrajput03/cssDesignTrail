@@ -6,9 +6,10 @@
 - **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
-- **Dribble.com** [Click here](https://dribbble.com/)
-- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
-- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
+- Explore Website Designs:
+	- **Dribble.com** [Click here](https://dribbble.com/)
+	- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
+	- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
 - Scroll Transitions Websites:
