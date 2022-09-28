@@ -8,6 +8,7 @@
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
 - **Dribble.com** [Click here](https://dribbble.com/)
 - **Awwwards.com:** - [Click here](https://www.awwwards.com/)
+- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
 - Scroll Transitions Websites:
