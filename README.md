@@ -1,5 +1,12 @@
 # CssDesignTrail
 
+**Quick Links:**
+
+- **Css wow:** [Click here](https://codepen.io/cassidoo/)
+- **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
+- **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
+- **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
+
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
 This is my personal repo for myself, its kinda cheat sheet.
