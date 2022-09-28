@@ -9,6 +9,8 @@
 - **Dribble.com - Explore the world’s leading design portfolios:** [Click here](https://dribbble.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
+- Scroll Transitions Websites:
+	- Meetings: [Click here](https://www.meetings.fr/)
 
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
