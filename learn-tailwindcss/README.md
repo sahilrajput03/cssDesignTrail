@@ -2,6 +2,7 @@
 
 **Related Libs:**
 - Headless UI
+- TailwindUI
 - Daisyui: [Website](https://daisyui.com/) [gitub 14.6*](https://github.com/saadeghi/daisyui)
 
 Play with tailwindcss: https://play.tailwindcss.com/
