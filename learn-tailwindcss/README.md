@@ -1,5 +1,7 @@
 # README
 
+Related Libs: Headless UI, [Daisyui](https://daisyui.com/) [gitub 14.6*](https://github.com/saadeghi/daisyui)
+
 Play with tailwindcss: https://play.tailwindcss.com/
 
 Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/create-react-app .
