@@ -6,6 +6,8 @@ Redmi Note 5: Width `515px`
 
 ## Flex
 
+Flex [Docs](https://getbootstrap.com/docs/5.2/utilities/flex/)
+
 ```html
 <!-- Make a item flex and it has `flex-direction: row` by default -->
 <div class="d-flex">...</div>
