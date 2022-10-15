@@ -4,6 +4,23 @@
 
 Redmi Note 5: Width `515px`
 
+## Font
+
+Text: [Docs](https://getbootstrap.com/docs/5.2/utilities/text/)
+
+![image](https://user-images.githubusercontent.com/31458531/195984329-19e474cb-5fdd-4ae6-9271-d9297e048f40.png)
+
+![image](https://user-images.githubusercontent.com/31458531/195984350-785f0c34-c3cc-4bff-8af5-34c5191327df.png)
+
+![image](https://user-images.githubusercontent.com/31458531/195984384-4bcd6919-0318-4288-83fe-48cc8fd354c3.png)
+
+![image](https://user-images.githubusercontent.com/31458531/195984406-fff0b681-020b-4634-9a1e-25a18752bee8.png)
+
+![image](https://user-images.githubusercontent.com/31458531/195984467-1066ea19-15ee-4b83-a1ce-8347aade499b.png)
+
+![image](https://user-images.githubusercontent.com/31458531/195984540-9016e67a-ecdb-4026-89a5-e3ed46e78514.png)
+
+
 ## Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
 
   ![image](https://user-images.githubusercontent.com/31458531/195975354-be038cab-ca98-4dc1-bc76-9a21349329e5.png)
