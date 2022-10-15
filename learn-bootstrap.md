@@ -10,8 +10,7 @@ Redmi Note 5: Width `515px`
 
 [Docs](https://getbootstrap.com/docs/5.2/utilities/spacing/)
 
-![image](https://user-images.githubusercontent.com/31458531/195986343-8690388a-3220-48fc-81d2-785ebe1d21c5.png)
-
+![image](https://user-images.githubusercontent.com/31458531/195986672-48239fd6-0ad1-4178-95cd-718f527acc73.png)
 
 ## Flex
 
