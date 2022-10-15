@@ -47,3 +47,7 @@ Redmi Note 5: Width `515px`
 - Nesting [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#nesting), Stackblitz: [Click here](https://stackblitz.com/run?file=index.html)
   
   ![image](https://user-images.githubusercontent.com/31458531/195980651-706a58c3-2fec-4ea7-bf79-c153580dbc16.png)
+
+- Sass, variables, and mixins:
+
+![image](https://user-images.githubusercontent.com/31458531/195980798-92b0a0e4-16fb-467a-903d-ad77d1a58cf1.png)
