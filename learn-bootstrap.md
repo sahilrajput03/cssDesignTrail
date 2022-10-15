@@ -48,6 +48,10 @@ Redmi Note 5: Width `515px`
   
   ![image](https://user-images.githubusercontent.com/31458531/195980651-706a58c3-2fec-4ea7-bf79-c153580dbc16.png)
 
-- Sass, variables, and mixins:
+- Sass, variables, and mixins
 
-![image](https://user-images.githubusercontent.com/31458531/195980798-92b0a0e4-16fb-467a-903d-ad77d1a58cf1.png)
+![image](https://user-images.githubusercontent.com/31458531/195980916-1938345c-a843-4d92-b666-3996f6cecd7b.png)
+
+- Example (working with sass mixins):
+
+![image](https://user-images.githubusercontent.com/31458531/195980858-6984161b-cef5-46df-b2c4-cba3a838ea08.png)
