@@ -4,6 +4,15 @@
 
 Redmi Note 5: Width `515px`
 
+## Spacing - Margins and Paddings
+
+***NOTE: There is not `ml-1`, `pl-2`, `mr-3`, `pr-4` becoz you need to use `ms-1`, `ps-2`, `me-3`, `pe-4` respectively.***
+
+[Docs](https://getbootstrap.com/docs/5.2/utilities/spacing/)
+
+![image](https://user-images.githubusercontent.com/31458531/195986343-8690388a-3220-48fc-81d2-785ebe1d21c5.png)
+
+
 ## Flex
 
 Flex [Docs](https://getbootstrap.com/docs/5.2/utilities/flex/)
