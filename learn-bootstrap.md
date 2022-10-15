@@ -52,6 +52,10 @@ Redmi Note 5: Width `515px`
 
 ![image](https://user-images.githubusercontent.com/31458531/195980916-1938345c-a843-4d92-b666-3996f6cecd7b.png)
 
-- Example (working with sass mixins):
+- Example (working with sass mixins) [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#example-usage):
 
 ![image](https://user-images.githubusercontent.com/31458531/195980858-6984161b-cef5-46df-b2c4-cba3a838ea08.png)
+
+- Customizing the grid [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#customizing-the-grid)
+
+![image](https://user-images.githubusercontent.com/31458531/195980981-c2b0da15-b6a6-4b44-bacd-efcd500fe052.png)
