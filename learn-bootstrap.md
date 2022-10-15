@@ -4,6 +4,10 @@
 
 Redmi Note 5: Width `515px`
 
+## Flex
+
+`d-flex`: Make item flex and default is `flex-direction: row`.
+
 ## Font
 
 Text: [Docs](https://getbootstrap.com/docs/5.2/utilities/text/)
