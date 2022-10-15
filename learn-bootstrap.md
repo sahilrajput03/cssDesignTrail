@@ -11,4 +11,5 @@ Redmi Note 5: Width `515px`
 
 - Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
 
-  ![image](https://user-images.githubusercontent.com/31458531/195975112-4471287a-f9c0-4ee0-bc13-06cd3d88912a.png)
+  ![image](https://user-images.githubusercontent.com/31458531/195975354-be038cab-ca98-4dc1-bc76-9a21349329e5.png)
+
