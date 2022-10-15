@@ -47,6 +47,11 @@ Src: https://www.youtube.com/watch?v=iehzWCm8KHs
 
 ~By Ansh Mehra
 
+## Amazing use of negative margins, source: css-tricks
+
+[Click here](https://css-tricks.com/negative-margins/)
+
+
 ## Learn bootstrap
 
 [Click here](learn-bootstrap.md)
