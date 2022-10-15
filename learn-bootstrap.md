@@ -1,8 +1,12 @@
 # Learn bootstrap
 
-`container` class centers the element.
+- `container` class centers the element.
 
-![image](https://user-images.githubusercontent.com/31458531/195975004-ce042f20-29a4-4374-8bc7-2b1ed0434c76.png)
+  ![image](https://user-images.githubusercontent.com/31458531/195975004-ce042f20-29a4-4374-8bc7-2b1ed0434c76.png)
 
 
-grid: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
+- `grid`: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
+
+- Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
+
+  ![image](https://user-images.githubusercontent.com/31458531/195975112-4471287a-f9c0-4ee0-bc13-06cd3d88912a.png)
