@@ -8,7 +8,7 @@ Redmi Note 5: Width `515px`
 
   ![image](https://user-images.githubusercontent.com/31458531/195975004-ce042f20-29a4-4374-8bc7-2b1ed0434c76.png)
 
-  ![image](https://user-images.githubusercontent.com/31458531/195977054-a9b83981-1df0-4e75-a4e7-052d2b6b3bf0.png)
+  ![image](https://user-images.githubusercontent.com/31458531/195977149-fd52032a-fd8e-4e09-959f-4d7d3617a015.png)
 
 - `grid`: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
 
