@@ -4,12 +4,16 @@
 
 Redmi Note 5: Width `515px`
 
-- `grid`: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
+## `grid`
+
+[Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
   
   - `container` class centers the element.
 
   ![image](https://user-images.githubusercontent.com/31458531/195975004-ce042f20-29a4-4374-8bc7-2b1ed0434c76.png)
-  
+
+  ![image](https://user-images.githubusercontent.com/31458531/195977149-fd52032a-fd8e-4e09-959f-4d7d3617a015.png)
+
   ![image](https://user-images.githubusercontent.com/31458531/195977427-527dd32e-d9a9-40b1-bb19-193d3365c84c.png)
   
   - Stacked to horizontal [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#stacked-to-horizontal), Stackblitz: [Click here](https://stackblitz.com/run?file=index.html) (**Simple yet powerful and quite impressive ~Sahil**)
@@ -28,8 +32,6 @@ Redmi Note 5: Width `515px`
     - ii. a.)  ![image](https://user-images.githubusercontent.com/31458531/195979093-d6a8efb4-1fde-4dc1-b2a0-aeed59f1ac47.png)
 
     - ii. b.) ![image](https://user-images.githubusercontent.com/31458531/195979164-5f73a4c8-0dfc-4964-901e-10ca5f6705c0.png)
-
-  ![image](https://user-images.githubusercontent.com/31458531/195977149-fd52032a-fd8e-4e09-959f-4d7d3617a015.png)
 
 
 - Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
