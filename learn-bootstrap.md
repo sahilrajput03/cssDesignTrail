@@ -18,9 +18,9 @@ Redmi Note 5: Width `515px`
   
   - Stacked to horizontal [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#stacked-to-horizontal), Stackblitz: [Click here](https://stackblitz.com/run?file=index.html) (**Simple yet powerful and quite impressive ~Sahil**)
   
-  ***FYI: Stacked here means placing items vertically i.e., one above other on extra small screens and show as columns as desired on small and up sized-screens.***
+    ***FYI: Stacked here means placing items vertically i.e., one above other on extra small screens and show as columns as desired on small and up sized-screens.***
 
-  ![image](https://user-images.githubusercontent.com/31458531/195979470-26e5cc76-cac6-41ab-b3ad-a0a7c018857f.png)
+    ![image](https://user-images.githubusercontent.com/31458531/195979470-26e5cc76-cac6-41ab-b3ad-a0a7c018857f.png)
 
   
   - Variable width content (Grid): [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#variable-width-content), Stackblitz [Click here](https://stackblitz.com/run?file=index.html) Tip: You can use that blue lightning icon to get this sandbox anytime as you can seee in below SS.
