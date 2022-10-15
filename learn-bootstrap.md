@@ -4,6 +4,11 @@
 
 Redmi Note 5: Width `515px`
 
+## Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
+
+  ![image](https://user-images.githubusercontent.com/31458531/195975354-be038cab-ca98-4dc1-bc76-9a21349329e5.png)
+
+
 ## `grid`
 
 [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
@@ -34,8 +39,3 @@ Redmi Note 5: Width `515px`
     - ii. a.)  ![image](https://user-images.githubusercontent.com/31458531/195979093-d6a8efb4-1fde-4dc1-b2a0-aeed59f1ac47.png)
 
     - ii. b.) ![image](https://user-images.githubusercontent.com/31458531/195979164-5f73a4c8-0dfc-4964-901e-10ca5f6705c0.png)
-
-
-- Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
-
-  ![image](https://user-images.githubusercontent.com/31458531/195975354-be038cab-ca98-4dc1-bc76-9a21349329e5.png)
