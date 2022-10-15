@@ -4,7 +4,9 @@
 
 Redmi Note 5: Width `515px`
 
-- `container` class centers the element.
+- `grid`: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
+  
+  - `container` class centers the element.
 
   ![image](https://user-images.githubusercontent.com/31458531/195975004-ce042f20-29a4-4374-8bc7-2b1ed0434c76.png)
   
@@ -13,7 +15,6 @@ Redmi Note 5: Width `515px`
 
   ![image](https://user-images.githubusercontent.com/31458531/195977149-fd52032a-fd8e-4e09-959f-4d7d3617a015.png)
 
-- `grid`: [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
 
 - Breakpoints: [Docs](https://getbootstrap.com/docs/5.2/layout/breakpoints/)
 
