@@ -6,8 +6,23 @@ Redmi Note 5: Width `515px`
 
 ## Flex
 
-`d-flex`: Make item flex and default is `flex-direction: row`.
+```html
+<!-- Make a item flex and it has `flex-direction: row` by default -->
+<div class="d-flex">...</div>
 
+<div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div>
+<div class="d-flex justify-content-evenly">...</div>
+
+<div class="d-flex align-items-start">...</div>
+<div class="d-flex align-items-end">...</div>
+<div class="d-flex align-items-center">...</div>
+<div class="d-flex align-items-baseline">...</div>
+<div class="d-flex align-items-stretch">...</div>
+```
 ## Font
 
 Text: [Docs](https://getbootstrap.com/docs/5.2/utilities/text/)
