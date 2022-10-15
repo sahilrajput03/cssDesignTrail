@@ -47,6 +47,10 @@ Src: https://www.youtube.com/watch?v=iehzWCm8KHs
 
 ~By Ansh Mehra
 
+## Learn bootstrap
+
+[Click here](learn-bootstrap.md)
+
 ## Confetti thing examples (to be done in sahilrajput.ml)
 
 https://www.cssscript.com/tag/confetti/
