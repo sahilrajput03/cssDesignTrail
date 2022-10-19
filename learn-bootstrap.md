@@ -1,12 +1,15 @@
 # Learn bootstrap
 
+Quick Links:
+- Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
-
-Redmi Note 5: Width `515px`
+- Redmi Note 5: Width `515px`
 
 ## border
 
-`border-primary border-bottom border-5` for a bottom border on an element. Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border)
+Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border)
+
+`border-primary border-bottom border-5` for a bottom border on an element.
 
 ## Spacing - Margins and Paddings
 
