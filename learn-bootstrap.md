@@ -5,6 +5,12 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
+## Shadows
+
+Docs: [Click here](https://getbootstrap.com/docs/5.2/utilities/shadows/#examples)
+
+![image](https://user-images.githubusercontent.com/31458531/196714849-4e74e2b4-3fad-4b19-8afe-a39710991e22.png)
+
 ## overflow, primary?, negative margins
 
 - [overflow](https://getbootstrap.com/docs/5.2/utilities/overflow/)
