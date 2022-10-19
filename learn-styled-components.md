@@ -1,6 +1,6 @@
 # Styled components
 
-Continue reding [docs from here](https://styled-components.com/docs/basics#getting-started).
+**Continue reding [docs from here](https://styled-components.com/docs/basics#getting-started).**
 
 ```bash
 # install
