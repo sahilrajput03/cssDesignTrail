@@ -22,3 +22,5 @@ const Button = styled.button`
 
  <Button>Normal Button</Button>
 ```
+
+Continue reding [docs from here](https://styled-components.com/docs/basics#getting-started).
