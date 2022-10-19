@@ -5,6 +5,30 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
+## overflow, primary?, negative margins
+
+- [overflow](https://getbootstrap.com/docs/5.2/utilities/overflow/)
+- [negative margins](https://getbootstrap.com/docs/5.2/utilities/spacing/#negative-margin)
+
+```
+OVERFLOW:
+<div class="overflow-auto">...</div>
+<div class="overflow-hidden">...</div>
+<div class="overflow-visible">...</div>
+<div class="overflow-scroll">...</div>
+
+
+USING PRIMARY COLOR:
+bg-primary
+text-primary
+border-primary
+
+
+NEGATIVE MARGINS (mx-n5):
+<SimpleCard className='card p-5 pt-0 overflow-hidden'>
+  <h1 className='h1 mx-n5' > Multisig Wallet</h1>
+```
+
 ## Customizing bootstrap primary, secondary, etc colors and values of of others default classes
 
 Source: [Click here](https://getbootstrap.com/docs/4.0/getting-started/theming/)
