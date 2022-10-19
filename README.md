@@ -47,6 +47,10 @@ Src: https://www.youtube.com/watch?v=iehzWCm8KHs
 
 ~By Ansh Mehra
 
+## Learn styled components
+
+[Click here](learn-styled-components.md)
+
 ## Amazing use of negative margins, source: css-tricks
 
 [Click here](https://css-tricks.com/negative-margins/)
