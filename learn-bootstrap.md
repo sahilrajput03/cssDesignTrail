@@ -5,6 +5,12 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
+## Customizing bootstrap primary, secondary, etc colors and values of of others default classes
+
+Source: [Click here](https://getbootstrap.com/docs/4.0/getting-started/theming/)
+
+![image](https://user-images.githubusercontent.com/31458531/196671984-1ac43706-5455-40a8-a5aa-1dba1983274e.png)
+
 ## border
 
 Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border)
