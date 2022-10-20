@@ -5,6 +5,13 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
+## Card header and footer
+
+Docs: [Click here](https://getbootstrap.com/docs/5.2/components/card/#header-and-footer)
+
+![image](https://user-images.githubusercontent.com/31458531/196928522-74132390-ac29-4fe0-9805-30cd19db56c8.png)
+
+
 ## Shadows
 
 Docs: [Click here](https://getbootstrap.com/docs/5.2/utilities/shadows/#examples)
