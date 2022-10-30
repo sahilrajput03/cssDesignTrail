@@ -36,6 +36,10 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ğŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## style tags can be edited for instant in the browser itself
+
+https://twitter.com/wesbos/status/1586360039174209536
+
 ## Remove scroll bar from a page
 
 ```css
