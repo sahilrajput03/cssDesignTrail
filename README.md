@@ -37,6 +37,10 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## TODO: Checou this scroll thing
+
+https://twitter.com/argyleink/status/1588201392661204992
+
 ## style tags can be edited for instant in the browser itself
 
 https://twitter.com/wesbos/status/1586360039174209536
