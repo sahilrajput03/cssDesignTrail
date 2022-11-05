@@ -1,5 +1,34 @@
 # CssDesignTrail
 
+**Quick Links:**
+
+- **Css wow:** [Click here](https://codepen.io/cassidoo/)
+- **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
+- **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
+- **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
+- Explore Website Designs: [source](https://www.youtube.com/watch?v=23Y01_aVdzM)
+	- **Dribble.com** [Click here](https://dribbble.com/)
+	- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
+	- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
+	- **godly.website:** - [Click here](https://godly.website/)
+	- **uigarage.net:** [Click here](https://uigarage.net/)
+	- **SiteInspire.com:** [Click here](https://www.siteinspire.com/)
+	- **Land-book.com:** [Click here](https://land-book.com/)
+	- **Landingfolio.com:** [Click here](https://www.landingfolio.com/)
+	- **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
+	- **BWII:** [Click here](https://bwii.co.in/)
+	- **Mobile Only:**
+		- **uisources:** - [Click here](https://www.uisources.com/)
+		- **mobbin.com:** - [Click here](https://mobbin.com/)
+- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
+- Scroll Transitions Websites:
+	- Meetings: [Click here](https://www.meetings.fr/)
+- Crazy sites made using Three.js and similar libraries:
+	- Low Carbon Park: [Click here](https://vivatech2022.cher-ami.tv/room/low-carbon-park-by-edf)
+- Article:
+	- Animation Libraries in Js: [Click here](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
+- [Ansh Mehra Design Portfolio](https://www.anshmehra.com/)
+
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
 This is my personal repo for myself, its kinda cheat sheet.
@@ -7,6 +36,105 @@ This is my personal repo for myself, its kinda cheat sheet.
 Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎. [Source](https://github.com/sahilrajput03/my_bin/tree/master/parcel-dev)
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
+
+## TODO: Checou this scroll thing
+
+https://twitter.com/argyleink/status/1588201392661204992
+
+## style tags can be edited for instant in the browser itself
+
+https://twitter.com/wesbos/status/1586360039174209536
+
+## Remove scroll bar from a page
+
+```css
+::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+```
+
+## Abhinav's css skills
+
+![3](https://user-images.githubusercontent.com/31458531/200028193-a86e7d90-b29b-48a3-aa1a-d5fe87b09bab.png)
+![2](https://user-images.githubusercontent.com/31458531/200028205-cc645546-f61f-4099-88f5-9b35b162883e.png)
+![1](https://user-images.githubusercontent.com/31458531/200028225-b3f68b93-7717-41bc-88f1-a10c743cbc55.png)
+
+## By Ansh Mehra - Awesome Resources
+
+Src: https://www.youtube.com/watch?v=iehzWCm8KHs
+
+1. Case studies of design: growth.design
+2. mobbin.design
+3. Muzli Plugin  ~Chrome Plugin to show new design on new tabs
+
+
+~By Ansh Mehra
+
+## Learn styled components
+
+[Click here](learn-styled-components.md)
+
+## Amazing use of negative margins, source: css-tricks
+
+[Click here](https://css-tricks.com/negative-margins/)
+
+
+## Learn bootstrap
+
+[Click here](learn-bootstrap.md)
+
+## Confetti thing examples (to be done in sahilrajput.ml)
+
+https://www.cssscript.com/tag/confetti/
+
+## Mobile screen sizes
+
+Redmi note5
+
+<img src="https://user-images.githubusercontent.com/31458531/189069912-83ca8a96-4f46-4da3-8c33-59ec53eb33ae.jpg" alt="drawing" width="230"/> 	<img src="https://user-images.githubusercontent.com/31458531/189069927-1b54a896-28b6-45ba-bfcd-273ce7002d37.jpg" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/189069928-98fc6fde-1e22-467d-9a91-2b82547bfa83.jpg" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/189069936-03301f70-d287-4942-9ceb-3b2065b8986f.jpg" alt="drawing" width="230"/>
+
+## Easiest possible way to center things
+
+![image](https://user-images.githubusercontent.com/31458531/188959307-c984c62d-8a67-44c8-9f23-d507c6b3efdf.png)
+
+
+## Thats how you divide all the space between the flex items in a flexbox (#2 duplicate)
+
+**Full responsivity -**
+
+![image](https://user-images.githubusercontent.com/31458531/188490929-228e9299-d0ab-4337-91ea-1be457c20c64.png)
+
+
+## Thats how you divide all the space between the flex items in a flexbox
+
+Source: [css-tricks](https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/)
+
+![image](https://user-images.githubusercontent.com/31458531/188324584-a0e423d6-bca1-4341-9917-ad9c86169ea1.png)
+
+## Such an amazing property to make some div's content non-wrappable
+
+source: [stackoverflow answer](https://stackoverflow.com/a/4652666/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/187459636-1719e339-1924-4b32-9f52-09a2e5bbc371.png)
+
+
+## This is such a helpful way to make a flex (say with direction row) to make it take only content's width only
+
+![image](https://user-images.githubusercontent.com/31458531/187454004-6b03d703-467b-4343-b5d5-eaefc6b87af8.png)
+
+
+## Make scrollbar take no space / prevent layout shift
+
+Source: https://stackoverflow.com/a/54979559/10012446
+
+```css
+html {
+    overflow-y: overlay;
+}
+```
 
 ## flex issues faced, i.e., items in a `flex-direction: column` I was not able to center items in horizontally using `align-items: center`
 

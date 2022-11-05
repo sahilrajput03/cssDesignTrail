@@ -1,5 +1,10 @@
 # README
 
+**Related Libs:**
+- Headless UI
+- TailwindUI
+- Daisyui: [Website](https://daisyui.com/) [gitub 14.6*](https://github.com/saadeghi/daisyui)
+
 Play with tailwindcss: https://play.tailwindcss.com/
 
 Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/create-react-app .
@@ -15,6 +20,10 @@ Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/cre
 text-3xl bg-blue-300 text-black font-bold
 text-pink-400
 ```
+
+## In vanilla js project
+
+- Watch with tailwindcss: `tailwindcss -w -i ./static/src/main.css -o ./static/dist/main.css --minify` (-w is for watch mode).
 
 ## Official good reference pages
 

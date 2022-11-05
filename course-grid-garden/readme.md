@@ -1,14 +1,24 @@
 # Readme
 
-src: http://cssgridgarden.com/
+
+Source: [@mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
+
+![image](https://user-images.githubusercontent.com/31458531/189073973-d0ab5887-dd13-4b2c-be05-e99d72a290d2.png)
+
 
 ## Everything you need to know
+
+Source: http://cssgridgarden.com/
 
 ```txt
 src: http://cssgridgarden.com/
 LEARN: grid values i.e., 2,3,-4, else marks grid lines from the left or right side, yikes!
 * There is no 0th line, but there is 1st and -1st line i.e., the left most and right most respectively.
-* In css grids, rows and columns is exactly opposite of excel.
+* In css grids, rows and columns is same as of excel in office.
+* `grid-template-rows`: (*row-height*) A grid row is a horizontal track in a CSS Grid Layout, that is the space between two horizontal grid lines. It is defined by the grid-template-rows property or in the shorthand grid or grid-template properties. (mdn)
+* `grid-template-columns`: (*column-width*) A grid column is a vertical track in a CSS Grid Layout, and is the space between two vertical grid lines. It is defined by the grid-template-columns property or in the shorthand grid or grid-template properties. (mdn)
+* `grid`: (1) The grid CSS property is a shorthand property that sets all of the explicit and implicit grid properties in a single declaration. (mdn)
+* `grid`: (2)  Using grid you specify one axis using grid-template-rows or grid-template-columns, you then specify how content should auto-repeat in the other axis using the implicit grid properties: grid-auto-rows, grid-auto-columns, and grid-auto-flow. (mdn)
 
 #garden {
   display: grid;
