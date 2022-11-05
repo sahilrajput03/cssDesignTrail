@@ -44,6 +44,8 @@ https://twitter.com/argyleink/status/1588201392661204992
 
 ## core-ui pagination
 
+Download coreui admin: [Click here](https://coreui.io/product/free-react-admin-template/)
+
 ~Shagun
 
 ![](./coreui-pagination/1.jpg)
