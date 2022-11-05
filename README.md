@@ -41,6 +41,14 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 https://twitter.com/argyleink/status/1588201392661204992
 
+## core-ui pagination
+
+~Shagun
+
+![](./coreui-pagination/1.jpg)
+
+![](./coreui-pagination/2.jpg)
+
 ## style tags can be edited for instant in the browser itself
 
 https://twitter.com/wesbos/status/1586360039174209536
