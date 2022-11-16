@@ -60,7 +60,7 @@ Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border
 
 [Docs](https://getbootstrap.com/docs/5.2/utilities/spacing/)
 
-![image](https://user-images.githubusercontent.com/31458531/195986672-48239fd6-0ad1-4178-95cd-718f527acc73.png)
+![image](https://user-images.githubusercontent.com/31458531/202123950-bb7d9522-fe50-4f59-a660-2ef09c417fd0.png)
 
 Source of below image: [SASS Options](https://getbootstrap.com/docs/4.3/getting-started/theming/#sass-options)
 
