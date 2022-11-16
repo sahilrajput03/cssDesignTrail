@@ -62,6 +62,8 @@ Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border
 
 ![image](https://user-images.githubusercontent.com/31458531/195986672-48239fd6-0ad1-4178-95cd-718f527acc73.png)
 
+![image](https://user-images.githubusercontent.com/31458531/202123028-8701e637-795d-46dc-a589-c0aad1572301.png)
+
 **Grid with gap (spacing)**
 
 ![image](https://user-images.githubusercontent.com/31458531/195986827-871be08c-5071-499f-9bfb-563a6db2c72a.png)
