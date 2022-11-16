@@ -56,7 +56,7 @@ Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/borders/#border
 
 ## Spacing - Margins and Paddings
 
-***NOTE: There is not `ml-0`, `pl-1`, `mr-2`, `pr-3` becoz you need to use `ms-0`, `ps-1`, `me-2`, `pe-3` respectively.***
+***NOTE: There is not `ml-0`, `pl-1`, `mr-2`, `pr-3` becoz you need to use `ms-0`, `ps-1`, `me-2`, `pe-3`, `px-4`, `my-5` respectively.***
 
 [Docs](https://getbootstrap.com/docs/5.2/utilities/spacing/)
 
