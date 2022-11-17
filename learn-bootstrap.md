@@ -113,7 +113,10 @@ Text: [Docs](https://getbootstrap.com/docs/5.2/utilities/text/)
 
 Q. How do breakpoints work?
 
-*Ans. If you have a column in a grid with column (This is `Col` component from `import {Col} from 'react-bootstrap';`) `<Col sm={6} lg={12} xl={6} className="mb-4">` so this works like in senority way i.e, with: sm and above size use column as 6, for large and above use column 12, for extra-large and above use 6 columns.*
+*Ans. If you have a column in a grid with column (This is `Col` component from `import {Col} from 'react-bootstrap';`) `<Col sm={6} lg={12} xl={6} className="mb-4">` so this works like in senority way i.e,*
+- with: sm and above size use column as 6
+- for large and above use column 12
+- for extra-large and above use 6 columns
 
   ![image](https://user-images.githubusercontent.com/31458531/195975354-be038cab-ca98-4dc1-bc76-9a21349329e5.png)
 
