@@ -24,3 +24,11 @@ const Button = styled.button`
 
  <Button>Normal Button</Button>
 ```
+
+## Thats how you wrap an existing component with `styled
+
+Source: [Click here](https://stackoverflow.com/a/66170576/10012446)
+
+In docs: [Click here](https://styled-components.com/docs/api#transient-props)
+
+![image](https://user-images.githubusercontent.com/31458531/202514876-65e03d7f-aac7-4f05-aa6a-5e49dafc1182.png)
