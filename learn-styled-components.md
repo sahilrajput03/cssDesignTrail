@@ -32,3 +32,30 @@ Source: [Click here](https://stackoverflow.com/a/66170576/10012446)
 In docs: [Click here](https://styled-components.com/docs/api#transient-props)
 
 ![image](https://user-images.githubusercontent.com/31458531/202514876-65e03d7f-aac7-4f05-aa6a-5e49dafc1182.png)
+
+## Passing value from prop to css
+
+```js
+import { Button } from 'react-bootstrap';
+import styled from 'styled-components';
+
+const RoundButton = styled(Button)`
+  height: ${(props) => (props.height ? props.height : 'auto')};
+  border-radius: 50rem;
+`;
+
+export default RoundButton;
+
+
+// USAGE:
+<RoundButton
+  variant="primary"
+  type="submit"
+  className="w-100 px-5"
+  size="sm"
+  height="40px" // <<<<<<<<<< if not provided it would be considered 'auto'
+>
+  Next Step
+</RoundButton>
+
+```
