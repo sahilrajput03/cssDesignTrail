@@ -35,6 +35,8 @@ In docs: [Click here](https://styled-components.com/docs/api#transient-props)
 
 ## Passing value from prop to css
 
+Docs: [Adapting based on props](https://styled-components.com/docs/basics#adapting-based-on-props)
+
 ```js
 import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
