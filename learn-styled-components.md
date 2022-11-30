@@ -7,7 +7,7 @@
 npm i styled-components @types/styled-components
 ```
 
-## Add class to styled component
+## Add class to styled component - 💕❤😘
 
 Source: [Click here](https://stackoverflow.com/questions/59756648/add-classes-to-styled-component)
 
