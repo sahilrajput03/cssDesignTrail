@@ -7,6 +7,13 @@
 npm i styled-components @types/styled-components
 ```
 
+## One way to add class to styled component
+
+Source: [Click here](https://stackoverflow.com/questions/59756648/add-classes-to-styled-component)
+
+
+## Simple usage
+
 ```js
 import styled from 'styled-components'
 
