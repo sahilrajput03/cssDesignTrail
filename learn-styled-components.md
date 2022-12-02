@@ -77,3 +77,14 @@ export default RoundButton;
 </RoundButton>
 
 ```
+
+Also, for above you might get error like that!
+
+![image](https://user-images.githubusercontent.com/31458531/205305518-fbdbc26b-32d1-42ea-be3b-7910b07dc08a.png)
+
+
+**So to fix that you just need to append $ to your prop name(this is new from styled version 5.0 above)**
+
+*Source: [Click here](https://gist.github.com/meddokss/009cdb5192e487654c0d90cd8f692214)*
+
+![image](https://user-images.githubusercontent.com/31458531/205305372-c19e5bd0-cb96-45c7-bea8-43cf5205e3a5.png)
