@@ -88,3 +88,7 @@ Also, for above you might get error like that (considering that prop name is `li
 *Source: [Click here](https://gist.github.com/meddokss/009cdb5192e487654c0d90cd8f692214)*
 
 ![image](https://user-images.githubusercontent.com/31458531/205305372-c19e5bd0-cb96-45c7-bea8-43cf5205e3a5.png)
+
+## Why styled uses tagged literals and how does it even work?
+
+Source: [Click here](https://styled-components.com/docs/advanced#tagged-template-literals)
