@@ -47,6 +47,42 @@ Stackoverflow Answer: [Click here](https://stackoverflow.com/a/52542937/10012446
 
 **Below Codesandbox Link: [Click here](https://codesandbox.io/s/objective-wave-bwzfpl?file=/src/App.tsx)**
 
+```ts
+// DatingMatch.tsx
+type RoundBtnPropsType = {
+  className?: string;
+  onClick: () => void;
+  src: string;
+  alt: string
+};
+
+function RoundBtnWithImage({
+  onClick,
+  src,
+  alt,
+  className,
+}: RoundBtnPropsType) {
+  return (
+    <button className={className ?? ''} onClick={onClick} type="submit">
+      <img src={src} alt={alt} />
+    </button>
+  );
+}
+RoundBtnWithImage.defaultProps = {
+  className: '', // This facilitates us to skip passing className prop to the `RoundButtonWithImageStyled` when we actually use it in JSX. FYI: If you add a className prop to `RoundButtonWithImageStyled` then that class will also be assigned to `button` tag as well. AWESOME, isn't IT!
+};
+
+const RoundButtonWithImageStyled = styled(RoundBtnWithImage)`
+  height: 60px !important;
+  aspect-ratio: 1 !important;
+  background: red !important;
+  border-radius: 100% !important;
+`;
+
+// in JSX
+const MyComp = () => <div><RoundButtonWithImageStyled onClick={() => {}} src="" alt="Pass Button Here" /></div>
+```
+
 ![image](https://user-images.githubusercontent.com/31458531/205321080-838ccb5c-da57-4ebc-8593-c3634d9ae90e.png)
 
 **Another Example(older example):**
