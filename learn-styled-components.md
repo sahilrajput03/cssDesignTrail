@@ -43,15 +43,17 @@ const Button = styled.button`
 
 ## Thats how you wrap an existing component with `styled
 
-Source: [Click here](https://stackoverflow.com/a/66170576/10012446)
-
-In docs: [Click here](https://styled-components.com/docs/api#transient-props)
-
 Stackoverflow Answer: [Click here](https://stackoverflow.com/a/52542937/10012446)
 
 **Below Codesandbox Link: [Click here](https://codesandbox.io/s/objective-wave-bwzfpl?file=/src/App.tsx)**
 
 ![image](https://user-images.githubusercontent.com/31458531/205321080-838ccb5c-da57-4ebc-8593-c3634d9ae90e.png)
+
+**Another Example(older example):**
+
+Source: [Click here](https://stackoverflow.com/a/66170576/10012446)
+
+In docs: [Click here](https://styled-components.com/docs/api#transient-props)
 
 ![image](https://user-images.githubusercontent.com/31458531/202514876-65e03d7f-aac7-4f05-aa6a-5e49dafc1182.png)
 
