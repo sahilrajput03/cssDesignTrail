@@ -93,6 +93,14 @@ In docs: [Click here](https://styled-components.com/docs/api#transient-props)
 
 ![image](https://user-images.githubusercontent.com/31458531/202514876-65e03d7f-aac7-4f05-aa6a-5e49dafc1182.png)
 
+
+**Well not the last example:**
+
+Conditionally effective css, i.e., only effective if the prop passed has those values: `$invertColorOnHover` and `$lightBorder`.
+
+![image](https://user-images.githubusercontent.com/31458531/205344157-9c6c885d-d64e-4dbf-aa87-8f15b5b0fee7.png)
+
+
 ## Passing value from prop to css
 
 Docs: [Adapting based on props](https://styled-components.com/docs/basics#adapting-based-on-props)
