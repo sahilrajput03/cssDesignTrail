@@ -42,6 +42,13 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 https://twitter.com/argyleink/status/1588201392661204992
 
+## is there && and || operator useful in css?
+
+Tldr: Yes. Source: [Click here](https://stackoverflow.com/questions/2797091/css-and-and-or)
+
+![image](https://user-images.githubusercontent.com/31458531/205318830-4a62c37c-b1a6-460c-acbc-16953d381c60.png)
+
+
 ## core-ui pagination
 
 Download coreui admin: [Click here](https://coreui.io/product/free-react-admin-template/)
