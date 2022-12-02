@@ -78,7 +78,7 @@ export default RoundButton;
 
 ```
 
-Also, for above you might get error like that!
+Also, for above you might get error like that (considering that prop name is `lightBorder` instead of `height`)!
 
 ![image](https://user-images.githubusercontent.com/31458531/205305518-fbdbc26b-32d1-42ea-be3b-7910b07dc08a.png)
 
