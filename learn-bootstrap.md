@@ -189,3 +189,10 @@ Q. How do breakpoints work?
 - Customizing the grid [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#customizing-the-grid)
 
 ![image](https://user-images.githubusercontent.com/31458531/195980981-c2b0da15-b6a6-4b44-bacd-efcd500fe052.png)
+
+
+## Thats how container, container-fluid works
+
+Source: [Click here](https://getbootstrap.com/docs/5.2/layout/containers/#default-container)
+
+![image](https://user-images.githubusercontent.com/31458531/205707040-fb000384-2201-41fa-9338-097bcab095c2.png)
