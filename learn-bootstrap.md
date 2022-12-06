@@ -5,9 +5,9 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
-## ❤️  Awesome and Quiet Advance media queries with just Bootstrap Classes ❤️ 
+## ❤️  Awesome and Quiet Amazing way to show/hide elements on the basis of screen sizes ❤️ 
 
-Source: [Click here](https://getbootstrap.com/docs/5.2/utilities/display/#hiding-elements)
+Source: [Hiding Elements](https://getbootstrap.com/docs/5.2/utilities/display/#hiding-elements)
 
 ## Default heading styles?
 
