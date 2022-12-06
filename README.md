@@ -42,6 +42,12 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 https://twitter.com/argyleink/status/1588201392661204992
 
+## `mantine` css library for react (suggested by Tekena)
+
+Date: 6 Dec, 2022
+
+- Website: [mantine.dev/](https://mantine.dev/), [Github](https://github.com/mantinedev/mantine) (16K*)
+
 ## is there && and || operator useful in css?
 
 Tldr: Yes. Source: [Click here](https://stackoverflow.com/questions/2797091/css-and-and-or)
