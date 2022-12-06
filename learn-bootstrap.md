@@ -148,6 +148,8 @@ Q. How do breakpoints work?
 
 ## `grid`
 
+Docs: **[Columns](https://getbootstrap.com/docs/5.2/layout/columns/#how-they-work)**
+
 [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
   
   - `container` class centers the element.
