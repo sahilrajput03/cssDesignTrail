@@ -181,13 +181,17 @@ Docs: **[Columns](https://getbootstrap.com/docs/5.2/layout/columns/#how-they-wor
 
   - Row Columns [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#row-columns): (**Tip: Open image in new to see clearly**)
 
-  ```html
-  <!-- So in below case we're saying that: -->
-  <!-- we want 3 columns in total in xs and above -->
-  <!-- we want 4 columns in total in sm and above -->
-  <!-- we want 3 columns in total in md and above -->
+  Update: 7 Dec, 2022. Realization that we provide **total number of columns we want** when we do like `row-cols-3` to a `row` whereas we provide **the occupying number of column space out of 12** when we specify **col** value to a **single column** i.e, `col-3` which says we'll have 4 cols in total(each occupying 3/12 = 1/4 space).
 
-        <Row className="mt-3 gy-3 justify-content-start row-cols-3 row-cols-sm-4 row-cols-md-3">
+  ```html
+        <!-- So in below case we're saying that: -->
+        <!-- we want 3 columns in total in xs and above -->
+        <!-- we want 4 columns in total in sm and above -->
+        <!-- we want 3 columns in total in md and above -->
+
+        <!-- <Row className="mt-3 gy-3 justify-content-start row-cols-3 row-cols-sm-4 row-cols-md-3"> -->
+        <!-- Above works same as below. Also, using below makes more sense as it component's featre and much cleaner as well. -->
+        <Row className="mt-3 gy-3 justify-content-start" xs="3" sm="4" md="3">
           <Col><img className="rounded-3 d-block m-auto" src={profileImg2} alt="Profile Here" style={{ maxWidth: '92px' }} /></Col>
           <Col><img className="rounded-3 d-block m-auto" src={profileImg3} alt="Profile Here" style={{ maxWidth: '92px' }} /></Col>
           <Col><img className="rounded-3 d-block m-auto" src={profileImg4} alt="Profile Here" style={{ maxWidth: '92px' }} /></Col>
