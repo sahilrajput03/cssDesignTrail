@@ -148,6 +148,11 @@ Q. How do breakpoints work?
 
 ## `grid`
 
+**Fun Fact: ❤️ grid in bootstrap is made using flexbox only, i.e., grid doesn't uses grid css property at all. Refer below screenshot.**
+
+![image](https://user-images.githubusercontent.com/31458531/206267965-0d98d7b1-d33b-4e61-a767-676450551ec1.png)
+
+
 Docs: **[Columns](https://getbootstrap.com/docs/5.2/layout/columns/#how-they-work)**
 
 [Docs](https://getbootstrap.com/docs/5.2/layout/grid/)
