@@ -182,10 +182,10 @@ Docs: **[Columns](https://getbootstrap.com/docs/5.2/layout/columns/#how-they-wor
   - Row Columns [Docs](https://getbootstrap.com/docs/5.2/layout/grid/#row-columns): (**Tip: Open image in new to see clearly**)
 
   ```html
-  //  So in below case we're saying that:
-  // we want 3 columns in total in xs and above
-  // we want 4 columns in total in sm and above
-  // we want 3 columns in total in md and above
+  <!-- So in below case we're saying that: -->
+  <!-- we want 3 columns in total in xs and above -->
+  <!-- we want 4 columns in total in sm and above -->
+  <!-- we want 3 columns in total in md and above -->
 
         <Row className="mt-3 gy-3 justify-content-start row-cols-3 row-cols-sm-4 row-cols-md-3">
           <Col><img className="rounded-3 d-block m-auto" src={profileImg2} alt="Profile Here" style={{ maxWidth: '92px' }} /></Col>
