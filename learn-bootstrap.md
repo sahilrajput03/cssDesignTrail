@@ -231,3 +231,13 @@ Docs: **[Columns](https://getbootstrap.com/docs/5.2/layout/columns/#how-they-wor
 Source: [Click here](https://getbootstrap.com/docs/5.2/layout/containers/#default-container)
 
 ![image](https://user-images.githubusercontent.com/31458531/205707040-fb000384-2201-41fa-9338-097bcab095c2.png)
+
+## Amazin bootstrap that you can add responsiveness to almost any breakpoint as wish
+
+![image](https://user-images.githubusercontent.com/31458531/208155380-ea58192d-174a-4369-8505-da9dca306c0d.png)
+
+## Amazing hack for making w-md-75 work (see above heading as well to actually make such properties truly responsive entities)
+
+Source: [Click here](https://stackoverflow.com/a/68552089)
+
+![image](https://user-images.githubusercontent.com/31458531/208157914-73eec3b8-3324-4498-8e4a-99f7ac1888ee.png)
