@@ -234,6 +234,8 @@ Source: [Click here](https://getbootstrap.com/docs/5.2/layout/containers/#defaul
 
 ## Amazin bootstrap that you can add responsiveness to almost any breakpoint as wish
 
+Inspiration: [Click here](https://stackoverflow.com/a/71392811)
+
 ![image](https://user-images.githubusercontent.com/31458531/208155380-ea58192d-174a-4369-8505-da9dca306c0d.png)
 
 ## Amazing hack for making w-md-75 work (see above heading as well to actually make such properties truly responsive entities)
