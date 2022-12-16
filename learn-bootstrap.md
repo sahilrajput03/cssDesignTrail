@@ -234,7 +234,9 @@ Source: [Click here](https://getbootstrap.com/docs/5.2/layout/containers/#defaul
 
 ## Amazin bootstrap that you can add responsiveness to almost any breakpoint as wish
 
-Inspiration: [Click here](https://stackoverflow.com/a/71392811)
+Source(inspiration): [Click here](https://stackoverflow.com/a/71392811)
+
+Source(bootstrap): [Click here](https://getbootstrap.com/docs/5.0/utilities/api/#enable-responsive)
 
 ![image](https://user-images.githubusercontent.com/31458531/208155380-ea58192d-174a-4369-8505-da9dca306c0d.png)
 
