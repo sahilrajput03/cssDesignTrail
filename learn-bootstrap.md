@@ -245,3 +245,9 @@ Source(bootstrap): [Click here](https://getbootstrap.com/docs/5.0/utilities/api/
 Source: [Click here](https://stackoverflow.com/a/68552089)
 
 ![image](https://user-images.githubusercontent.com/31458531/208157914-73eec3b8-3324-4498-8e4a-99f7ac1888ee.png)
+
+## Get bootstrap/any css variable value in javascript
+
+Source: [Click here](https://stackoverflow.com/a/41725782)
+
+![image](https://user-images.githubusercontent.com/31458531/208726774-cc215f0d-1353-42ad-881b-3a68a67478ea.png)
