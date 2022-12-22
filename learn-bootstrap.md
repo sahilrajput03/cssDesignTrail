@@ -9,7 +9,7 @@
 ## Add bootstrap autocomplete to react's className autocomplete
 
 1. Install this extension: [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-2. Copy file from `node_modules/bootstrap/dist/css/bootstrap.min.css` to your `.vscode` folder so its separated from the project's sourcecode and you can also ignore to add `.vscode` in your gitignore file as well.
+2. Copy file from `node_modules/bootstrap/dist/css/bootstrap.min.css` to your `.vscode` folder so its separated from the project's sourcecode and you can choose to ignore your `.vscode` folder in your gitignore file as well.
 3. Click on that icon to cache the css files in the project:
 
 ![image](https://user-images.githubusercontent.com/31458531/209115377-77776ccb-ba90-4138-b04d-4cbb2dc9a713.png)
