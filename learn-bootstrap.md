@@ -6,6 +6,10 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
+## Thats how we can use css variables in react
+
+![image](https://user-images.githubusercontent.com/31458531/209655198-7e0a8e86-c016-4389-9616-1b10fcc816f4.png)
+
 ## Add bootstrap autocomplete to react's className autocomplete
 
 1. Install this extension: [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
