@@ -120,6 +120,9 @@ Redmi note5
 <img src="https://user-images.githubusercontent.com/31458531/189069928-98fc6fde-1e22-467d-9a91-2b82547bfa83.jpg" alt="drawing" width="230"/>
 <img src="https://user-images.githubusercontent.com/31458531/189069936-03301f70-d287-4942-9ceb-3b2065b8986f.jpg" alt="drawing" width="230"/>
 
+<img src="https://user-images.githubusercontent.com/31458531/210729669-6bbf5df8-3b7d-4b72-9d54-4e2be49b2195.png" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/210729712-847b8ac0-5f30-45c8-b95c-70adca2d28ee.png" alt="drawing" width="230"/>
+
 ## Easiest possible way to center things
 
 ![image](https://user-images.githubusercontent.com/31458531/188959307-c984c62d-8a67-44c8-9f23-d507c6b3efdf.png)
