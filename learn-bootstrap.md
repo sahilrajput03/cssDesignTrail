@@ -8,6 +8,15 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
+## `react-bootstrap`'s stack
+
+Docs: [Click here](https://react-bootstrap.netlify.app/layout/stack/#rb-docs-content)
+
+![image](https://user-images.githubusercontent.com/31458531/211154940-59dcfab4-718a-472a-b003-b995e35af0a8.png)
+
+![image](https://user-images.githubusercontent.com/31458531/211154973-2af0f7eb-64f2-47b7-9ae8-a830add22292.png)
+
+
 ## Thats how we can use css variables in react
 
 ![image](https://user-images.githubusercontent.com/31458531/209655198-7e0a8e86-c016-4389-9616-1b10fcc816f4.png)
