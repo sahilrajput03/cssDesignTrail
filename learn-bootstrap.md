@@ -4,7 +4,7 @@
 - **`react-bootstrap` Docs: [Click here](https://react-bootstrap.netlify.app/components/alerts)**
 - **BootStrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
 - **Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)**
-- cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
+- **cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)**
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`
 
