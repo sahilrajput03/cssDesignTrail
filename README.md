@@ -124,12 +124,7 @@ https://www.cssscript.com/tag/confetti/
 
 Redmi note5
 
-<img src="https://user-images.githubusercontent.com/31458531/189069912-83ca8a96-4f46-4da3-8c33-59ec53eb33ae.jpg" alt="drawing" width="230"/> 	<img src="https://user-images.githubusercontent.com/31458531/189069927-1b54a896-28b6-45ba-bfcd-273ce7002d37.jpg" alt="drawing" width="230"/>
-<img src="https://user-images.githubusercontent.com/31458531/189069928-98fc6fde-1e22-467d-9a91-2b82547bfa83.jpg" alt="drawing" width="230"/>
-<img src="https://user-images.githubusercontent.com/31458531/189069936-03301f70-d287-4942-9ceb-3b2065b8986f.jpg" alt="drawing" width="230"/>
-
-<img src="https://user-images.githubusercontent.com/31458531/210729669-6bbf5df8-3b7d-4b72-9d54-4e2be49b2195.png" alt="drawing" width="230"/>
-<img src="https://user-images.githubusercontent.com/31458531/210729712-847b8ac0-5f30-45c8-b95c-70adca2d28ee.png" alt="drawing" width="230"/>
+<img src="https://user-images.githubusercontent.com/31458531/189069912-83ca8a96-4f46-4da3-8c33-59ec53eb33ae.jpg" alt="drawing" width="230"/> 	<img src="https://user-images.githubusercontent.com/31458531/189069927-1b54a896-28b6-45ba-bfcd-273ce7002d37.jpg" alt="drawing" width="230"/> <img src="https://user-images.githubusercontent.com/31458531/189069928-98fc6fde-1e22-467d-9a91-2b82547bfa83.jpg" alt="drawing" width="230"/> <img src="https://user-images.githubusercontent.com/31458531/189069936-03301f70-d287-4942-9ceb-3b2065b8986f.jpg" alt="drawing" width="230"/> <img src="https://user-images.githubusercontent.com/31458531/210729669-6bbf5df8-3b7d-4b72-9d54-4e2be49b2195.png" alt="drawing" width="230"/> <img src="https://user-images.githubusercontent.com/31458531/210729712-847b8ac0-5f30-45c8-b95c-70adca2d28ee.png" alt="drawing" width="230"/>
 
 ## Easiest possible way to center things
 
