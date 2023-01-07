@@ -6,7 +6,7 @@
 - **Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)**
 - **cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)**
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
-- Redmi Note 5: Width `515px`
+- Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
 ## Thats how we can use css variables in react
 
