@@ -8,6 +8,12 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
+## Bootstrap has variables for particular entities i.e, `modal`, etc
+
+Docs: [Click here](https://getbootstrap.com/docs/5.2/components/modal/#how-it-works)
+
+![image](https://user-images.githubusercontent.com/31458531/231961526-2a608c96-f512-4343-82f1-308da7078a6e.png)
+
 ## `react-bootstrap`'s stack
 
 Docs: [Click here](https://react-bootstrap.netlify.app/layout/stack/#rb-docs-content)
