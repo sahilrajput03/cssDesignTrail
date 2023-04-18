@@ -39,6 +39,16 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## `root element size` value?
+
+Source of below article text: [Click here](https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units#rem-unit) ~ Suggested by Eric
+
+![image](https://user-images.githubusercontent.com/31458531/232867844-d08e60bf-4ae9-45de-a7f5-8a427159d622.png)
+
+![image](https://user-images.githubusercontent.com/31458531/232867473-72e8cb63-6837-46a2-af8c-6f406ec2b5fd.png)
+
+
+
 ## Css frameworks?
 
 Source: [Click here](https://2021.stateofcss.com/en-US/technologies/css-frameworks/)
