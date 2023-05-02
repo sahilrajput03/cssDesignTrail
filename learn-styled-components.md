@@ -7,6 +7,12 @@
 npm i styled-components @types/styled-components
 ```
 
+
+## Add prop types to styled component
+
+![image](https://user-images.githubusercontent.com/31458531/235714441-12bd188b-06e0-49c9-892e-6a5353794987.png)
+
+
 ## Add class to styled component - 💕❤😘
 
 Source: [Click here](https://stackoverflow.com/questions/59756648/add-classes-to-styled-component)
