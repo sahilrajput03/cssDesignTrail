@@ -39,6 +39,36 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Update css variable on root via javascript
+
+Source: [Stackoverflow answer](https://stackoverflow.com/questions/37801882/how-to-change-css-root-color-variables-in-javascript)
+
+way 1: common way
+
+```js
+document.documentElement.style.setProperty('--your-variable', '#YOURCOLOR');
+```
+
+way 2: Another cleaner way:
+
+```js
+const root = document.querySelector(':root');
+
+// set css variable
+root.style.setProperty('--my-color', 'blue');
+
+// to get css variable from :root
+const color = getComputedStyle(root).getPropertyValue('--my-color'); // blue
+```
+
+
+way 3: another way
+
+```js
+var sheet = document.styleSheets[0];
+sheet.insertRule(":root{--blue:#4444FF}");
+```
+
 ## `root element size` value?
 
 Source of below article text: [Click here](https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units#rem-unit) ~ Suggested by Eric
