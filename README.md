@@ -43,6 +43,8 @@ Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . 
 
 Source: [Stackoverflow answer](https://stackoverflow.com/questions/37801882/how-to-change-css-root-color-variables-in-javascript)
 
+<img src="https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/50be4f55-9e08-42b3-9c43-adfac263f048" width="600" />
+
 way 1: common way
 
 ```js
