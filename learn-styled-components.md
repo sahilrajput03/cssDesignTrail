@@ -10,6 +10,9 @@ npm i styled-components @types/styled-components
 ## Using uss at two places
 
 ```ts
+// PLEASE DON"T USE SEPARATE MEDIA QUERIES THIS WAY if you want to share code b/w them, this is a contrived example to show usage of css in multiple places only.
+// IDEAL WAY for below is to instead use like #MASTER_PLAN# section code block.
+
 const CssForColumnView = css`
   & {
     flex-direction: column-reverse;
@@ -26,8 +29,6 @@ const MoviePosterWithAdditionDetails = styled.div`
     padding-inline-start: 24px;
     text-align: left;
   }
-  // PLEASE DON"T USE THIS WAY, this is a contrived example to show usage of css in multiple places only.
-  // IDEAL WAY for below is to instead use like #MASTER_PLAN# section code block.
   @media (max-width: ${XL_MEDIA_BREAKPOINT}) and (min-width: ${LG_MEDIA_BREAKPOINT}) {
     ${CssForColumnView}
   }
