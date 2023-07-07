@@ -39,6 +39,20 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Using multiple css code to share b/w multiple media queries
+
+```ts
+  /* Note the comma separated list of media queries which are independent to each other. */
+  @media (max-width: ${XL_MEDIA_BREAKPOINT}) and (min-width: ${LG_MEDIA_BREAKPOINT}), (max-width: ${MD_MEDIA_BREAKPOINT}) {
+    & {
+      flex-direction: column-reverse;
+    }
+    .text__details {
+      padding-inline-start: 0px;
+    }
+  }
+```
+
 ## Update/access css variables via javascript
 
 Source: [Stackoverflow answer](https://stackoverflow.com/questions/37801882/how-to-change-css-root-color-variables-in-javascript)
