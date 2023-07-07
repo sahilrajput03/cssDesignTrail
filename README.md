@@ -39,7 +39,7 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
-## Using multiple css code to share b/w multiple media queries
+## Sharing CSS code to share b/w multiple media queries
 
 ```ts
   /* Note the comma separated list of media queries which are independent to each other. */
