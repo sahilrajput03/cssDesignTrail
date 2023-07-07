@@ -7,6 +7,55 @@
 npm i styled-components @types/styled-components
 ```
 
+## Using uss at two places
+
+```ts
+const CssForColumnView = css`
+  & {
+    flex-direction: column-reverse;
+  }
+  .text__details {
+    padding-inline-start: 0px;
+  }
+`;
+
+const MoviePosterWithAdditionDetails = styled.div`
+  display: flex;
+  .text__details {
+    margin: auto;
+    padding-inline-start: 24px;
+    text-align: left;
+  }
+  // PLEASE DON"T USE THIS WAY, this is a contrived example to show usage of css in multiple places only.
+  // IDEAL WAY for below is to instead use like #MASTER_PLAN# section code block.
+  @media (max-width: ${XL_MEDIA_BREAKPOINT}) and (min-width: ${LG_MEDIA_BREAKPOINT}) {
+    ${CssForColumnView}
+  }
+  @media (max-width: ${MD_MEDIA_BREAKPOINT}) {
+    ${CssForColumnView}
+  }
+`;
+```
+
+```ts
+// #MASTER_PLAN#
+const MoviePosterWithAdditionDetails = styled.div`
+  display: flex;
+  .text__details {
+    margin: auto;
+    padding-inline-start: 24px;
+    text-align: left;
+  }
+  @media (max-width: ${XL_MEDIA_BREAKPOINT}) and (min-width: ${LG_MEDIA_BREAKPOINT}), (max-width: ${MD_MEDIA_BREAKPOINT}) {
+    & {
+      flex-direction: column-reverse;
+    }
+    .text__details {
+      padding-inline-start: 0px;
+    }
+  }
+`;
+```
 
 ## Add `props` type and `defaultProps` to styled component
 
