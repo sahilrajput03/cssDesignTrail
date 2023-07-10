@@ -8,7 +8,15 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
-## What are grid breakpoints used for?
+##  We should totally avod using breakpoints in css with boostrap? Yes!!
+
+Source: Amazing Docs of bootstrap: [Click here](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+
+Ideal way to utilise the breakpoints by bootstrap with sass fun -
+
+![image](https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/f741977f-36e9-46df-a17f-3d9dc11deffc)
+
+## ==TODO== What are grid breakpoints used for?
 
 TODO: Learn these with some testing!
 
