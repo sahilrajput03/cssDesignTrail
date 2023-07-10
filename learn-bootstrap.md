@@ -10,7 +10,9 @@
 
 ##  Using media queries with sass functions with boostrap
 
-NOTE: These queries are not possible to use in `styled-components`, thus don't use in slasher fronend. (tested - does not work)
+*NOTE: These queries are not possible to use in `styled-components`, thus don't use in slasher fronend. (tested - does not work)*
+
+*TODO: Test if this library works to provide the bootstrap's sass function into styledjsx?:* [Click here](https://www.npmjs.com/package/@styled-jsx/plugin-sass)
 
 Source: Amazing Docs of bootstrap: [Click here](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
