@@ -12,7 +12,7 @@
 
 *NOTE: These queries are not possible to use in `styled-components`, thus don't use in slasher fronend. (tested - does not work)*
 
-*TODO: Test if this library works to provide the bootstrap's sass function into styledjsx?:* [Click here](https://www.npmjs.com/package/@styled-jsx/plugin-sass)
+*TODO: Test if [this library](https://www.npmjs.com/package/@styled-jsx/plugin-sass) works to provide the bootstrap's sass function into styledjsx?*
 
 Source: Amazing Docs of bootstrap: [Click here](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
