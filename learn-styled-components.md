@@ -201,3 +201,12 @@ Also, for above you might get error like that (considering that prop name is `li
 ## Why styled uses tagged literals and how does it even work?
 
 Source: [Click here](https://styled-components.com/docs/advanced#tagged-template-literals)
+
+
+## Don't rely on name of styled-components classNames!
+
+Because they change on every change in style properties when you alter then.
+
+So, what to use to make easy find classes in `Elements` tab in browser console? **Simply assign temporary ids, because they are best reliable for this particular need of development.**
+
+![image](https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/ed5d4e44-e448-4e74-833a-277bf21b6a2b)
