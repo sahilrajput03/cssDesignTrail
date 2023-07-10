@@ -8,6 +8,12 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
+## What are grid breakpoints used for?
+
+TODO: Learn these with some testing!
+
+![image](https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/5522c5b2-5b99-49c0-a5a5-3adc0f7e8a37)
+
 ## Bootstrap has variables for particular entities i.e, `modal`, etc
 
 Docs: [Click here](https://getbootstrap.com/docs/5.2/components/modal/#how-it-works)
