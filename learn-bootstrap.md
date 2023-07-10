@@ -8,7 +8,9 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
-##  We should totally avod using breakpoints in css with boostrap? Yes!!
+##  Using media queries with sass functions with boostrap
+
+NOTE: These queries are not possible to use in `styled-components`, thus don't use in slasher fronend. (tested - does not work)
 
 Source: Amazing Docs of bootstrap: [Click here](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
