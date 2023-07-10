@@ -1,6 +1,7 @@
 # Styled components
 
-**Continue reding [docs from here](https://styled-components.com/docs/basics#getting-started).**
+- **Amazing read - How to Refactor SCSS Variables for Styled Components: [Click here](https://code.likeagirl.io/how-to-refactor-scss-variables-for-styled-components-e0a7610fcbb4)**
+- **Continue reding [docs from here](https://styled-components.com/docs/basics#getting-started).**
 
 ```bash
 # install
