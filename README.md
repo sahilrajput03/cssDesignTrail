@@ -965,6 +965,11 @@ kevin video on svg: <https://youtu.be/ZJSCl6XEdP8>
 
 ## sass
 
+**Generate CSS variables with SCSS:**
+
+![image](https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/b970bad9-910f-4f3b-9dce-23fe67afb634)
+
+
 Sass: Syntactically Awesome Style Sheets
 
 Scss (sass + css), and it supports existing css too, that means your existing css files would be just scss files by renaming to `.scss` files. BUT DRAWBACK OF SCSS is that you still got to use curly braces.
