@@ -967,6 +967,8 @@ kevin video on svg: <https://youtu.be/ZJSCl6XEdP8>
 
 **Generate CSS variables with SCSS:**
 
+Source: [Click here](https://sass-lang.com/documentation/breaking-changes/css-vars/)
+
 ![image](https://github.com/sahilrajput03/cssDesignTrail/assets/31458531/b970bad9-910f-4f3b-9dce-23fe67afb634)
 
 
