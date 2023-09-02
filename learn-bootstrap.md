@@ -1,6 +1,8 @@
 # Learn bootstrap
 
 **Quick Links:**
+- Learn Bootstrap (my repo): [Click here](https://github.com/sahilrajput03/learningBootstrap)
+- Learn Bootstrap According (my repo): [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
 - **`react-bootstrap` Docs: [Click here](https://react-bootstrap.netlify.app/components/alerts)**
 - **BootStrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
 - **Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)**
