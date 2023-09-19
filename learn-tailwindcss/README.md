@@ -3,8 +3,8 @@
 **Related Libs:**
 - Headless UI
 - TailwindUI
-- Daisyui: [Website](https://daisyui.com/), [gitub 14.6*](https://github.com/saadeghi/daisyui)
-- shadcn: [Website](https://ui.shadcn.com/), [github 31.3k*](https://github.com/shadcn-ui/ui)
+  - Daisyui: [Website](https://daisyui.com/), [Gitub 14.6*](https://github.com/saadeghi/daisyui)
+  - shadcn: [Website](https://ui.shadcn.com/), [Github 31.3k*](https://github.com/shadcn-ui/ui)
 
 Play with tailwindcss: https://play.tailwindcss.com/
 
