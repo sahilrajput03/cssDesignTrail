@@ -2,11 +2,10 @@
 
 **Related Libs:**
 - TailwindUI
+  - **Play with tailwindcss (Tailwind Playground): [Click here](https://play.tailwindcss.com/)**
   - Headless [Website](https://headlessui.com/), [Github 22.2k*](https://github.com/tailwindlabs/headlessui)
   - Daisyui: [Website](https://daisyui.com/), [Gitub 24.6*](https://github.com/saadeghi/daisyui)
   - shadcn: [Website](https://ui.shadcn.com/), [Github 31.3k*](https://github.com/shadcn-ui/ui)
-
-Play with tailwindcss: https://play.tailwindcss.com/
 
 Setting up `tailwindcss` is now easiest: https://tailwindcss.com/docs/guides/create-react-app .
 
