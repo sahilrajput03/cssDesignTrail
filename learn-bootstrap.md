@@ -10,6 +10,34 @@
 - Amazing use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
 - Redmi Note 5: Width `515px`, `980px` in desktop mode chrome.
 
+## Learn Accordion with react-bootstrap
+
+```ts
+const LearnAccordion = () => {
+  const [activeKey, setActiveKey] = useState(getLastActiveKeyOfAccordionOnLinksPage)
+  const handleSelect = (value) => {
+    setLastActiveKeyOfAccordionOnLinksPage(value)
+    setActiveKey(value)
+  }
+  return <div>
+    <Accordion activeKey={activeKey} onSelect={handleSelect}>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header id={"accordionHeader"}>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+  </div>
+}
+```
+
 ##  Using media queries with sass functions with boostrap
 
 *NOTE: These queries are not possible to use in `styled-components`, thus don't use in slasher fronend. (tested - does not work)*
