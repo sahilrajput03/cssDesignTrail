@@ -13,6 +13,9 @@
 ## Learn Accordion with react-bootstrap
 
 ```ts
+const getLastActiveKeyOfAccordionOnLinksPage = () => localStorage.getItem(lastActiveKeyOfAccordionOnLinksPage)
+const setLastActiveKeyOfAccordionOnLinksPage = (value) => localStorage.setItem(lastActiveKeyOfAccordionOnLinksPage, value)
+
 const LearnAccordion = () => {
   const [activeKey, setActiveKey] = useState(getLastActiveKeyOfAccordionOnLinksPage)
   const handleSelect = (value) => {
