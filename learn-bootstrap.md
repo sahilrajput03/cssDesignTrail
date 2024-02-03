@@ -13,6 +13,8 @@
 ## Learn Accordion with react-bootstrap
 
 ```ts
+const lastActiveKeyOfAccordionOnLinksPage = 'cachedAccordionKey'
+
 const getLastActiveKeyOfAccordionOnLinksPage = () => localStorage.getItem(lastActiveKeyOfAccordionOnLinksPage)
 const setLastActiveKeyOfAccordionOnLinksPage = (value) => localStorage.setItem(lastActiveKeyOfAccordionOnLinksPage, value)
 
