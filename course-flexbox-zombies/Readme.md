@@ -1,13 +1,10 @@
 # Flexboxzombies
 
-Find the game @ [link](https://mastery.games/flexboxzombies/).
-
-[Read about flexbox at firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
-
-- nth-of-type() function of css example using class: https://www.w3schools.com/code/tryit.asp?filename=GOB930T9J2ZA
-
-- nth-of-type selector in css:
-
+- Find the game @ [link](https://mastery.games/flexboxzombies/).
+- [Read about flexbox at firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
+- **TODO: An Interactive Guide to Flexbox ~ Josh W Comeu:** [Click here](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+- nth-of-type() function of css example using class ~ w3schools.com: [Click here](https://www.w3schools.com/code/tryit.asp?filename=GOB930T9J2ZA)
+- nth-of-type selector in CSS:
   - CSS: https://www.w3schools.com/cssref/sel_nth-of-type.asp,
   - MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
   - INTERESTINGLY: https://css-tricks.com/almanac/selectors/n/nth-of-type/
