@@ -1,14 +1,18 @@
 # Readme
 
+**Quick Links:**
+- Source: [http://cssgridgarden.com](http://cssgridgarden.com)
+- An Interactive Guide to CSS Grid ~ Josh W Comeau: [Click here](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+
+## From MDN
 
 Source: [@mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
 
-![image](https://user-images.githubusercontent.com/31458531/189073973-d0ab5887-dd13-4b2c-be05-e99d72a290d2.png)
+<img width="400" src="https://user-images.githubusercontent.com/31458531/189073973-d0ab5887-dd13-4b2c-be05-e99d72a290d2.png" />
 
+## Css Grid Course
 
-## Everything you need to know
-
-Source: http://cssgridgarden.com/
+Source: http://cssgridgarden.com
 
 ```txt
 src: http://cssgridgarden.com/
