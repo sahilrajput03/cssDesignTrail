@@ -2,6 +2,7 @@
 
 **Quick Links:**
 
+- Learn CSS Animations by Josh M Comeau: [Click here](https://www.joshwcomeau.com/tutorials/animation/) (Amazing list of posts on animation)
 - The State of CSS 2021: [Click here](https://2021.stateofcss.com/en-US/technologies/css-frameworks/)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
 - **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
