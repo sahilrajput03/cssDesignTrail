@@ -40,6 +40,49 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Should I use `:root` or `html` tag in css to refer to html element? (ChatGPT)
+
+In CSS, both the :root pseudo-class and the html tag can be used to refer to the root element of the document, but they have slightly different use cases and implications:
+
+`:root` Pseudo-Class:
+
+The `:root` pseudo-class matches the root element of the document, which is typically the <html> element in an HTML document. It is often used to define custom properties (variables) because of its higher specificity compared to the `html` selector. This ensures that the custom properties are accessible from anywhere in the CSS, even if there are more specific rules targeting the html element.
+
+Example:
+
+```css
+:root {
+  --main-color: #3498db;
+}
+
+body {
+  background-color: var(--main-color);
+}
+```
+
+`html` Tag selector:
+
+The html tag selector specifically targets the <html> element. It is commonly used for setting global styles, such as font size, line height, and other base styles that are meant to be inherited by all elements.
+
+Example:
+
+```css
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+```
+
+When to Use Which
+
+Use `:root` when defining custom properties (variables) or when you want to ensure higher specificity.
+Use `html` for setting base styles that apply to the entire document, especially when inheritance is a key concern.
+In most practical scenarios, the choice between the two doesn't affect the outcome much, but using :root is generally considered more semantically correct for defining custom properties.
+
 ## Edit any website's text directly in the website
 
 ```js
