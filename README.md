@@ -2,31 +2,13 @@
 
 **Quick Links:**
 
+- See list of website designs here - [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
 - Learn CSS Animations by Josh M Comeau: [Click here](https://www.joshwcomeau.com/tutorials/animation/) *(Amazing list of posts on animation)*
 - The State of CSS 2021: [Click here](https://2021.stateofcss.com/en-US/technologies/css-frameworks/)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
 - **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
-- Explore Website Designs: [source](https://www.youtube.com/watch?v=23Y01_aVdzM)
-	- **Dribble.com** [Click here](https://dribbble.com/)
-	- **Awwwards.com:** - [Click here](https://www.awwwards.com/)
-	- **lapa.ninjs:** - [Click here](https://www.lapa.ninja/)
-	- **godly.website:** - [Click here](https://godly.website/)
-	- **uigarage.net:** [Click here](https://uigarage.net/)
-	- **SiteInspire.com:** [Click here](https://www.siteinspire.com/)
-	- **Land-book.com:** [Click here](https://land-book.com/)
-	- **Landingfolio.com:** [Click here](https://www.landingfolio.com/)
-	- **Premium And Free Admin Templates:** [Click here](https://themeselection.com/)
-	- **BWII:** [Click here](https://bwii.co.in/)
-	- **Mobile Only:**
-		- **uisources:** - [Click here](https://www.uisources.com/)
-		- **mobbin.com:** - [Click here](https://mobbin.com/)
-- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
-- Scroll Transitions Websites:
-	- Meetings: [Click here](https://www.meetings.fr/)
-- Crazy sites made using Three.js and similar libraries:
-	- Low Carbon Park: [Click here](https://vivatech2022.cher-ami.tv/room/low-carbon-park-by-edf)
 - Article:
 	- Animation Libraries in Js: [Click here](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 - [Ansh Mehra Design Portfolio](https://www.anshmehra.com/)
