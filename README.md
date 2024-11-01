@@ -916,6 +916,18 @@ p {
 
 ## center a thing superfast
 
+**via `position:absolute`**
+
+```css
+<style>
+.centered {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+```
+
 **via align-text (for text only)**
 
 ```css
