@@ -22,7 +22,7 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
-## What select to use in css for a button having class btn-primary and disabled?
+## What select to use in css for a button having class `btn-primary` and `disabled`?
 
 To select a button with the class btn-primary and the disabled attribute in CSS, you can use the following selector:
 
