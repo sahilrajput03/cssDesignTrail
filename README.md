@@ -22,6 +22,26 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## What select to use in css for a button having class btn-primary and disabled?
+
+To select a button with the class btn-primary and the disabled attribute in CSS, you can use the following selector:
+
+```css
+.btn-primary:disabled {
+    /* Your styles here */
+}
+```
+
+Or, if you're using aria-disabled="true" for accessibility, use this selector:
+
+```css
+.btn-primary[aria-disabled="true"] {
+    /* Your styles here */
+}
+```
+
+These selectors apply styles specifically to elements with the btn-primary class that are disabled.
+
 ## Should I use `:root` or `html` tag in css to refer to html element? (ChatGPT)
 
 In CSS, both the :root pseudo-class and the html tag can be used to refer to the root element of the document, but they have slightly different use cases and implications:
