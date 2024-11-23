@@ -22,6 +22,10 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once ðŸ¥‡ï
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## Parallax effect
+
+[w3schools.com](https://www.w3schools.com/howto/howto_css_parallax.asp)
+
 ## Give spacing between items in flexbox
 
 Awesome StackOverflow: [Click here](https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items)
