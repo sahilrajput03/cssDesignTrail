@@ -100,19 +100,41 @@ ORDER, DEFAULT order's value is zero.
 
 <ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
 
-```text
-❤️FLEX-WRAP
-nowrap (default)
+**This property is given to the crossbow itself. In flex container we might want the elements to wraps into multiple lines which are parallel to main axis and we do that by applying `flex-wrap: wrap` to parent. This looks like:**
 
-This property is given to the crossbow itself.
-When elements in the flex wrap into new line if space is not enough, we need
-`flex-wrap: wrap`. These lines are always parallel to flex-direction.
-* To make new line above current line, use `flex-wrap-wrap-reverse;`
-*LEARN: When we use `wrap-reverse`, align-items:flex-start will make its first-line at  bottom(in case of flex-direction row/row-reverse). *Also align-items:flex-start will make its first-line at in top (in case of flex-direction as column/column-reverse), check if thats a little wrong typed :( :LOL:
-* flex-wrap: wrap-reverse makes the align-items: flex-end to go to the top instead of the bottom like it normally would, even when nothing was wrapping!. Pretty crazy!
-*  {flex-wrap: wrap; justify-content: flex-end;} can act together to make the last child stick to the end of the flex, yo!!
-*LEARN: The zombies(elements) treat the line they're on as the only space that matters. So they'll grow to fill up space on their line, and position themselves only within the boundaries of their line.
+```txt
+flex-direction: row;
+flew-wrap: wrap;
+1 2
+3 4
+```
+
+You can assign `flex-wrap` values - `nowrap` (default) and `wrap`.
+
+```text
+flex-direction: row;
+flew-wrap: wrap-reverse;
+3 4
+1 2
+
+flex-direction: row-reverse;
+flew-wrap: wrap;
+2 1
+4 3
+
+flex-direction: row-reverse;
+flew-wrap: wrap-reverse;
+4 3
+2 1
+```
+
+<ins>**❤️Note: `flex-wrap: wrap-reverse` with `align-items: flex-end` makes items go to the top instead of the bottom like it normally would, even when nothing is wrapping!. Pretty crazy! 🚀 TAKE AWAY: When you using `flex-wrap: wrap-reverse` the align-items's `flex-start` and `flex-end` behaves as it they were reversed.**</ins>
+
+```text
+*  Tip: With `flex-wrap: wrap;` you can use `justify-content: flex-end;` to make the childdren stick to the end of the flex.
+
 *LEARN: {flex-wrap}@crossbow and {flex-basis: 50%}@all_element_of_crossbow makes great ui as in two elements per line, yikes!
+
 *LEARN: {align-items: flex-end; flex-wrap: wrap-reverse;flex-direction: column-reverse}@crossbow makes the elements align in right most line and add more items in line in the left direction only, yikes!
 *LEARN: {justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified, yikes, simple behaviour, yo!
 *LEARN: flex-grow is still helpful with flex-wrap: wrap.
