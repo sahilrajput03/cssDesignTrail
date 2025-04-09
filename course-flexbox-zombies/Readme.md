@@ -2,13 +2,10 @@
 
 **Quick Links:**
 
-- [Read about flexbox at firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
 - **TODO: An Interactive Guide to Flexbox ~ Josh W Comeu:** [Click here](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
-
-## nth of type function
-
-**Quick Links:**
-
+- flexbox, developer.mozilla.org:
+  - [Read about flexbox at firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
+  - `align-items`: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
 - nth-of-type selector in CSS:
   - CSS: [w3schools](https://www.w3schools.com/cssref/sel_nth-of-type.asp)
     - My Example: `*:nth-of-type()` function with counter in it: [Click here](https://www.w3schools.com/code/tryit.asp?filename=GP4D48GNQJQ4)
@@ -44,6 +41,81 @@ _Note: "baseline" is helpful if you have different font-size elements, and you w
 Defines alignment of children of flex in main axis. We can use following values:
 
 `flex-start` (default), `flex-end`, `center`, `space-between`, `space-around `(in this case space will be in the end of each sides too)
+
+## ❤️ `flex-wrap: nowrap` (parent) and `align-content: stretch` (children)
+
+<ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
+
+**Both of these properties (`flex-wrap` and `align-content`) are given to the crossbow itself. In flex container we might want the elements to wraps into multiple lines (literally referred as `lines` technically) which are parallel to main axis and we do that by applying `flex-wrap: wrap` to parent. This looks like:**
+
+```txt
+flex-direction: row;
+flew-wrap: wrap;
+1 2
+3 4
+```
+
+You can assign `flex-wrap` values - `nowrap` (default) and `wrap`.
+
+```text
+flex-direction: row;
+flew-wrap: wrap-reverse;
+3 4
+1 2
+
+flex-direction: row-reverse;
+flew-wrap: wrap;
+2 1
+4 3
+
+flex-direction: row-reverse;
+flew-wrap: wrap-reverse;
+4 3
+2 1
+```
+
+<ins>**❤️Note: `flex-wrap: wrap-reverse` with `align-items: flex-end` makes items go to the top instead of the bottom like it normally would, even when nothing is wrapping!. Pretty crazy! 🚀 TAKE AWAY: When you using `flex-wrap: wrap-reverse` the align-items's `flex-start` and `flex-end` behaves as it they were reversed.**</ins>
+
+```text
+*  Tip: With `flex-wrap: wrap;` you can use `justify-content: flex-end;` to make the childdren stick to the end of the flex.
+
+* ✅Note: {flex-direction: column-reverse, align-items: flex-end; flex-wrap: wrap-reverse;} makes the elements align in right most line. That looks like (. represents empty space due to alignment specified via `align-items: flex-end`):
+
+. 4 2
+. 3 1
+
+
+✌🏻 Learn: {flex-driection: row, justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified. A commonly used generaly pattern. (In below figure . represents empty spaces due to specified alignment via `justify-content: center`)
+. 1 2 .
+. 3 4 .
+
+* 🛑 TODO_TEST: LEARN: {flex-wrap}@crossbow and {flex-basis: 50%}@all_element_of_crossbow makes great ui as in two elements per line, yikes!
+
+:🛑 TODO_TEST: flex-grow is still helpful with flex-wrap: wrap.
+```
+
+❤️🚀ALIGN-CONTENT: It defines the alignment of lines itself (when `flex-wrap: wrap` is set on parent) in cross axis (direction perpendicular to axis).
+
+<ins>Note: If we do not specify `align-content` propery the lines (when we have flex-wrap: wrap) the lines stretches to fill the container because `align-content: stretch` is the default value.</ins>
+
+We can assign it following values:
+
+```
+stretch (default)	  ❤️Lines stretch to fill the container
+flex-start	        Pulls all lines to the start of the cross-axis
+flex-end	          Pulls all lines to the end of the cross-axis
+center	            Centers all lines in the cross-axis
+space-between	      Evenly distributes lines, first and last lines at the edges
+space-around	      Even spacing around each line
+space-evenly	      Equal space between all lines, including edges
+```
+
+**❤️ Using `align-content` with `align-items`:**
+
+1. `align-items` property aligns the items in the lines itself.
+2. Only when `align-content` is set to its default value `stretch` --- the `align items: flex-start` or `flex-end` can be helpful else otherwise setting any value of `align-items` don't do anything at all.
+
+✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
 ### `flex-grow`, `flex-shrink` and `flex-basis`
 
@@ -94,69 +166,6 @@ Also, in below e.g.,
 ORDER, DEFAULT order's value is zero.
 * The bigger the order, the farther it'll be in the lazer's direction.
 * The elements in the flex are ordered according to the order, i.e., lower first, higher last.
-```
-
-## ❤️ `flex-wrap: nowrap` (parent) and `align-content: stretch` (children)
-
-<ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
-
-**This property is given to the crossbow itself. In flex container we might want the elements to wraps into multiple lines which are parallel to main axis and we do that by applying `flex-wrap: wrap` to parent. This looks like:**
-
-```txt
-flex-direction: row;
-flew-wrap: wrap;
-1 2
-3 4
-```
-
-You can assign `flex-wrap` values - `nowrap` (default) and `wrap`.
-
-```text
-flex-direction: row;
-flew-wrap: wrap-reverse;
-3 4
-1 2
-
-flex-direction: row-reverse;
-flew-wrap: wrap;
-2 1
-4 3
-
-flex-direction: row-reverse;
-flew-wrap: wrap-reverse;
-4 3
-2 1
-```
-
-<ins>**❤️Note: `flex-wrap: wrap-reverse` with `align-items: flex-end` makes items go to the top instead of the bottom like it normally would, even when nothing is wrapping!. Pretty crazy! 🚀 TAKE AWAY: When you using `flex-wrap: wrap-reverse` the align-items's `flex-start` and `flex-end` behaves as it they were reversed.**</ins>
-
-```text
-*  Tip: With `flex-wrap: wrap;` you can use `justify-content: flex-end;` to make the childdren stick to the end of the flex.
-
-*LEARN: {flex-wrap}@crossbow and {flex-basis: 50%}@all_element_of_crossbow makes great ui as in two elements per line, yikes!
-
-*LEARN: {align-items: flex-end; flex-wrap: wrap-reverse;flex-direction: column-reverse}@crossbow makes the elements align in right most line and add more items in line in the left direction only, yikes!
-*LEARN: {justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified, yikes, simple behaviour, yo!
-*LEARN: flex-grow is still helpful with flex-wrap: wrap.
-//////////////
-
-
-❤️🚀ALIGN-CONTENT: It defines the alignment of lines (when `flex-wrap: wrap`) in  cross axis (direction perpendicular to main axis).
-DEFAULT value of align-content is `stretch`. This property works in the perpendicular direction of the flex-direction.
-
-stretch (default)	Lines stretch to fill the container
-flex-start	Packs all lines to the start of the cross-axis
-flex-end	Packs all lines to the end of the cross-axis
-center	Centers all lines in the cross-axis
-space-between	Evenly distributes lines, first and last lines at the edges
-space-around	Even spacing around each line
-space-evenly	Equal space between all lines, including edges
-
-*LEARN: When shooting vertically, using {align-items: flex-end;} will make lines attracted towards right side.
-*LEARN: What did I learn about `align-items`: When there gets too many zombies to fit in a single line and they start wrapping to new lines, those lines can be arranged in several different ways perpendicular to the direction I'm shooting, along the crossbow's blue Alignment Laser.
-
-**AMAZING: mozilla's documentation for css is just awesome!! Check it out @ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
- as live updating is there with evey character changed, yikes!!
 ```
 
 ### Shortcuts (shorthands)
