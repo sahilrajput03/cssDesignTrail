@@ -27,15 +27,15 @@ Some custom w3school examples by me
 #Defining display: flex  is must for everything you want to do with flex.
 .class1{
 	display: flex;
+	# flex-direction: row; (default)
 }
-LEARN:  ^^ Default flex-direction is 'row' .
 
 .class1{
 	display: flex;
 	flex-direction: row-reverse;
-	OtherOptions:
-	flex-direction: column-reverse;
-	flex-direction: column;
+	# OtherOptions:
+	# flex-direction: column-reverse;
+	# flex-direction: column;
 }
 *************
 => ALIGN-ITEMS, ALIGN-SELF
@@ -98,7 +98,7 @@ flex-shrink: 1
 *LEARN: DEFAULT value of flex-shrink is 1.
 *LEARN: Setting value to 2 will make that particular flex-item to shrink twice as other items coz other items have 1 as their value by default.
 *LEARN: You can make a child to refuse to shrink via setting flex-shrink as 0.
-*LEARN: The value other 
+*LEARN: The value other
 Amazing demonstration @ https://youtu.be/o-dDFSH-BxM
 
 //////////////
