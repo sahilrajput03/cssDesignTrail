@@ -15,32 +15,25 @@
   - MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
   - Css Tricks Article: [Click here](https://css-tricks.com/almanac/selectors/n/nth-of-type/)
 
-## Flexbox Zombies Course Notes
+## Flexbox Zombies Course Notes - `display: flex`
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
-`display: flex;`
+**❤️Note: The headings below contain key-value pairs that represent default values..**
 
 ### `flex-direction: row`
 
-We can apply following properties to flex-direction: "row" (default), "row-reverse", "column-reverse" and "column".
+We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
 
-### `align-items: stretch` and `align-self: stretch`
+### `align-items: stretch` (parent) and `align-self: stretch` (children)
 
 <ins>Note: When `align-items` is set on a parent element, its children use that value as the default for their `align-self` property.</ins>
 
 Defines alignment in cross axis (perpendicular to the main axis). `align-items` is assigned to the cross bow itself, and `align-self` to children elements.
 
-```txt
-align-items: stretch; (default)
-align-self: stretch; (default)
-```
+We can apply following properties to both `align-items` and `align-self`: `stretch` (default), `center`, `flex-start`, `flex-end` and `baseline`.
 
-We can apply following properties to align-items and align-self: "center", "flex-start", "flex-end" and "baseline".
-
-<ins>Note: "baseline" is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.</ins>
-
-Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
+_Note: "baseline" is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing. Video example usage of `baseline` from Kevin Power (timestamped): [Click here](https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762)_
 
 ![](./align-items.svg)
 
@@ -48,15 +41,9 @@ Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTp
 
 ### `justify-content: flex-start`
 
-Defines alignment of children of flex in main axis.
+Defines alignment of children of flex in main axis. We can use following values:
 
-```txt
-flex-start (default)
-flex-end
-center
-space-between
-space-around (in this case space will be in the end of each sides too)
-```
+`flex-start` (default), `flex-end`, `center`, `space-between`, `space-around `(in this case space will be in the end of each sides too)
 
 ### `flex-grow`, `flex-shrink` and `flex-basis`
 
@@ -109,7 +96,7 @@ ORDER, DEFAULT order's value is zero.
 * The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 ```
 
-## `flex-wrap: nowrap` and `align-content: stretch`
+## ❤️ `flex-wrap: nowrap` (parent) and `align-content: stretch` (children)
 
 <ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
 
