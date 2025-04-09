@@ -4,8 +4,8 @@
 
 - **TODO: An Interactive Guide to Flexbox ~ Josh W Comeu:** [Click here](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 - flexbox, developer.mozilla.org:
-  - [Read about flexbox at firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
-  - `align-items`: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+  - How to examine flexbox layouts: [Click here](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_Flexbox_layouts)
+  - `align-items`: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 - nth-of-type selector in CSS:
   - CSS: [w3schools](https://www.w3schools.com/cssref/sel_nth-of-type.asp)
     - My Example: `*:nth-of-type()` function with counter in it: [Click here](https://www.w3schools.com/code/tryit.asp?filename=GP4D48GNQJQ4)
