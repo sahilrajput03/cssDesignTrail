@@ -111,6 +111,8 @@ ORDER, DEFAULT order's value is zero.
 
 ## `flex-wrap: nowrap` and `align-content: stretch`
 
+<ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
+
 ```text
 ❤️FLEX-WRAP
 nowrap (default)
