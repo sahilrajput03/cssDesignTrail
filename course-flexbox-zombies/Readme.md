@@ -94,7 +94,7 @@ flew-wrap: wrap-reverse;
 :🛑 TODO_TEST: flex-grow is still helpful with flex-wrap: wrap.
 ```
 
-❤️🚀ALIGN-CONTENT: It defines the alignment of lines itself (when `flex-wrap: wrap` is set on parent) in cross axis (direction perpendicular to axis).
+❤️🚀`align-content`: It defines the alignment of lines itself (when `flex-wrap: wrap` must be set on parent) in cross axis (direction perpendicular to axis).
 
 <ins>Note: If we do not specify `align-content` propery the lines (when we have flex-wrap: wrap) the lines stretches to fill the container because `align-content: stretch` is the default value.</ins>
 
