@@ -35,15 +35,9 @@
 
 ### `align-items` and `align-self`
 
-Defines alignment in cross axis (perpendicular to the main axis).
+Defines alignment in cross axis (perpendicular to the main axis). `align-items` is assigned to the cross bow itself, and `align-self` to children elements.
 
-`align-items` is assigned to the cross bow itself, and `align-self` to children elements.
-
-![](./align-items.svg)
-
-([image credits](https://css-tricks.com/almanac/properties/a/align-items/))
-
-```
+```txt
 align-items: stretch; (default)
 align-self: stretch; (default)
 
@@ -54,21 +48,25 @@ flex-end
 baseline
 ^^ This is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.
 Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
+```
 
-***************
-=> JUSTIFY-CONTENT
-/* Basically justify-content has to do in same axis as
-flex-direction, yikes!!*/
-/* justify-content: flex-start is DEFAULT for
-justify-content. */
-/* justify-content: flex-end */
-/* justify-content: center*/
-/* justify-content: space-between*/
-/* justify-content: space-around , in this case space will be in the end of each sides too, yikes...*/
+![](./align-items.svg)
 
-*********************
-*********************
+([image credits](https://css-tricks.com/almanac/properties/a/align-items/))
 
+### `justify-content`
+
+Defines alignment of children of flex in main axis.
+
+```txt
+flex-start (default)
+flex-end
+center
+space-between
+space-around (in this case space will be in the end of each sides too)
+```
+
+```txt
 FLEX-GROW: 1;
 *DEFAULT value of flex-grow is 0, i.e., items don't auto expand at all.
 *flex-grow always has to be applied directly to the targets, not to the crossbow itself.
@@ -116,12 +114,12 @@ ORDER, DEFAULT order's value is zero.
 * The bigger the order, the farther it'll be in the lazer's direction.
 * The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 /////////////////
-FLEX-WRAP
-DEFAULT property of flex-wrap is as `flex-wrap: nowrap`, yo!!
-This property is given to the crossbow itself, yo!
+❤️FLEX-WRAP
+nowrap (default)
+
+This property is given to the crossbow itself.
 When elements in the flex wrap into new line if space is not enough, we need
-flex-wrap:wrap
-, yikes!!! Also, lines made with {flex-wrap: wrap} are always parallel to flex-direction.
+`flex-wrap: wrap`. These lines are always parallel to flex-direction.
 * To make new line above current line, use `flex-wrap-wrap-reverse;`
 *LEARN: When we use `wrap-reverse`, align-items:flex-start will make its first-line at  bottom(in case of flex-direction row/row-reverse). *Also align-items:flex-start will make its first-line at in top (in case of flex-direction as column/column-reverse), check if thats a little wrong typed :( :LOL:
 * flex-wrap: wrap-reverse makes the align-items: flex-end to go to the top instead of the bottom like it normally would, even when nothing was wrapping!. Pretty crazy!
@@ -132,27 +130,16 @@ flex-wrap:wrap
 *LEARN: {justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified, yikes, simple behaviour, yo!
 *LEARN: flex-grow is still helpful with flex-wrap: wrap.
 //////////////
-ALIGN-CONTENT (it defined the arrangement of line in a perpendicular direction of `flex-direction`)
+❤️🚀ALIGN-CONTENT: It defines the alignment of lines (when `flex-wrap: wrap`) in  cross axis (direction perpendicular to main axis).
 DEFAULT value of align-content is `stretch`. This property works in the perpendicular direction of the flex-direction.
 
-align-items: stretch
-^^ this is DEFAULT property.
-
-align-items: flex-start
-^^ this will make `lines containing elements` to get attracted toward upwards.
-
-align-items flex-end;
-^^ this will make the `lines containing elements` to get attracted towar downwards.
-
-align-items: center;
-^^ this makes the `line` attracted towards the center, yikes!
-
-align-items: space-around;
-^^ this makes the `line` managed like space around as we learned ealier in other properties.
-
-align-items: space-between;
-^^ this makes the `line` managed like space is only between the elements, not in the outer edges of the lines.
-
+stretch (default)	Lines stretch to fill the container
+flex-start	Packs all lines to the start of the cross-axis
+flex-end	Packs all lines to the end of the cross-axis
+center	Centers all lines in the cross-axis
+space-between	Evenly distributes lines, first and last lines at the edges
+space-around	Even spacing around each line
+space-evenly	Equal space between all lines, including edges
 
 *LEARN: When shooting vertically, using {align-items: flex-end;} will make lines attracted towards right side.
 *LEARN: What did I learn about `align-items`: When there gets too many zombies to fit in a single line and they start wrapping to new lines, those lines can be arranged in several different ways perpendicular to the direction I'm shooting, along the crossbow's blue Alignment Laser.
