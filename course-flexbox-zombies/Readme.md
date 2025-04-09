@@ -19,42 +19,34 @@
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
-```txt
-************
-=> BEGINNING OF FLEX
-#Defining display: flex  is must for everything you want to do with flex.
-.class1{
-	display: flex;
-	# flex-direction: row; (default)
-	# OtherOptions:
-	# flex-direction: row-reverse;
-	# flex-direction: column-reverse;
-	# flex-direction: column;
-}
-```
+`display: flex;`
 
-### `align-items` and `align-self`
+### `flex-direction: row`
+
+We can apply following properties to flex-direction: "row" (default), "row-reverse", "column-reverse" and "column".
+
+### `align-items: stretch` and `align-self: stretch`
+
+<ins>Note: When `align-items` is set on a parent element, its children use that value as the default for their `align-self` property.</ins>
 
 Defines alignment in cross axis (perpendicular to the main axis). `align-items` is assigned to the cross bow itself, and `align-self` to children elements.
 
 ```txt
 align-items: stretch; (default)
 align-self: stretch; (default)
-
-We can apply following properties to align-items and align-self:
-center
-flex-start
-flex-end
-baseline
-^^ This is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.
-Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
 ```
+
+We can apply following properties to align-items and align-self: "center", "flex-start", "flex-end" and "baseline".
+
+<ins>Note: "baseline" is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.</ins>
+
+Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
 
 ![](./align-items.svg)
 
 ([image credits](https://css-tricks.com/almanac/properties/a/align-items/))
 
-### `justify-content`
+### `justify-content: flex-start`
 
 Defines alignment of children of flex in main axis.
 
@@ -65,6 +57,8 @@ center
 space-between
 space-around (in this case space will be in the end of each sides too)
 ```
+
+### `flex-grow`, `flex-shrink` and `flex-basis`
 
 ```txt
 FLEX-GROW: 1;
@@ -113,7 +107,11 @@ Also, in below e.g.,
 ORDER, DEFAULT order's value is zero.
 * The bigger the order, the farther it'll be in the lazer's direction.
 * The elements in the flex are ordered according to the order, i.e., lower first, higher last.
-/////////////////
+```
+
+## `flex-wrap: nowrap` and `align-content: stretch`
+
+```text
 ❤️FLEX-WRAP
 nowrap (default)
 
@@ -130,6 +128,8 @@ When elements in the flex wrap into new line if space is not enough, we need
 *LEARN: {justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified, yikes, simple behaviour, yo!
 *LEARN: flex-grow is still helpful with flex-wrap: wrap.
 //////////////
+
+
 ❤️🚀ALIGN-CONTENT: It defines the alignment of lines (when `flex-wrap: wrap`) in  cross axis (direction perpendicular to main axis).
 DEFAULT value of align-content is `stretch`. This property works in the perpendicular direction of the flex-direction.
 
@@ -146,8 +146,11 @@ space-evenly	Equal space between all lines, including edges
 
 **AMAZING: mozilla's documentation for css is just awesome!! Check it out @ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
  as live updating is there with evey character changed, yikes!!
-/////////////////////////
-// SHORTCUT/SHORTHAND:
+```
+
+### Shortcuts (shorthands)
+
+```text
 `flex: 1 1 300px`
 This is applicable to a child in flex, yo!! that means,`flex-grow, flex-shrink, flex-basis` in that order. Acronym: grow-shrink-basis, gsb. Another e.g.,
 `{flex: 10 auto;}`
