@@ -26,42 +26,34 @@
 .class1{
 	display: flex;
 	# flex-direction: row; (default)
-}
-
-.class1{
-	display: flex;
-	flex-direction: row-reverse;
 	# OtherOptions:
+	# flex-direction: row-reverse;
 	# flex-direction: column-reverse;
 	# flex-direction: column;
 }
-*************
-=> ALIGN-ITEMS, ALIGN-SELF
-`align-items` is assigned to the cross bow itself, and `align-self` is assigned to the flex's items.
-*Basically makes things malleable perpendicularly
-to the flex-direction, yikes!!
+```
 
-align-items: stretch;(its DEFAULT)
-^^ this will make stretch items perpendicularly
+### `align-items` and `align-self`
 
-align-items: center;
-^^ this will too make it compresses to center i guess.
+Defines alignment in cross axis (perpendicular to the main axis).
 
-align-items: flex-start;
-^^ this will make items align to start perpendicularly
-to the flex-direction.
+`align-items` is assigned to the cross bow itself, and `align-self` to children elements.
 
-align-items: flex-end;
-^^ ^^ this will make items align to end perpendicularly
-to the flex-direction.
+![](./align-items.svg)
 
-align-items: baseline;
-^^ this is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.
+([image credits](https://css-tricks.com/almanac/properties/a/align-items/))
+
+```
+align-items: stretch; (default)
+align-self: stretch; (default)
+
+We can apply following properties to align-items and align-self:
+center
+flex-start
+flex-end
+baseline
+^^ This is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing.
 Source for baseline: https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762
-_________
-align-self is for individual child, yikes...
-^^ all properties are same
-as of align-items.
 
 ***************
 => JUSTIFY-CONTENT
