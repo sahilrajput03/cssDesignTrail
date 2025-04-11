@@ -24,7 +24,7 @@ This defined the main axis of flex container. We can apply following properties 
 
 ### `align-items: stretch` (parent) and `align-self: stretch` (children)
 
-<ins>Note: When `align-items` is set on a parent element, its children use that value as the default for their `align-self` property.</ins>
+<ins>❤️Note: When `align-items` is set on a parent element, its children use that value as the default for their `align-self` property.</ins>
 
 Defines alignment in cross axis (perpendicular to the main axis). `align-items` is assigned to the cross bow itself, and `align-self` to children elements.
 
