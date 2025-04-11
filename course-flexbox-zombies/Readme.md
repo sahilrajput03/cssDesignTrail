@@ -112,6 +112,8 @@ space-evenly	      Equal space between all lines, including edges
 
 **❤️ Using `align-content` with `align-items`:**
 
+**Awesome Explanation:** 🚀🚀🚀 `align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
+
 1. `align-items` property aligns the items in the lines itself.
 2. Only when `align-content` is set to its default value `stretch` --- the `align items: flex-start` or `flex-end` can be helpful else otherwise setting any value of `align-items` don't do anything at all.
 
