@@ -12,7 +12,9 @@
   - MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
   - Css Tricks Article: [Click here](https://css-tricks.com/almanac/selectors/n/nth-of-type/)
 
-## Flexbox Zombies Course Notes - `display: flex`
+# Flexbox Zombies Course Notes
+
+## Video 1: `display: flex`
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
@@ -129,7 +131,7 @@ space-evenly	      Equal space between all lines, including edges
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
-### `flex-grow`, `flex-shrink` and `flex-basis`
+## Video 2: `flex-grow`, `flex-shrink` and `flex-basis`
 
 ```txt
 FLEX-GROW: 1;
