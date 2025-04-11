@@ -127,7 +127,7 @@ space-evenly	      Equal space between all lines, including edges
 
 **Awesome Explanation:** 🚀🚀🚀 `align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
 
-🚀🚀🚀 `align-items` property aligns the items in the lines itself only when `align-content` is set to its default value i.e., `stretch` and we can set `align items: flex-start` or `flex-end` or `center`. If `align-content` value is not set to `stretch` then setting any value of `align-items` don't do anything at all. [TESTED]
+🚀🚀🚀 `align-content` must be set to its default value (`stretch`) if we want `align items` property to work. If `align-content` is not set to its default value `stretch` then setting `align-items` property doesn't work at all. [TESTED] 🚀🚀🚀
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
