@@ -16,11 +16,11 @@
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
-**❤️Note: The headings below contain key-value pairs that represent default values..**
+**❤️Note: The headings below contain key-value pairs that represent their default values.**
 
 ### `flex-direction: row`
 
-This defined the main axis of flex container. We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
+This defines the main axis of flex container. We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
 
 ### `align-items: stretch` (parent) and `align-self: stretch` (children)
 
@@ -56,6 +56,8 @@ flew-wrap: wrap;
 ```
 
 You can assign `flex-wrap` values - `nowrap` (default) and `wrap`.
+
+Other helpful combination example values:
 
 ```text
 flex-direction: row;
@@ -123,7 +125,7 @@ space-evenly	      Equal space between all lines, including edges
 
 **Awesome Explanation:** 🚀🚀🚀 `align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
 
-🚀🚀🚀 `align-items` property aligns the items in the lines itself only when `align-content` is set to its default value i.e., `stretch` by setting `align items: flex-start` or `flex-end`. If `align-content` value is not set to `stretch` then setting any value of `align-items` don't do anything at all. [TESTED]
+🚀🚀🚀 `align-items` property aligns the items in the lines itself only when `align-content` is set to its default value i.e., `stretch` and we can set `align items: flex-start` or `flex-end` or `center`. If `align-content` value is not set to `stretch` then setting any value of `align-items` don't do anything at all. [TESTED]
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
