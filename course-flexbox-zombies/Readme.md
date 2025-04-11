@@ -20,7 +20,7 @@
 
 ### `flex-direction: row`
 
-We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
+This defined the main axis of flex container. We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
 
 ### `align-items: stretch` (parent) and `align-self: stretch` (children)
 
@@ -79,13 +79,22 @@ flew-wrap: wrap-reverse;
 ```text
 *  Tip: With `flex-wrap: wrap;` you can use `justify-content: flex-end;` to make the childdren stick to the end of the flex.
 
-* ✅Note: {flex-direction: column-reverse, align-items: flex-end; flex-wrap: wrap-reverse;} makes the elements align in right most line. That looks like (. represents empty space due to alignment specified via `align-items: flex-end`):
+* ✅Note:
+flex-direction: column-reverse;
+align-items: flex-end;
+flex-wrap: wrap-reverse;
+Using above css makes the elements align in right most line. That looks like as shown below. (In below figure . represents empty space due to alignment specified via `align-items: flex-end`):
 
 . 4 2
 . 3 1
 
 
-✌🏻 Learn: {flex-driection: row, justify-content: center, flex-wrap: wrap}@crossbow makes items in each line center justified. A commonly used generaly pattern. (In below figure . represents empty spaces due to specified alignment via `justify-content: center`)
+
+✌🏻 Learn:
+flex-driection: row;
+justify-content: center;
+flex-wrap: wrap;
+Using above properties makes content center justified. A commonly used generaly pattern. (In below figure . represents empty spaces due to specified alignment via `justify-content: center`)
 . 1 2 .
 . 3 4 .
 
@@ -94,9 +103,9 @@ flew-wrap: wrap-reverse;
 :🛑 TODO_TEST: flex-grow is still helpful with flex-wrap: wrap.
 ```
 
-❤️🚀`align-content`: It defines the alignment of lines itself (when `flex-wrap: wrap` must be set on parent) in cross axis (direction perpendicular to axis).
+❤️🚀`align-content`: It defines the alignment of lines itself in cross axis (direction perpendicular to axis). [Note: align-content requires that `flex-wrap: wrap` is set on parent].
 
-<ins>Note: If we do not specify `align-content` propery the lines (when we have flex-wrap: wrap) the lines stretches to fill the container because `align-content: stretch` is the default value.</ins>
+<ins>Note: If we do not specify `align-content` propery the lines when we have `flex-wrap: wrap` on parent, the lines stretches to fill the container because `align-content: stretch` is the default value.</ins>
 
 We can assign it following values:
 
@@ -110,12 +119,11 @@ space-around	      Even spacing around each line
 space-evenly	      Equal space between all lines, including edges
 ```
 
-**❤️ Using `align-content` with `align-items`:**
+**❤️ Relation of `align-content` with `align-items`:**
 
 **Awesome Explanation:** 🚀🚀🚀 `align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
 
-1. `align-items` property aligns the items in the lines itself.
-2. Only when `align-content` is set to its default value `stretch` --- the `align items: flex-start` or `flex-end` can be helpful else otherwise setting any value of `align-items` don't do anything at all.
+🚀🚀🚀 `align-items` property aligns the items in the lines itself only when `align-content` is set to its default value i.e., `stretch` by setting `align items: flex-start` or `flex-end`. If `align-content` value is not set to `stretch` then setting any value of `align-items` don't do anything at all. [TESTED]
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
