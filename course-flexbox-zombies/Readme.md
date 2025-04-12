@@ -147,7 +147,7 @@ flex-grow: 2; (on 2nd child:)
 
 _❤️Amazing demonstration @ [Click here](https://youtu.be/o-dDFSH-BxM)._
 
-- LEARN: Setting `flex-shrink: 2` to a chid will make that particular child to shrink twice as other items because other items have 1 as their value by default.
+- LEARN: Setting `flex-shrink: 2` to a child will make that particular child to shrink twice as other items because other items have 1 as their value by default.
 - If you give flex-shrink (ITS ABOUT RATIOS ONLY) to all elements via a separate class to all the child of the flex with flex-shrink as 1 or 2 or 3 or anything else, its just same as 1:1:1... and so on --- because after all its all about just ratios.
 - LEARN: You can make a child to refuse to shrink by resetting the default value `flex-shrink: 0`.
 
@@ -177,45 +177,59 @@ Also, in below e.g.,
 
 - The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 
-### Shortcuts (shorthands)
+### Shorthand `flex` and `flex-flow`
 
-```text
-`flex: 1 1 300px`
-This is applicable to a child in flex, yo!! that means,`flex-grow, flex-shrink, flex-basis` in that order. Acronym: grow-shrink-basis, gsb. Another e.g.,
-`{flex: 10 auto;}`
+- `flex: 2`
 
-// ANOTHER SHORTCUT/SHORTHAND:
+```txt
 LEARN: I can use flex to just specify flex-grow only if I want, and other property i.e., flex-shrink and flex-basis will be defined as shown below-
-E.g.,
-{flex:1}
-will set
+will set:
 {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0px; // Though this is different than flex-basis's default property i.e., auto, yo!
-}, yo!!
-
-// ANOTHER SHORTCUT/SHORTHAND:
-{flex:auto} on element will set these properties..
-{
-    flex-grow: 1;
-    flex-shrink:1;
-    flex-basis: auto;
-}
-
-// ANOTHER SHORTCUT/SHORTHAND:
-{flex: none} on element will set these properties..
-{
-    flex-grow: 0
-    flex-shrink: 0
-    flex-basis: auto
-}, So using flex: auto means that we say listen zombie, don't grow, don't shrink, and just use your width as your basis.
-
-// ANOTHER SHORTCUT/SHORTHAND:
-flex-direction and flex-wrap
-{flex-flow: column wrap;} on crossbow itself will set below properties..
-{
-    flex-direction: column;
-    flex-wrap: wrap
+    flex-grow: 2;
+    flex-shrink: 1;   (default)
+    flex-basis: 0%; // Note: This is different than flex-basis's default property (`auto`)
 }
 ```
+
+- `flex: 10 auto` will set:
+
+```txt
+flex-grow: 10;
+flex-shrink: 1;    (default)
+flex-basis: auto;
+```
+
+- `flex: 1 1 300px` will set:
+
+```txt
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+```
+
+- `flex: auto` will set:
+
+```txt
+flex-grow: 1;
+flex-shrink:1;
+flex-basis: auto;
+```
+
+- `flex: none` will set:
+
+```txt
+flex-grow: 0
+flex-shrink: 0
+flex-basis: auto
+```
+
+So using `flex: none` means that we say listen zombie, don't grow, don't shrink, and just use your width property.
+
+- `flex-flow` to specify `flex-direction` and `flex-wrap` for shorthand on the crossbow itself. Example: : `flex-flow: column wrap` will result into:
+
+```txt
+flex-direction: column;
+flex-wrap: wrap
+```
+
+Thanks.
