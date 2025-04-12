@@ -131,7 +131,7 @@ space-evenly	      Equal space between all lines, including edges
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
-## Video 2: `flex-grow: 0` (child), `flex-shrink: 1` (child) and `flex-basis: auto` (child) (fallback to `width` property)
+## Video 2: `flex-grow: 0` (child), `flex-shrink: 1` (child), `flex-basis: auto` (child) [fallback to `width`/`height` property] and `order: 0` (child)
 
 **Apply `flex-grow` to children (not to the crossbow itself) to make them auto expand according to space available in main axis.**
 
@@ -151,29 +151,27 @@ _❤️Amazing demonstration @ [Click here](https://youtu.be/o-dDFSH-BxM)._
 - If you give flex-shrink (ITS ABOUT RATIOS ONLY) to all elements via a separate class to all the child of the flex with flex-shrink as 1 or 2 or 3 or anything else, its just same as 1:1:1... and so on --- because after all its all about just ratios.
 - LEARN: You can make a child to refuse to shrink by resetting the default value `flex-shrink: 0`.
 
-**Apply `flex-basis` to children (not to the crossbow itself). It overrides the width property. It is a new and improved version of css width property. e.g. usage: `flex-basis: 300px;`.**
+**Apply `flex-basis` to children (not to the crossbow itself). The default value `flex-basis: auto` means to fallback to using `width` when `flex-direction: row` or `height` property when `flex-direction: column`. `flex-basis` changes the size of items in the direction of main axis. Example: `flex-basis: 300px`, `flex-basis: 50vw`.**
 
-`flex-basis` is a hypothetical size before any growing or shrinking begins.
-
-The default value `flex-basis: auto` means to fallback to using width property.
+- `flex-basis` overrides (takes precedence) the `width` property when `flex-direction: row`.
+- `flex-basis` overrides (takes precedence) the `height` property when `flex-direction: column`.
+  - It is a new and improved version of css width/height property.
+  - `flex-basis` is a hypothetical size before any growing or shrinking begins.
 
 ```txt
 Also, in below e.g.,
 .goo{
     width: 500px;
-    flex-basis: 100px; // ✅ Here, flex-basis will win over width property.
+    flex-basis: 100px; // ✅ Here, flex-basis takes precedence over width property.
 }
-
-
-[🛑🛑🛑🛑🛑 TODO: Verify below lines]
-1. `min-width` acts as lower limit of flex-basis only when flex-basis has a lower value.
-2. `max-width` acts as upper limit of flex-basis if flex-basis has a greater value.
-3. `flex-basis` isn't just for width. When shooting vertically (i.e., flex-direction is column or column-reverse) `flex-basis` deals with height instead of width. In other words `flex-basis` changes the size of items in the direction of main axis.
-4. `flex-basis` can used to set percentage (of the total size of the container) to set its length, for e.g., `flex-basis: 50%`.
-5. The final `flex-basis` can't be higher than its max-width (or max-height when shooting vertically). If it is higher, the final `flex-basis` just becomes that max-value.
-6. The final `flex-basis` can't be lower than its min-width (or min-height when shooting vertically). If it is lower, the final `flex-basis` just becomes that min value.
-7.  We can use `max-width` when `flex-direction: row` (row-reverse) to restrict the maximum growing width. Similarly we can use `max-height` when `flex-direction: column` (column-reverse)  to restrict maximum growing height of an element.
 ```
+
+<ins>**Points to Remember when using `flex-basis`:**</ins>
+
+1. `min-width` and `max-width` also applies to `flex-basis` in the same way as they work with `width` property to restrict the minimum shrinking and maximum growing value in main axis.
+   a. And vice-versa for `min-height` and `max-height` when `flex-direction: column`.
+2. ❤️ `flex-basis` can be used to set percentage (of total size of the flex container) to set its width (height when `flex-direction: column`) --- just like we use percentage values with `width`/`height` properties.
+   a. For e.g., if we set `flex-basis: 50%` to one item in a flex then that item takes 50% of the width of the flex container (considering `flex-direction: row`).
 
 **Apply `order` to children (not to the crossbow itself). The default value is `order: 0`. It can have negative values too which makes them appear at the start.**
 
