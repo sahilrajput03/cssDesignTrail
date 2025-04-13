@@ -179,15 +179,13 @@ Also, in below e.g.,
 
 ### `flex: 0 1 auto` (parent) shorthand for `flex-grow flex-shrink flex-basis`
 
-Default:
-
 Docs @ mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
-- `flex: 2`
+- `flex: 2`: 2 here means `flex-grow: 2`
 
 ```txt
-LEARN: I can use flex to just specify flex-grow only if I want, and other property i.e., flex-shrink and flex-basis will be defined as shown below-
-will set:
+LEARN: I can use flex to just specify `flex-grow` and then other properties `flex-shrink` and `flex-basis` will be default:
+
 {
     flex-grow: 2;
     flex-shrink: 1;   (default)
