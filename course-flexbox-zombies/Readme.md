@@ -153,6 +153,8 @@ _❤️Amazing demonstration @ [Click here](https://youtu.be/o-dDFSH-BxM)._
 
 **Apply `flex-basis` to children (not to the crossbow itself). The default value `flex-basis: auto` means to fallback to using `width` when `flex-direction: row` or `height` property when `flex-direction: column`. `flex-basis` changes the size of items in the direction of main axis. Example: `flex-basis: 300px`, `flex-basis: 50vw`.**
 
+- ❤️ `flex-basis` defines the starting size of a flex item before any space is distributed by flex-grow or taken away by flex-shrink.
+  - Think of it as the initial width or height (depending on flex direction) that the item “wants” to be.
 - `flex-basis` overrides (takes precedence) the `width` property when `flex-direction: row`.
 - `flex-basis` overrides (takes precedence) the `height` property when `flex-direction: column`.
   - It is a new and improved version of css width/height property.
@@ -177,63 +179,74 @@ Also, in below e.g.,
 
 - The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 
-### `flex: 0 1 auto` (parent) shorthand for `flex-grow flex-shrink flex-basis`
+### `flex: 0 1 auto` (child) shorthand for `flex-grow flex-shrink flex-basis`
 
 Docs @ mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
-- `flex: 2`: 2 here means `flex-grow: 2`
+- `flex: 1` on a child makes the child to expand to take up equal space with other `flex: 1` items in the same container.
 
-```txt
-LEARN: I can use flex to just specify `flex-grow` and then other properties `flex-shrink` and `flex-basis` will be default:
-
-{
-    flex-grow: 2;
-    flex-shrink: 1;   (default)
-    flex-basis: 0%; // Note: This is different than flex-basis's default property (`auto`)
-}
+```css
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0%;
 ```
 
-- `flex: 10 auto` will set:
+```html
+<div style="display: flex;">
+  <div style="flex: 1; background: red;">A</div>
+  <div style="flex: 1; background: blue;">B</div>
+</div>
+```
 
-```txt
-flex-grow: 10;
-flex-shrink: 1;    (default)
+- `flex: 2` on a child will make the child to take twice as much available space as an child with `flex: 1`.
+
+```css
+flex-grow: 2;
+flex-shrink: 1; // (sets to default)
+flex-basis: 0%; // Note: This is different than flex-basis's default property (`auto`)
+```
+
+- `flex: auto` on a child makes the child flexible (can grow and shrink), but starts with its natural size (like content or set width).
+
+```css
+flex-grow: 1;
+flex-shrink: 1; // (sets to default)
 flex-basis: auto;
 ```
 
-- `flex: 1 1 300px` will set:
+- `flex: none` means the elemen won’t grow, won’t shrink, and will keep its original size (defined by width/height or content):
 
-```txt
+```css
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: auto;
+```
+
+- `flex: 10 auto` on a child makes the chid can grow a lot, and will take 10 units of available space compared to others. It can shrink if needed.
+
+```css
+flex-grow: 10;
+flex-shrink: 1; // (sets to default)
+flex-basis: auto;
+```
+
+- `flex: 1 1 300px` on a child makes the child to grow and shrink equally as any other child having `flex-grow: 1` and `flex-shrink: 1`.
+
+```css
 flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 300px;
 ```
 
-- `flex: auto` will set:
+### `flex-flow: row nowrap` (parent)
 
-```txt
-flex-grow: 1;
-flex-shrink:1;
-flex-basis: auto;
-```
-
-- `flex: none` will set:
-
-```txt
-flex-grow: 0
-flex-shrink: 0
-flex-basis: auto
-```
-
-So using `flex: none` means that we say listen zombie, don't grow, don't shrink, and just use your width property.
-
-### `flex-flow: row nowrap` (parent) shorthand for `flex-direction flex-wrap`
+**It is a shorthand for `flex-direction` and `flex-wrap`.**
 
 - `flex-flow` to specify `flex-direction` and `flex-wrap` for shorthand on the crossbow itself. Example: : `flex-flow: column wrap` will result into:
 
-```txt
+```css
 flex-direction: column;
-flex-wrap: wrap
+flex-wrap: wrap;
 ```
 
 Thanks.
