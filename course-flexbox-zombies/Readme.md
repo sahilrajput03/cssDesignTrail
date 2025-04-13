@@ -177,7 +177,11 @@ Also, in below e.g.,
 
 - The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 
-### Shorthand `flex` and `flex-flow`
+### `flex: 0 1 auto` (parent) shorthand for `flex-grow flex-shrink flex-basis`
+
+Default:
+
+Docs @ mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
 - `flex: 2`
 
@@ -224,6 +228,8 @@ flex-basis: auto
 ```
 
 So using `flex: none` means that we say listen zombie, don't grow, don't shrink, and just use your width property.
+
+### `flex-flow: row nowrap` (parent) shorthand for `flex-direction flex-wrap`
 
 - `flex-flow` to specify `flex-direction` and `flex-wrap` for shorthand on the crossbow itself. Example: : `flex-flow: column wrap` will result into:
 
