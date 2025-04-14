@@ -11,10 +11,14 @@
     - My Example: `*:nth-of-type()` function with counter in it: [Click here](https://www.w3schools.com/code/tryit.asp?filename=GP4D48GNQJQ4)
   - MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
   - Css Tricks Article: [Click here](https://css-tricks.com/almanac/selectors/n/nth-of-type/)
+- flexbox vs. grid:
+  - [1](https://www.reddit.com/r/css/comments/vn9v5m/do_you_prefer_css_grid_or_flexbox/), [2](https://www.reddit.com/r/Frontend/comments/10izepz/flex_box_vs_grid/), [3](https://www.reddit.com/r/Frontend/comments/10izepz/flex_box_vs_grid/), [4](https://www.reddit.com/r/webdev/comments/1anqrzb/css_grid_or_flexbox/), [5](https://www.reddit.com/r/Frontend/comments/g05kc1/when_should_you_use_grid_css_instead_of_flexbox/)
 
 # Flexbox Zombies Course Notes
 
-## Video 1: `display: flex`
+# Part 1
+
+## `display: flex`
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
@@ -106,8 +110,8 @@ flex-wrap: wrap;
 
 **🚀Tips:**
 
-- `flex-wrap:wrap` parent and `flex-basis: 50%` on all children places two child per line.
-- `flex-grow` is still helpful with `flex-wrap: wrap`.
+- ⭐️ `flex-wrap:wrap` parent and `flex-basis: 50%` on all children places two child per line.
+- ⭐️️ `flex-grow` is still helpful with `flex-wrap: wrap`.
 
 ## `align-content: stretch` (parent)
 
@@ -137,7 +141,9 @@ space-evenly	          Equal space between all lines, including edges
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
-## Video 2: `flex-grow: 0` (child) and `flex-shrink: 1` (child)
+# Part 2
+
+## `flex-grow: 0` (child) and `flex-shrink: 1` (child)
 
 **Apply `flex-grow` to children (not to the crossbow itself) to make them auto expand according to space available in main axis.**
 
@@ -151,11 +157,13 @@ flex-grow: 2; (on 2nd child:)
 
 **Apply `flex-shrink` to children (not to crossbow itself) to make them auto compress (shrink) in main axis. The default value is `flex-shrink: 1` (default).**
 
-_❤️Amazing demonstration @ [Click here](https://youtu.be/o-dDFSH-BxM)._
+_❤️Amazing video demonstration: [Click here](https://youtu.be/o-dDFSH-BxM)._
 
 - LEARN: Setting `flex-shrink: 2` to a child will make that particular child to shrink twice as other items because other items have 1 as their value by default.
 - If you give same value of `flex-shrink` (ITS ABOUT RATIOS ONLY) to all children of the flex then its just same as `1:1:1...` and so on --- then all children shrinks at same rate because the raio is same.
 - LEARN: You can make a particular child to refuse to shrink by setting `flex-shrink: 0` (which is default value of `flex-shrink`).
+
+# CONTINUE REVISION FROM HERE...
 
 ## `flex-basis: auto` (child) [fallback to `width`/`height` property]
 
