@@ -18,35 +18,35 @@
 
 - Flexbox Zombies Game: [Click here](https://mastery.games/flexboxzombies/)
 
-**❤️Note: The headings below contain key-value pairs that represent their default values.**
+<ins>**Note: The headings below contain key-value pairs that represent their default values.**</ins>
 
 ### `flex-direction: row`
 
-This defines the main axis of flex container. We can apply following properties to flex-direction: `row` (default), `row-reverse`, `column-reverse` and `column`.
+This defines the main axis of flex container. We can apply following values to flex-direction property: `row` (default), `row-reverse`, `column-reverse` and `column`.
+
+### `justify-content: flex-start`
+
+It defines alignment of children of flex in main axis. We can use following values: `flex-start` (default), `flex-end`, `center`, `space-between`, `space-around `(in this case space will be in the end of each sides too)
 
 ### `align-items: stretch` (parent) and `align-self: stretch` (children)
 
-<ins>❤️Note: When `align-items` is set on a parent element, its children use that value as the default for their `align-self` property.</ins>
+<ins>️Note: When `align-items` is set parent, its children use that value as the default for their `align-self` property.</ins>
 
-Defines alignment in cross axis (perpendicular to the main axis). `align-items` is assigned to the cross bow itself, and `align-self` to children elements.
+- `align-items` is assigned to the cross bow itself.
+- `align-items` defines the alignment in cross axis (perpendicular to the main axis).
+- `align-self` is assigned to children elements.
 
-We can apply following properties to both `align-items` and `align-self`: `stretch` (default), `center`, `flex-start`, `flex-end` and `baseline`.
+We can apply following values for both `align-items` and `align-self`:
 
-_Note: "baseline" is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned, just use this thing. Video example usage of `baseline` from Kevin Power (timestamped): [Click here](https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762)_
+- `stretch` (default), `center`, `flex-start`, `flex-end` and `baseline`. <ins>(`baseline` is helpful if you have different font-size elements, and you want them to have their lower bottom of line aligned. ([video example](https://youtu.be/hwbqquXww-U?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&t=762))</ins>.
 
 ![](./align-items.svg)
 
 ([image credits](https://css-tricks.com/almanac/properties/a/align-items/))
 
-### `justify-content: flex-start`
+## ❤️ `flex-wrap: nowrap` (parent)
 
-Defines alignment of children of flex in main axis. We can use following values:
-
-`flex-start` (default), `flex-end`, `center`, `space-between`, `space-around `(in this case space will be in the end of each sides too)
-
-## ❤️ `flex-wrap: nowrap` (parent) and `align-content: stretch` (children)
-
-<ins>Note: Using `align-content` is only useful when we set `flex-wrap: wrap` to parent.</ins>
+<ins>Note: Using `align-content` is only useful when parent has `flex-wrap: wrap` else using `align-items` is suffice.</ins>
 
 **Both of these properties (`flex-wrap` and `align-content`) are given to the crossbow itself. In flex container we might want the elements to wraps into multiple lines (literally referred as `lines` technically) which are parallel to main axis and we do that by applying `flex-wrap: wrap` to parent. This looks like:**
 
@@ -78,7 +78,7 @@ flew-wrap: wrap-reverse;
 2 1
 ```
 
-<ins>**❤️Note: `flex-wrap: wrap-reverse` with `align-items: flex-end` makes items go to the top instead of the bottom like it normally would, even when nothing is wrapping!. Pretty crazy! 🚀 TAKE AWAY: When you using `flex-wrap: wrap-reverse` the align-items's `flex-start` and `flex-end` behaves as it they were reversed.**</ins>
+<ins>**⚠️Note: `flex-wrap: wrap-reverse` with `align-items: flex-end` makes items go to the top instead of the bottom like it normally would, even when nothing is wrapping!. Pretty crazy! 🚀 TAKE AWAY: When you using `flex-wrap: wrap-reverse` the align-items's `flex-start` and `flex-end` behaves as it they were reversed.**</ins>
 
 ```text
 *  Tip: With `flex-wrap: wrap;` you can use `justify-content: flex-end;` to make the childdren stick to the end of the flex.
@@ -91,47 +91,53 @@ Using above css makes the elements align in right most line. That looks like as 
 
 . 4 2
 . 3 1
-
-
-
-✌🏻 Learn:
-flex-driection: row;
-justify-content: center;
-flex-wrap: wrap;
-Using above properties makes content center justified. A commonly used generaly pattern. (In below figure . represents empty spaces due to specified alignment via `justify-content: center`)
-. 1 2 .
-. 3 4 .
-
-* 🛑 TODO_TEST: LEARN: {flex-wrap}@crossbow and {flex-basis: 50%}@all_element_of_crossbow makes great ui as in two elements per line, yikes!
-
-:🛑 TODO_TEST: flex-grow is still helpful with flex-wrap: wrap.
 ```
 
-❤️🚀`align-content`: It defines the alignment of lines itself in cross axis (direction perpendicular to axis). [Note: align-content requires that `flex-wrap: wrap` is set on parent].
+- A commonly used pattern to make content center justified. In below figure . represents empty spaces due to specified alignment via `justify-content: center`:
 
-<ins>Note: If we do not specify `align-content` propery the lines when we have `flex-wrap: wrap` on parent, the lines stretches to fill the container because `align-content: stretch` is the default value.</ins>
+```txt
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+
+. 1 2 .
+. 3 4 .
+```
+
+**🚀Tips:**
+
+- `flex-wrap:wrap` parent and `flex-basis: 50%` on all children places two child per line.
+- `flex-grow` is still helpful with `flex-wrap: wrap`.
+
+## `align-content: stretch` (parent)
+
+❤️🚀`align-content`: It defines the alignment of lines itself in cross axis (direction perpendicular to main axis).
+
+_Note: `align-content` requires that `flex-wrap: wrap` is set on parent._
+
+<ins>Note: The lines stretch to fill the container because `align-content: stretch` is the default value.</ins>
 
 We can assign it following values:
 
 ```
-stretch (default)	  ❤️Lines stretch to fill the container
-flex-start	        Pulls all lines to the start of the cross-axis
-flex-end	          Pulls all lines to the end of the cross-axis
-center	            Centers all lines in the cross-axis
-space-between	      Evenly distributes lines, first and last lines at the edges
-space-around	      Even spacing around each line
-space-evenly	      Equal space between all lines, including edges
+stretch (default)	  Lines stretch to fill the container
+flex-start                Pull all lines to the start of the cross-axis
+flex-end	          Throws all lines to the end of the cross-axis
+center	                  Centers all lines in the cross-axis
+space-between	          Evenly distributes lines, first and last lines at the edges
+space-around	          Even spacing around each line
+space-evenly	          Equal space between all lines, including edges
 ```
 
 **❤️ Relation of `align-content` with `align-items`:**
 
-**Awesome Explanation:** 🚀🚀🚀 `align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
+`align-content` vs. `align-items` (ChatGPT): [Click here](https://chatgpt.com/c/67f6d4f6-3cf0-8007-b0ef-0c38a8031de1)
 
-🚀🚀🚀 `align-content` must be set to its default value (`stretch`) if we want `align items` property to work. If `align-content` is not set to its default value `stretch` then setting `align-items` property doesn't work at all. [TESTED] 🚀🚀🚀
+🚀🚀🚀 `align-content` must be set to its default value (`stretch`) if we want `align items` property to work. If `align-content` is not set to its default value `stretch` then setting any value to `align-items` property doesn't work at all. [TESTED] 🚀🚀🚀
 
 ✅LEARN: When `flex-direction: column`, using `align-content: flex-end;` will make lines pulled towards right side.
 
-## Video 2: `flex-grow: 0` (child), `flex-shrink: 1` (child), `flex-basis: auto` (child) [fallback to `width`/`height` property] and `order: 0` (child)
+## Video 2: `flex-grow: 0` (child) and `flex-shrink: 1` (child)
 
 **Apply `flex-grow` to children (not to the crossbow itself) to make them auto expand according to space available in main axis.**
 
@@ -148,8 +154,10 @@ flex-grow: 2; (on 2nd child:)
 _❤️Amazing demonstration @ [Click here](https://youtu.be/o-dDFSH-BxM)._
 
 - LEARN: Setting `flex-shrink: 2` to a child will make that particular child to shrink twice as other items because other items have 1 as their value by default.
-- If you give flex-shrink (ITS ABOUT RATIOS ONLY) to all elements via a separate class to all the child of the flex with flex-shrink as 1 or 2 or 3 or anything else, its just same as 1:1:1... and so on --- because after all its all about just ratios.
-- LEARN: You can make a child to refuse to shrink by resetting the default value `flex-shrink: 0`.
+- If you give same value of `flex-shrink` (ITS ABOUT RATIOS ONLY) to all children of the flex then its just same as `1:1:1...` and so on --- then all children shrinks at same rate because the raio is same.
+- LEARN: You can make a particular child to refuse to shrink by setting `flex-shrink: 0` (which is default value of `flex-shrink`).
+
+## `flex-basis: auto` (child) [fallback to `width`/`height` property]
 
 **Apply `flex-basis` to children (not to the crossbow itself). The default value `flex-basis: auto` means to fallback to using `width` when `flex-direction: row` or `height` property when `flex-direction: column`. `flex-basis` changes the size of items in the direction of main axis. Example: `flex-basis: 300px`, `flex-basis: 50vw`.**
 
@@ -175,11 +183,13 @@ Also, in below e.g.,
 2. ❤️ `flex-basis` can be used to set percentage (of total size of the flex container) to set its width (height when `flex-direction: column`) --- just like we use percentage values with `width`/`height` properties.
    a. For e.g., if we set `flex-basis: 50%` to one item in a flex then that item takes 50% of the width of the flex container (considering `flex-direction: row`).
 
+## `order: 0` (child)
+
 **Apply `order` to children (not to the crossbow itself). The default value is `order: 0`. It can have negative values too which makes them appear at the start.**
 
 - The elements in the flex are ordered according to the order, i.e., lower first, higher last.
 
-### `flex: 0 1 auto` (child) shorthand for `flex-grow flex-shrink flex-basis`
+## 🚀SHORTHAND - `flex: 0 1 auto` (child) shorthand for `flex-grow flex-shrink flex-basis`
 
 Docs @ mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
@@ -238,7 +248,7 @@ flex-shrink: 1;
 flex-basis: 300px;
 ```
 
-### `flex-flow: row nowrap` (parent)
+## 🚀SHORTHAND - `flex-flow: row nowrap` (parent)
 
 **It is a shorthand for `flex-direction` and `flex-wrap`.**
 
