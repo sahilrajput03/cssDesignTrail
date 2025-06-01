@@ -22,6 +22,27 @@ Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇�
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
 
+## ❤️ has selector
+
+```css
+/* Applies the style to `body` only when an element with
+id="my-container" exists anywhere inside it.  */
+body:has(#todos-notes) {
+	background-color: red;
+}
+
+/* ❤️ USED IN FILE - qr-solution-frontend/src/routes/todos/+page.svelte */
+/* Very useful in svelte for changing global design for certain pages only */
+:global(body:has(#todos-notes)) {
+	/* Everything below is inspired directly from telegram. */
+	background-image: url(chat-bg-pattern-dark.png);
+	background-size: 510px auto;
+	background-repeat: repeat;
+	background-color: rgb(15, 15, 15);
+}
+/*
+```
+
 ## Parallax effect
 
 [w3schools.com](https://www.w3schools.com/howto/howto_css_parallax.asp)
