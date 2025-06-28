@@ -2,7 +2,7 @@
 
 **Quick Links:**
 
-- See list of website designs here - [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
+- 💙See list of website designs here - [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
 - Learn CSS Animations by Josh M Comeau: [Click here](https://www.joshwcomeau.com/tutorials/animation/) *(Amazing list of posts on animation)*
 - The State of CSS 2021: [Click here](https://2021.stateofcss.com/en-US/technologies/css-frameworks/)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
