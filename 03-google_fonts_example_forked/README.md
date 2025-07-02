@@ -1,9 +1,5 @@
-<h2>Examples of how to implement the google fonts</h2>
+# Readme
 
-<h3>
-  OpenSans in this example
-</h3>
-
-<a href="https://argenisosorio.github.io/google_fonts_example/">Live demo</a>
-
-Source: https://github.com/argenisosorio/google_fonts_example
+**Examples of how to implement the OpenSans from Google fonts in this example:**
+- Source: Github Repo [argenisosorio/google_fonts_example](https://github.com/argenisosorio/google_fonts_example)
+  - Demo (Deployed By Author): [Click here](https://argenisosorio.github.io/google_fonts_example/)
