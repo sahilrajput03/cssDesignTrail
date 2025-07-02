@@ -6,4 +6,4 @@
 
 <a href="https://argenisosorio.github.io/google_fonts_example/">Live demo</a>
 
-Source: https://github.com/sahilrajput03/google_fonts_example
+Source: https://github.com/argenisosorio/google_fonts_example
