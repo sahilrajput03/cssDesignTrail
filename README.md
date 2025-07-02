@@ -3,7 +3,7 @@
 **Quick Links:**
 
 - 💙See list of website designs here - [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
-- ❤️Using Google Fonts: [1](https://github.com/sahilrajput03/cssDesignTrail/blob/master/04-google-font-with-video/readme.md), [2](https://github.com/sahilrajput03/cssDesignTrail/blob/master/03-google_fonts_example_forked/README.md)
+- **❤️Using Google Fonts**: [1](https://github.com/sahilrajput03/cssDesignTrail/blob/master/04-google-font-with-video/readme.md), [2](https://github.com/sahilrajput03/cssDesignTrail/blob/master/03-google_fonts_example_forked/README.md)
 - Learn CSS Animations by Josh M Comeau: [Click here](https://www.joshwcomeau.com/tutorials/animation/) *(Amazing list of posts on animation)*
 - The State of CSS 2021: [Click here](https://2021.stateofcss.com/en-US/technologies/css-frameworks/)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
