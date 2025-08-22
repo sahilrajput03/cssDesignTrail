@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - ❤️Bootstrap:
-  - Learn Bootstrap (my repo): [Click here](https://github.com/sahilrajput03/learningBootstrap)
+  - Learn Bootstrap - My Github Repo: [github.com/sahilrajput03/learningBootstrap](https://github.com/sahilrajput03/learningBootstrap)
   - Learn Bootstrap Accordion (my repo): [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
   - **`react-bootstrap` Docs: [Click here](https://react-bootstrap.netlify.app/components/alerts)**
   - **BootStrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
