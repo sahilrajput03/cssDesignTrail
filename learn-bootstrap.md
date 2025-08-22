@@ -3,7 +3,7 @@
 **Quick Links:**
 - ❤️Bootstrap:
   - ❤️Learn Bootstrap - My Github Repo: [github.com/sahilrajput03/learningBootstrap](https://github.com/sahilrajput03/learningBootstrap)
-  - ❤️Learn Bootstrap Accordion (my repo): [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
+  - ❤️Learn Bootstrap Accordion - My Github Repo: [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
 - Docs:
   - **`react-bootstrap` Docs: [Click here](https://react-bootstrap.netlify.app/components/alerts)**
   - **Bootstrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
