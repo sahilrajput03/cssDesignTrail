@@ -14,7 +14,8 @@
 	- Animation Libraries in Js: [Click here](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 - [Ansh Mehra Design Portfolio](https://www.anshmehra.com/)
 - **CSS Notes for Professionals:** [Click here](./CSSNotesForProfessionals.pdf)
-- Learn bootstrap: [Click here](learn-bootstrap.md)
+- ❤️Learn bootstrap: [Click here](learn-bootstrap.md)
+- Awesome List of "How To Guides" on Images - w3schools.com: [Click here](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
@@ -23,6 +24,15 @@ This is my personal repo for myself, its kinda cheat sheet.
 Personal pro tip: Use `run_parcel` binary to run the entire folder at once 🥇︎. [Source](https://github.com/sahilrajput03/my_bin/tree/master/parcel-dev)
 
 Find base css @ https://github.com/sahilrajput03/my_bin/tree/master/snips/css . #base css, #basecss, #startcss, #startercss.
+
+## TODO - Challenge (23 August 2025)
+
+Make this carousel:
+
+- Resources: [w3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp), 
+
+<img width="526" height="568" alt="image" src="https://github.com/user-attachments/assets/aab8ab0c-3a4e-40d5-a0d5-816fe6cb9665" />
+
 
 ## ❤️ has selector
 
