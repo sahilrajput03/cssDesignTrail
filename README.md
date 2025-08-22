@@ -14,6 +14,7 @@
 	- Animation Libraries in Js: [Click here](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 - [Ansh Mehra Design Portfolio](https://www.anshmehra.com/)
 - **CSS Notes for Professionals:** [Click here](./CSSNotesForProfessionals.pdf)
+- Learn bootstrap: [Click here](learn-bootstrap.md)
 
 TODO: [When to use .jpg or .png? the answer is WebP... sort of [ images on the web | part two ]](https://www.youtube.com/watch?v=Z_28syzkv-0)
 
@@ -249,11 +250,6 @@ Src: https://www.youtube.com/watch?v=iehzWCm8KHs
 ## Amazing use of negative margins, source: css-tricks
 
 [Click here](https://css-tricks.com/negative-margins/)
-
-
-## Learn bootstrap
-
-[Click here](learn-bootstrap.md)
 
 ## Confetti thing examples (to be done in sahilrajput.ml)
 
