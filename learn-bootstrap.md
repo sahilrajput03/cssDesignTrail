@@ -1,4 +1,4 @@
-# Learn bootstrap
+# Learn Bootstrap
 
 **Quick Links:**
 - ❤️Bootstrap:
