@@ -3,9 +3,10 @@
 **Quick Links:**
 - ❤️Bootstrap:
   - ❤️Learn Bootstrap - My Github Repo: [github.com/sahilrajput03/learningBootstrap](https://github.com/sahilrajput03/learningBootstrap)
-  - Learn Bootstrap Accordion (my repo): [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
+  - ❤️Learn Bootstrap Accordion (my repo): [Click here](https://github.com/sahilrajput03/temp-react-bootstrap-accordion)
+- Docs:
   - **`react-bootstrap` Docs: [Click here](https://react-bootstrap.netlify.app/components/alerts)**
-  - **BootStrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
+  - **Bootstrap Docs: [Click here](https://getbootstrap.com/docs/5.2/getting-started/introduction/)**
 - **Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)**
 - **cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)**
 - Use of negative margins, source: css-tricks: [Click here](https://css-tricks.com/negative-margins/)
