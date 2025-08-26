@@ -1,3 +1,7 @@
+# 🚀🚀🚀 In PROCESS OF MIGRATION TO [THIS DOC](https://docs.google.com/document/d/1KsgIW760hNu3JSQx4AaWleXdmelOLZRE7cbgbOeNw9U/edit?tab=t.0)
+
+# ⚠️⚠️⚠️ DO NOT EDIT THIS DOC (starting from 26 August 2025) ⚠️⚠️⚠️
+
 # CssDesignTrail
 
 **Quick Links:**
