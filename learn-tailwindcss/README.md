@@ -36,10 +36,6 @@ text-pink-400
 
 **_Bcoz images are worth a thousand words!_**
 
-- **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
-
-  Using font sizes: ![](./AMZ-using-font-sizes.png)
-
 - **You can hover any classname in vscode to get the copiled css for any pseudo class like that:**
 
   ![](./AMZ-hover.png)
