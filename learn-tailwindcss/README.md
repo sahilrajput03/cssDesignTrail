@@ -36,8 +36,6 @@ text-pink-400
 
 **_Bcoz images are worth a thousand words!_**
 
-- **Variety of font sizes:** ![](./AMZ_font-sizes.png)
-
 - **Font sizes in tailwind config file:** [Docs](https://tailwindcss.com/docs/font-size#providing-a-default-line-height) ![](./AMZ-font-sizes-in-config-file.png)
 
   Using font sizes: ![](./AMZ-using-font-sizes.png)
